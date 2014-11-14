@@ -3,10 +3,12 @@
 ---
 @charset "utf-8";
 
-// @import "susy";
+// @import "normalize";
+@import "susy";
+@include border-box-sizing;
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Baskerville,Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -16,6 +18,11 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$cream:				#F9F9F9;
+$navy:				#000030;
+$maroon:			#300000;
+$hunter: 			#003000;
+$black:				#000000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -48,32 +55,69 @@ $on-laptop:        800px;
         "syntax-highlighting"
         // "susy"
 ;
+$susy: (
+  global-box-sizing: border-box,
+  use-custom: (rem: true),
+  columns: 12,
+  debug: (image: show),
+  gutter-position: inside,
 
+  );
 html {
 	height: 100%;
 }
-
+.wrap {
+@include container(1000px);
+	// height: 100vh;
+}
 body {
 	// border: solid green 1px;
-	background-color: blue;
+	background-color: $navy;
 	height: 100%;
+	// color: $cream;
 }
 header {
-	background-color: blue;
+	background-color: $navy;
 	width: 100%;
 	height: 100px;
 }
-
+header, footer {
+	color: $cream;
+	text-align: center;
+}
 .content {
-	background-color: green;
-	width: 1000px;
+	background-color: pink;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+	color: $cream;
+	text-align: center;
 
 }
+.writer-box {
+	background-color: $maroon;
+	height: 100vh;
+	@include span(4 of 12 );
+	// width: gutter(0px);
 
+}
+.coder-box {
+	background-color: $hunter;
+	height: 100vh;
+	@include span(4 of 12 );
+	// width: gutter(0px);
+
+	
+}
+.photo-box {
+	background-color: $black;
+	height: 100vh;
+	@include span(4 of 12 last);
+	// width: gutter(0px);
+
+}
 footer {
-	background-color: blue;
+	background-color: $navy;
 	width: 100%;
 	height: 100px;
 	position: absolute;
