@@ -15,13 +15,14 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #EFEFEF;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-$cream:				#F9F9F9;
+$cream:				#EFEFEF;
+$gray:				#222222;
 $navy:				#000030;
 $maroon:			#300000;
-$hunter: 			#003000;
+$hunter:			#003000;
 $black:				#000000;
 
 $grey-color:       #828282;
@@ -59,7 +60,7 @@ $susy: (
   global-box-sizing: border-box,
   use-custom: (rem: true),
   columns: 12,
-  debug: (image: show),
+  // debug: (image: show),
   gutter-position: inside,
 
   );
@@ -72,12 +73,12 @@ html {
 }
 body {
 	// border: solid green 1px;
-	background-color: $navy;
+	background-color: $gray;
 	height: 100%;
 	// color: $cream;
 }
 header {
-	background-color: $navy;
+	background-color: $gray;
 	width: 100%;
 	height: 100px;
 }
@@ -85,8 +86,13 @@ header, footer {
 	color: $cream;
 	text-align: center;
 }
+.logo {
+	font-size: 100px;
+	// padding-top: -20px;
+	line-height: 1
+}
 .content {
-	background-color: pink;
+	// background-color: pink;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -99,12 +105,16 @@ header, footer {
 	height: 100vh;
 	@include span(4 of 12 );
 	// width: gutter(0px);
+	font-family: "Courier New";
+	font-weight: normal;
+
 
 }
 .coder-box {
-	background-color: $hunter;
+	background-color: $navy;
 	height: 100vh;
 	@include span(4 of 12 );
+	font-family: monaco,Consolas,"Lucida Console",monospace;
 	// width: gutter(0px);
 
 	
@@ -113,13 +123,15 @@ header, footer {
 	background-color: $black;
 	height: 100vh;
 	@include span(4 of 12 last);
-	// width: gutter(0px);
+	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+	font-weight: bold;
+
 
 }
 footer {
-	background-color: $navy;
+	background-color: $gray;
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	position: absolute;
 	bottom: 0;
 }
