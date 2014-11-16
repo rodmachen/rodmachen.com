@@ -492,34 +492,46 @@ header, footer {
   color: #EFEFEF;
   text-align: center; }
 
-.writer-box {
+.box {
+  height: 100vh; }
+  .box .blurb {
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .box hr {
+    margin-bottom: 15px; }
+  .box h1 {
+    font-size: 36px; }
+
+.writer {
   background-color: #300000;
-  height: 100vh;
   width: 33.33333%;
   float: left;
   padding-left: 0.83333%;
-  padding-right: 0.83333%;
-  font-family: Courier,"Courier New",monospace;
-  font-weight: normal; }
+  padding-right: 0.83333%; }
+  .writer h1 {
+    font-family: Courier,"Courier New",monospace;
+    font-weight: normal; }
 
-.coder-box {
+.coder {
   background-color: #000030;
-  height: 100vh;
   width: 33.33333%;
   float: left;
   padding-left: 0.83333%;
-  padding-right: 0.83333%;
-  font-family: monaco,Consolas,"Lucida Console",monospace; }
+  padding-right: 0.83333%; }
+  .coder h1 {
+    font-family: monaco,Consolas,"Lucida Console",monospace; }
 
-.photo-box {
+.photo {
   background-color: #111111;
-  height: 100vh;
   width: 33.33333%;
   float: right;
   padding-left: 0.83333%;
-  padding-right: 0.83333%;
-  font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif; }
-  .photo-box h1, .photo-box p {
+  padding-right: 0.83333%; }
+  .photo h1 {
+    font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
     font-weight: bold; }
 
 footer {

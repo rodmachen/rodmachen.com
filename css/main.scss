@@ -107,33 +107,48 @@ header, footer {
 
 }
 
-// @include breakpoint(600px) {
-.writer-box {
-	background-color: $maroon;
+.box {
 	height: 100vh;
-	@include span(4 of 12 inside);
-	font-family: Courier,"Courier New",monospace;
-	font-weight: normal;
-}
-.coder-box {
-	background-color: $navy;
-	height: 100vh;
-	@include span(4 of 12 inside);
-	font-family: monaco,Consolas,"Lucida Console",monospace;
-}
-.photo-box {
-	background-color: $black;
-	height: 100vh;
-	@include span(4 of 12 last inside);
-	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-	h1, p {
-	font-weight: bold;
-	// position: relative;
- //  	top: 50%;
- //  	transform: translateY(-50%);
+	.blurb {
+		width: 250px;
+		margin: 0 auto;
+		position: relative;
+	  	top: 50%;
+	  	transform: translateY(-50%);
+	}
+	hr {
+		margin-bottom: 15px;
+	}
+	h1 {
+		font-size: 36px;
 	}
 }
-// }
+.writer {
+	background-color: $maroon;
+	
+	@include span(4 of 12 inside);
+	h1 {
+		font-family: Courier,"Courier New",monospace;
+		font-weight: normal;
+	}
+}
+.coder {
+	background-color: $navy;
+	@include span(4 of 12 inside);
+	h1 {
+		font-family: monaco,Consolas,"Lucida Console",monospace;
+	}
+}
+.photo {
+	background-color: $black;
+	
+	@include span(4 of 12 last inside);
+	h1 {
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+	}
+}
+
 footer {
 	background-color: $hunter;
 	width: 100%;
