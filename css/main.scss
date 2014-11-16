@@ -29,6 +29,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
@@ -56,14 +57,17 @@ $on-laptop:        800px;
         "syntax-highlighting"
         // "susy"
 ;
+
 $susy: (
   global-box-sizing: border-box,
   use-custom: (rem: true),
   columns: 12,
   // debug: (image: show),
   // gutter-position: inside,
-
   );
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
 html {
 	height: 100%;
 }
@@ -104,29 +108,23 @@ header, footer {
 	background-color: $maroon;
 	height: 100vh;
 	@include span(4 of 12 inside);
-	// width: gutter(0px);
-	font-family: "Courier New";
+	font-family: Courier,"Courier New",monospace;
 	font-weight: normal;
-
-
 }
 .coder-box {
 	background-color: $navy;
 	height: 100vh;
 	@include span(4 of 12 inside);
 	font-family: monaco,Consolas,"Lucida Console",monospace;
-	// width: gutter(0px);
-
-	
 }
 .photo-box {
 	background-color: $black;
 	height: 100vh;
 	@include span(4 of 12 last inside);
 	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+	h1 {
 	font-weight: bold;
-
-
+	}
 }
 footer {
 	background-color: $gray;
@@ -135,3 +133,5 @@ footer {
 	position: absolute;
 	bottom: 0;
 }
+
+

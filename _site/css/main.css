@@ -19,6 +19,7 @@ body {
   font-family: Baskerville, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 300;
   color: #EFEFEF;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -61,6 +62,9 @@ li > ol {
 /**
  * Headings
  */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
 /**
  * Links
  */
@@ -449,6 +453,9 @@ pre {
   .highlight .il {
     color: #099; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
 html {
   height: 100%; }
 
@@ -492,7 +499,7 @@ header, footer {
   float: left;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
-  font-family: "Courier New";
+  font-family: Courier,"Courier New",monospace;
   font-weight: normal; }
 
 .coder-box {
@@ -511,8 +518,9 @@ header, footer {
   float: right;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
-  font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-  font-weight: bold; }
+  font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif; }
+  .photo-box h1 {
+    font-weight: bold; }
 
 footer {
   background-color: #222222;
