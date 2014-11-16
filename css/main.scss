@@ -6,7 +6,7 @@
 // @import "normalize";
 @import "susy";
 // @import "memo";
-@import "breakpoint";
+// @import "breakpoint";
 @include border-box-sizing;
 
 // Our variables
@@ -24,8 +24,8 @@ $cream:				#EFEFEF;
 $gray:				#222222;
 $navy:				#000030;
 $maroon:			#300000;
-$hunter:			#003000;
-$black:				#000000;
+$hunter:			#000000;
+$black:				#111111;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -74,17 +74,17 @@ html {
 	height: 100%;
 }
 .wrap {
-@include container(1000px);
+@include container(100%);
 	// height: 100vh;
 }
 body {
 	// border: solid green 1px;
-	background-color: $gray;
+	background-color: $hunter;
 	height: 100%;
 	// color: $cream;
 }
 header {
-	background-color: $gray;
+	background-color: $hunter;
 	width: 100%;
 	height: 100px;
 }
@@ -106,6 +106,8 @@ header, footer {
 	text-align: center;
 
 }
+
+// @include breakpoint(600px) {
 .writer-box {
 	background-color: $maroon;
 	height: 100vh;
@@ -124,12 +126,16 @@ header, footer {
 	height: 100vh;
 	@include span(4 of 12 last inside);
 	font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-	h1 {
+	h1, p {
 	font-weight: bold;
+	// position: relative;
+ //  	top: 50%;
+ //  	transform: translateY(-50%);
 	}
 }
+// }
 footer {
-	background-color: $gray;
+	background-color: $hunter;
 	width: 100%;
 	height: 50px;
 	position: absolute;
