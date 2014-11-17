@@ -470,7 +470,8 @@ html {
 
 body {
   background-color: #000000;
-  height: 100%; }
+  height: 100%;
+  color: #EFEFEF; }
 
 header {
   width: 100%;
@@ -489,7 +490,6 @@ header {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  color: #EFEFEF;
   text-align: center; }
 
 .box {
@@ -499,15 +499,11 @@ header {
     margin: 0 auto;
     position: relative;
     top: 50%;
-<<<<<<< HEAD
-    transform: translateY(-50%); }
-=======
     transform: translateY(-100%); }
->>>>>>> gh-pages
   .box hr {
     margin-bottom: 15px; }
   .box h1 {
-    font-size: 36px; }
+    font-size: 38px; }
 
 .writer {
   background-color: #300000;
