@@ -14,10 +14,10 @@ github_username:  jekyll
 markdown: kramdown
 
 require:
-  - compass
-  - susy
+  # - compass
+  # - susy
   # - memo
-  - breakpoint
+  # - breakpoint
 
 exclude:
   - "bower_components"
