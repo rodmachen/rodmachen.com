@@ -499,7 +499,11 @@ header {
     margin: 0 auto;
     position: relative;
     top: 50%;
+<<<<<<< HEAD
     transform: translateY(-50%); }
+=======
+    transform: translateY(-100%); }
+>>>>>>> gh-pages
   .box hr {
     margin-bottom: 15px; }
   .box h1 {
