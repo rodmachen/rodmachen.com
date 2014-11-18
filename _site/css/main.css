@@ -4,10 +4,6 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-body {
-  background-color: #000000;
-  color: #EFEFEF; }
-
 header {
   width: 100%;
   z-index: 2;
@@ -18,7 +14,7 @@ header {
   width: 100%; }
 
 .logo {
-  font-size: 50px;
+  font-size: 75px;
   line-height: 1; }
 
 .nav-name {
@@ -30,8 +26,9 @@ header {
   margin: 0 auto; }
 
 .box {
-  height: 33.33vh;
-  text-align: center; }
+  height: 25vh;
+  text-align: center;
+  color: #EFEFEF; }
   .box .blurb {
     width: 250px;
     margin: 0 auto;
@@ -42,6 +39,12 @@ header {
     margin-bottom: 15px; }
   .box h1 {
     font-size: 38px; }
+
+.name {
+  background-color: #222222; }
+  .name h1 {
+    font-family: Baskerville,serif;
+    font-weight: normal; }
 
 .writer {
   background-color: #300000; }

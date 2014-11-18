@@ -24,7 +24,7 @@ $cream:				#EFEFEF;
 $gray:				#222222;
 $navy:				#000030;
 $maroon:			#300000;
-$hunter:			#000000;
+$hunter:			#002000;
 $black:				#111111;
 
 $grey-color:       #828282;
@@ -84,9 +84,9 @@ html {
 // @include container(100%);
 // }
 body {
-	background-color: $hunter;
+	// background-color: $hunter;
 	// height: 100%;
-	color: $cream;
+	// color: $cream;
 }
 header {
 	// background-color: $maroon;
@@ -100,7 +100,7 @@ header {
 }
 
 .logo {
-	font-size: 50px;
+	font-size: 75px;
 	// padding-top: -20px;
 	line-height: 1;
 	// float: left;
@@ -118,8 +118,9 @@ header {
 }
 
 .box {
-	height: 33.33vh;
+	height: 25vh;
 	text-align: center;
+	color: $cream;
 
 	.blurb {
 		width: 250px;
@@ -136,7 +137,15 @@ header {
 		font-size: 38px;
 	}
 }
-.writer {
+.name {
+	background-color: $gray;
+	
+	// @include span(4 of 12 inside);
+	h1 {
+		font-family: Baskerville,serif;
+		font-weight: normal;
+	}
+}.writer {
 	background-color: $maroon;
 	
 	// @include span(4 of 12 inside);
