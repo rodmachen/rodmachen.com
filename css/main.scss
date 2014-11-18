@@ -71,12 +71,7 @@ $on-laptop:        800px;
 // h1, h2, h3, h4, h5, h6 {
 // 	font-weight: 300;
 // }
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
+
 html {
 	// height: 100%;
 }
@@ -121,7 +116,6 @@ header {
 	height: 25vh;
 	text-align: center;
 	color: $cream;
-
 	.blurb {
 		width: 250px;
 		margin: 0 auto;
@@ -130,15 +124,20 @@ header {
 	  	transform: translateY(-50%);
 
 	}
-	hr {
-		margin-bottom: 15px;
-	}
+	// hr {
+	// 	margin-bottom: 15px;
+	// }
 	h1 {
 		font-size: 38px;
+		
 	}
 }
+body, h1{
+	margin: 0;
+    padding: 0;
+}
 .name {
-	background-color: $gray;
+	background-color: $maroon;
 	
 	// @include span(4 of 12 inside);
 	h1 {
@@ -146,7 +145,7 @@ header {
 		font-weight: normal;
 	}
 }.writer {
-	background-color: $maroon;
+	background-color: $navy;
 	
 	// @include span(4 of 12 inside);
 	h1 {
@@ -155,7 +154,7 @@ header {
 	}
 }
 .coder {
-	background-color: $navy;
+	background-color: $hunter;
 	// @include span(4 of 12 inside);
 	h1 {
 		font-family: monaco,Consolas,"Lucida Console",monospace;
