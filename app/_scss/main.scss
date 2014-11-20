@@ -124,7 +124,7 @@ header {
 	text-align: center;
 	color: $cream;
 	.blurb {
-		width: 250px;
+		// width: 300px;
 		margin: 0 auto;
 		position: relative;
 	  	top: 50%;
@@ -186,36 +186,54 @@ footer {
 	width: 100%;
 }
 
+@include breakpoint(1140px) {
+.box {
+	h1 {
+		// font-size: 64px;
+	}
+}
+}
+
 @include breakpoint(800px) {
 .box {
-	// height: 100vh;
+	height: 100vh;
 	h1 {
-		font-size: 38px;
+		// font-size: 38px;
 	}
 }
 
 .name {
-	@include span(12 of 12 inside);
-	height: 20vh;
-
+	@include span(3 of 12 inside);
+	// height: 20vh;
 }
 .writer {
-	@include span(4 of 12 inside);
-	height: 80vh;
-	float: left;
-	clear: both;
+	@include span(3 of 12 inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
 }
 .coder {
-	@include span(4 of 12 inside);
-	height: 80vh;
-	float: left;
+	@include span(3 of 12 inside);
+	// height: 80vh;
+	// float: left;
 	// clear: both;
 }
 .photo {
-	@include span(4 of 12 last inside);
-	height: 80vh;
-	float: left;
+	@include span(3 of 12 last inside);
+	// height: 80vh;
+	// float: left;
 	// clear: both;
 }
 }
 
+@include breakpoint(440px) {
+.box {
+	// height: 100vh;
+	h1 {
+		font-size: 44px;
+	}
+	.blurb {
+		// width: 270px;
+	}
+}
+}
