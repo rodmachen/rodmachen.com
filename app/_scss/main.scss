@@ -11,8 +11,12 @@
 @import "breakpoint";
 @include border-box-sizing;
 
+
+@import url("http://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import url("http://fonts.googleapis.com/css?family=Jura:600");
+
 // Our variables
-$base-font-family: Baskerville,Helvetica, Arial, sans-serif;
+$base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -144,7 +148,7 @@ header {
 	background-color: $maroon;
 	// @include span(3 of 12 inside);
 	h1 {
-		font-family: Baskerville,serif;
+		font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 		font-weight: normal;
 	}
 }
@@ -153,7 +157,7 @@ header {
 	
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: "Courier New",monospace;
+		font-family: Courier,"Courier New",monospace;
 		font-weight: normal;
 	}
 }
@@ -161,7 +165,8 @@ header {
 	background-color: $hunter;
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Jura',monaco,Consolas,"Lucida Console",monospace;
+		font-weight: 600;
 	}
 }
 .photo {
