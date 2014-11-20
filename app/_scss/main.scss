@@ -199,7 +199,7 @@ footer {
 }
 }
 
-@include breakpoint(800px) {
+@include breakpoint(orientation landscape) {
 .box {
 	height: 50vh;
 	.blurb {
