@@ -124,7 +124,7 @@ header {
 	text-align: center;
 	color: $cream;
 	.blurb {
-		// width: 300px;
+		width: 100%;
 		margin: 0 auto;
 		position: relative;
 	  	top: 50%;
@@ -153,7 +153,7 @@ header {
 	
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: Courier,"Courier New",monospace;
+		font-family: "Courier New",monospace;
 		font-weight: normal;
 	}
 }
@@ -196,33 +196,36 @@ footer {
 
 @include breakpoint(800px) {
 .box {
-	height: 100vh;
+	height: 50vh;
+	.blurb {
+		// width: 30px;
+	}
 	h1 {
 		// font-size: 38px;
 	}
 }
 
 .name {
-	@include span(3 of 12 inside);
+	@include span(6 of 12 inside);
 	// height: 20vh;
 }
 .writer {
-	@include span(3 of 12 inside);
+	@include span(6 of 12 inside);
 	// height: 80vh;
 	// float: left;
 	// clear: both;
 }
 .coder {
-	@include span(3 of 12 inside);
+	@include span(6 of 12 last inside);
 	// height: 80vh;
 	// float: left;
 	// clear: both;
 }
 .photo {
-	@include span(3 of 12 last inside);
+	@include span(6 of 12 inside);
 	// height: 80vh;
 	// float: left;
-	// clear: both;
+	clear: both;
 }
 }
 
