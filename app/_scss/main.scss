@@ -11,8 +11,12 @@
 @import "breakpoint";
 @include border-box-sizing;
 
+
+@import url("http://fonts.googleapis.com/css?family=Libre+Baskerville");
+@import url("http://fonts.googleapis.com/css?family=Jura:600");
+
 // Our variables
-$base-font-family: Baskerville,Helvetica, Arial, sans-serif;
+$base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -124,7 +128,7 @@ header {
 	text-align: center;
 	color: $cream;
 	.blurb {
-		width: 250px;
+		width: 100%;
 		margin: 0 auto;
 		position: relative;
 	  	top: 50%;
@@ -144,7 +148,7 @@ header {
 	background-color: $maroon;
 	// @include span(3 of 12 inside);
 	h1 {
-		font-family: Baskerville,serif;
+		font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 		font-weight: normal;
 	}
 }
@@ -161,7 +165,8 @@ header {
 	background-color: $hunter;
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Jura',monaco,Consolas,"Lucida Console",monospace;
+		font-weight: 600;
 	}
 }
 .photo {
@@ -186,4 +191,57 @@ footer {
 	width: 100%;
 }
 
+@include breakpoint(1140px) {
+.box {
+	h1 {
+		// font-size: 64px;
+	}
+}
+}
 
+@include breakpoint(800px) {
+.box {
+	height: 50vh;
+	.blurb {
+		// width: 30px;
+	}
+	h1 {
+		// font-size: 38px;
+	}
+}
+
+.name {
+	@include span(6 of 12 inside);
+	// height: 20vh;
+}
+.writer {
+	@include span(6 of 12 inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+}
+.coder {
+	@include span(6 of 12 last inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+}
+.photo {
+	@include span(6 of 12 inside);
+	// height: 80vh;
+	// float: left;
+	clear: both;
+}
+}
+
+@include breakpoint(440px) {
+.box {
+	// height: 100vh;
+	h1 {
+		font-size: 44px;
+	}
+	.blurb {
+		// width: 270px;
+	}
+}
+}
