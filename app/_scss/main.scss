@@ -120,7 +120,7 @@ header {
 }
 
 .box {
-	height: 25vh;
+	height: 50vh;
 	text-align: center;
 	color: $cream;
 	.blurb {
@@ -142,7 +142,7 @@ header {
 
 .name {
 	background-color: $maroon;
-	// @include span(3 of 12 inside);
+	@include span(6 of 12 inside);
 	h1 {
 		font-family: Baskerville,serif;
 		font-weight: normal;
@@ -150,28 +150,31 @@ header {
 }
 .writer {
 	background-color: $navy;
-	
-	// @include span(4 of 12 inside);
+	@include span(6 of 12 inside);
 	h1 {
 		font-family: Courier,"Courier New",monospace;
 		font-weight: normal;
 	}
+	float: left;
 }
 .coder {
 	background-color: $hunter;
-	// @include span(4 of 12 inside);
+	@include span(6 of 12 inside);
 	h1 {
 		font-family: monaco,Consolas,"Lucida Console",monospace;
 	}
+	float: left;
 }
 .photo {
 	background-color: $black;
-	
-	// @include span(4 of 12 last inside);
+	@include span(6 of 12 last inside);
 	h1 {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		font-weight: bold;
 	}
+	float: left;
+	clear: both;
+	
 }
 
 footer {
@@ -186,54 +189,4 @@ footer {
 	width: 100%;
 }
 
-@include breakpoint(1140px) {
-.box {
-	h1 {
-		// font-size: 64px;
-	}
-}
-}
 
-@include breakpoint(800px) {
-.box {
-	height: 100vh;
-	h1 {
-		// font-size: 38px;
-	}
-}
-
-.name {
-	@include span(3 of 12 inside);
-	// height: 20vh;
-}
-.writer {
-	@include span(3 of 12 inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-.coder {
-	@include span(3 of 12 inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-.photo {
-	@include span(3 of 12 last inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-}
-
-@include breakpoint(440px) {
-.box {
-	// height: 100vh;
-	h1 {
-		font-size: 44px;
-	}
-	.blurb {
-		// width: 270px;
-	}
-}
-}
