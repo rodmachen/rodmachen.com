@@ -3,9 +3,9 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: yeoman-jekyll
+name: Rod Machen
 description: Rod Machen
-baseurl: "dist"  the subpath of your site, e.g. /blog/
+baseurl: "/dist/"  #the subpath of your site, e.g. /blog/
 author:
   name: Rod Machen
   email: mail@rodmachen.com
