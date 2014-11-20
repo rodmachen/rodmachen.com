@@ -3,7 +3,7 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: Rod Machen
+#name: Rod Machen
 description: Rod Machen
 baseurl: "/dist/"  #the subpath of your site, e.g. /blog/
 author:
