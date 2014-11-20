@@ -14,6 +14,8 @@
 
 @import url("http://fonts.googleapis.com/css?family=Libre+Baskerville");
 @import url("http://fonts.googleapis.com/css?family=Jura:600");
+@import url("http://fonts.googleapis.com/css?family=Old+Standard+TT");
+@import url("http://fonts.googleapis.com/css?family=Electrolize");
 
 // Our variables
 $base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
@@ -139,7 +141,7 @@ header {
 	// 	margin-bottom: 15px;
 	// }
 	h1 {
-		font-size: 38px;
+		font-size: 44px;
 		
 	}
 }
@@ -157,7 +159,7 @@ header {
 	
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: Courier,"Courier New",monospace;
+		font-family: "Courier New",Courier,monospace;
 		font-weight: normal;
 	}
 }
@@ -165,7 +167,7 @@ header {
 	background-color: $hunter;
 	// @include span(4 of 12 inside);
 	h1 {
-		font-family: 'Jura',monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		font-weight: 600;
 	}
 }
@@ -191,14 +193,6 @@ footer {
 	width: 100%;
 }
 
-@include breakpoint(1140px) {
-.box {
-	h1 {
-		// font-size: 64px;
-	}
-}
-}
-
 @include breakpoint(orientation landscape) {
 .box {
 	height: 50vh;
@@ -206,7 +200,7 @@ footer {
 		// width: 30px;
 	}
 	h1 {
-		// font-size: 38px;
+		font-size: 60px;
 	}
 }
 
@@ -234,14 +228,3 @@ footer {
 }
 }
 
-@include breakpoint(440px) {
-.box {
-	// height: 100vh;
-	h1 {
-		font-size: 44px;
-	}
-	.blurb {
-		// width: 270px;
-	}
-}
-}
