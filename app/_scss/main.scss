@@ -14,8 +14,8 @@
 
 @import url("http://fonts.googleapis.com/css?family=Libre+Baskerville");
 @import url("http://fonts.googleapis.com/css?family=Jura:600");
-@import url("http://fonts.googleapis.com/css?family=Old+Standard+TT");
-@import url("http://fonts.googleapis.com/css?family=Electrolize");
+// @import url("http://fonts.googleapis.com/css?family=Old+Standard+TT");
+// @import url("http://fonts.googleapis.com/css?family=Electrolize");
 
 // Our variables
 $base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
@@ -71,26 +71,30 @@ body, h1{
     // padding: 0;
 }
 header {
-	// background-color: $maroon;
 	width: 100%;
-	z-index: 2;
-	position: absolute;
+	height: 100px;
+	font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
+	// z-index: 2;
+	// position: absolute;
 	color: $cream;
-	text-align: center;
-	margin: auto 0;
-	width: 100%;
+	// text-align: center;
+	// width: 100%;
+	.logo {
+		font-size: 88px;
+		@include span(2 of 16);
+		// padding-top: -20px;
+		line-height: 1;
+		// float: left;
+		margin: 10px 20px;
+	}
+	.name {
+		float: right;
+		line-height: 2.5;
+		margin: 10px 20px;
+	}
 }
 
-.logo {
-	font-size: 75px;
-	// padding-top: -20px;
-	line-height: 1;
-	// float: left;
-}
-.nav-name {
-	float: right;
-	line-height: 2;
-}
+
 .content {
 	background-color: pink;
 	width: 100%;
@@ -112,41 +116,52 @@ header {
 	h1 {
 		font-size: 44px;	
 	}
+	.main {
+	&:hover {
+	background-color: #400000;
 }
-.box:hover {
-	// border-bottom: 1px solid #ffffff;
-	// border-right: 1px solid #ffffff;
 }
-.name {
+
+.writing {
+	&:hover {
+	background-color: #000050;
+}
+}
+
+.code {
+	&:hover {
+	background-color: #003000;
+}
+}
+
+.photo {
+	&:hover {
+	background-color: #222222;
+}
+}
+}
+
+.main {
 	background-color: $maroon;
 	h1 {
 		font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 		font-weight: normal;
 	}
 }
-.name:hover {
-	background-color: #400000;
-
-}
-.writer {
+.writing {
 	background-color: $navy;	
 	h1 {
 		font-family: "Courier New",Courier,monospace;
 		font-weight: normal;
 	}
 }
-.writer:hover {
-	background-color: #000050;
-}
-.coder {
+
+.code {
 	background-color: $hunter;
 	h1 {
 		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		font-weight: 600;
 	}
-}
-.coder:hover {
-	background-color: #003000;
 }
 .photo {
 	background-color: $black;
@@ -155,9 +170,7 @@ header {
 		font-weight: bold;
 	}
 }
-.photo:hover {
-	background-color: #222222;
-}
+
 footer {
 	// background-color: $hunter;
 	bottom: 0;
@@ -179,28 +192,26 @@ footer {
 		font-size: 60px;
 	}
 }
-
-.name {
+.box.main {
 	@include span(6 of 12 inside);
 	// height: 20vh;
 }
-.writer {
-	@include span(6 of 12 inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-.coder {
+.box.writing {
 	@include span(6 of 12 last inside);
 	// height: 80vh;
 	// float: left;
 	// clear: both;
 }
-.photo {
+.box.code {
+	@include span(6 of 12 last inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+}
+.box.photo {
 	@include span(6 of 12 inside);
 	// height: 80vh;
 	// float: left;
 	clear: both;
 }
 }
-
