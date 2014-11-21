@@ -116,31 +116,19 @@ header {
 	h1 {
 		font-size: 44px;	
 	}
-	.main {
-	&:hover {
+}
+.box.main:hover {
 	background-color: #400000;
 }
-}
-
-.writing {
-	&:hover {
+.box.writing:hover {
 	background-color: #000050;
 }
-}
-
-.code {
-	&:hover {
+.box.code:hover {
 	background-color: #003000;
 }
-}
-
-.photo {
-	&:hover {
+.box.photo:hover {
 	background-color: #222222;
 }
-}
-}
-
 .main {
 	background-color: $maroon;
 	h1 {
