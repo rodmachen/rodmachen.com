@@ -88,11 +88,17 @@ header {
 		margin: 10px 20px;
 	}
 	.name {
-		float: right;
-		line-height: 2.5;
-		margin: 10px 20px;
+	// 	float: right;
+	// 	line-height: 2.5;
+	// 	margin: 10px 20px;
+		text-align: center;
+		font-size: 44px;
+		background-color: $maroon;
+		padding-top: 20px;
+		padding-bottom: 10px;
 	}
 }
+
 
 
 .content {
