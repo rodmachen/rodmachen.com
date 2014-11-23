@@ -6,9 +6,13 @@
 #name: Rod Machen
 description: Rod Machen
 <<<<<<< HEAD
+<<<<<<< HEAD
 #baseurl: "/dist/"  #the subpath of your site, e.g. /blog/
 =======
 #baseurl: "dist"  the subpath of your site, e.g. /blog/
+>>>>>>> master
+=======
+baseurl: /dist/
 >>>>>>> master
 author:
   name: Rod Machen
