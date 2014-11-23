@@ -5,7 +5,11 @@
 
 #name: Rod Machen
 description: Rod Machen
+<<<<<<< HEAD
 #baseurl: "/dist/"  #the subpath of your site, e.g. /blog/
+=======
+#baseurl: "dist"  the subpath of your site, e.g. /blog/
+>>>>>>> master
 author:
   name: Rod Machen
   email: mail@rodmachen.com
@@ -36,3 +40,4 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: false
+

@@ -14,6 +14,8 @@
 
 @import url("http://fonts.googleapis.com/css?family=Libre+Baskerville");
 @import url("http://fonts.googleapis.com/css?family=Jura:600");
+// @import url("http://fonts.googleapis.com/css?family=Old+Standard+TT");
+// @import url("http://fonts.googleapis.com/css?family=Electrolize");
 
 // Our variables
 $base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
@@ -42,32 +44,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-// @mixin media-query($device) {
-//     @media screen and (max-width: $device) {
-//         @content;
-//     }
-// }
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import
-//         "base"
-// ;
-
-        // "layout"
-        // "syntax-highlighting"
-        // "susy"
-
 // $susy: (
 //   global-box-sizing: border-box,
 //   use-custom: (rem: true),
@@ -95,32 +71,42 @@ body, h1{
     // padding: 0;
 }
 header {
-	// background-color: $maroon;
 	width: 100%;
-	z-index: 2;
-	position: absolute;
+	height: 90px;
+	font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
+	// z-index: 2;
+	// position: absolute;
 	color: $cream;
-	text-align: center;
-	margin: auto 0;
-	width: 100%;
-}
+	// text-align: center;
+	// width: 100%;
 
-.logo {
-	font-size: 75px;
-	// padding-top: -20px;
-	line-height: 1;
-	// float: left;
 }
-.nav-name {
-	float: right;
-	line-height: 2;
-}
+	.logo {
+		font-size: 65px;
+		// @include span(2 of 16);
+		// padding-top: -20px;
+		line-height: 1;
+		// float: left;
+		// margin: 10px 20px;
+		display: inline-block;
+
+	}
+	.name {
+		line-height: 2.5;
+		font-size: 32px;
+		// clear: both;
+		display: inline-block;
+
+	}
+	.logo-name {
+		border: 1px solid green;
+		margin: auto 0;
+	}
+
 .content {
-	// background-color: pink;
+	background-color: pink;
 	width: 100%;
-	// height: 100vh;
 	margin: 0 auto;
-	// color: $cream;
 }
 
 .box {
@@ -135,44 +121,46 @@ header {
 	  	transform: translateY(-50%);
 
 	}
-	// hr {
-	// 	margin-bottom: 15px;
-	// }
 	h1 {
-		font-size: 38px;
-		
+		font-size: 44px;	
 	}
 }
-
-.name {
+.box.main:hover {
+	background-color: #400000;
+}
+.box.writing:hover {
+	background-color: #000050;
+}
+.box.code:hover {
+	background-color: #003000;
+}
+.box.photo:hover {
+	background-color: #222222;
+}
+.main {
 	background-color: $maroon;
-	// @include span(3 of 12 inside);
 	h1 {
 		font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 		font-weight: normal;
 	}
 }
-.writer {
-	background-color: $navy;
-	
-	// @include span(4 of 12 inside);
+.writing {
+	background-color: $navy;	
 	h1 {
-		font-family: Courier,"Courier New",monospace;
+		font-family: "Courier New",Courier,monospace;
 		font-weight: normal;
 	}
 }
-.coder {
+
+.code {
 	background-color: $hunter;
-	// @include span(4 of 12 inside);
 	h1 {
-		font-family: 'Jura',monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		font-weight: 600;
 	}
 }
 .photo {
 	background-color: $black;
-	
-	// @include span(4 of 12 last inside);
 	h1 {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		font-weight: bold;
@@ -191,57 +179,35 @@ footer {
 	width: 100%;
 }
 
-@include breakpoint(1140px) {
-.box {
-	h1 {
-		// font-size: 64px;
-	}
-}
-}
-
-@include breakpoint(800px) {
+@include breakpoint(orientation landscape) {
 .box {
 	height: 50vh;
 	.blurb {
-		// width: 30px;
 	}
 	h1 {
-		// font-size: 38px;
+		font-size: 60px;
 	}
 }
-
-.name {
+.box.main {
 	@include span(6 of 12 inside);
 	// height: 20vh;
 }
-.writer {
-	@include span(6 of 12 inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-.coder {
+.box.writing {
 	@include span(6 of 12 last inside);
 	// height: 80vh;
 	// float: left;
 	// clear: both;
 }
-.photo {
+.box.code {
+	@include span(6 of 12 last inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+}
+.box.photo {
 	@include span(6 of 12 inside);
 	// height: 80vh;
 	// float: left;
 	clear: both;
-}
-}
-
-@include breakpoint(440px) {
-.box {
-	// height: 100vh;
-	h1 {
-		font-size: 44px;
-	}
-	.blurb {
-		// width: 270px;
-	}
 }
 }
