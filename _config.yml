@@ -5,7 +5,7 @@
 
 name: yeoman-jekyll
 description: Rod Machen
-#baseurl: "dist"  the subpath of your site, e.g. /blog/
+baseurl: /dist/
 author:
   name: Rod Machen
   email: mail@rodmachen.com
