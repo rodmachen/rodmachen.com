@@ -7,28 +7,26 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css({app,.tmp}) /css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/main.css">
+    {% include shared/styles.html %}
+
+    <!-- build:js({app,.tmp}) /scripts/modernizr.js -->
+    <script src="/vendor/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
-    <!-- build:js(app) /js/head-scripts.js -->
-    <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-
   </head>
+
   <body>
-    <!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    {% include shared/header.html %}
+    {% include shared/nav.html %}
     {{ content }}
+    {% include shared/footer.html %}
 
-    {% include scripts.html %}
-    {% include googleanalytics.html %}
-
+    {% include shared/scripts.html %}
+    {% include shared/google-analytics.html %}
   </body>
 </html>
