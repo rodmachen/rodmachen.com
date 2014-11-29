@@ -1,9 +1,5 @@
 
 // @charset "utf-8";
-// @import 'bourbon';
-// @import 'neat';
-// @import 'bitters';
-// @import 'refills';
 // @import "compass";
 // @import "normalize";
 // @import "susy";
@@ -12,31 +8,6 @@
 // @include border-box-sizing;
 
 
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
-@import url(http://fonts.googleapis.com/css?family=Jura:600);
-// @import url("http://fonts.googleapis.com/css?family=Old+Standard+TT");
-// @import url("http://fonts.googleapis.com/css?family=Electrolize");
-
-// Our variables
-$base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #EFEFEF;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$content-width:    800px;
-$on-palm:          600px;
-$on-laptop:        800px;
 
 // $susy: (
 //   global-box-sizing: border-box,
@@ -45,59 +16,10 @@ $on-laptop:        800px;
 //   // debug: (image: show),
 //   // gutter-position: inside,
 //   );
-// h1, h2, h3, h4, h5, h6 {
-// 	font-weight: 300;
-// }
 
-html {
-	// height: 100%;
-}
-// .wrap {
-// @include container(100%);
-// }
-body {
-	// background-color: $hunter;
-	// height: 100%;
-	// color: $cream;
-}
-body, h1{
-	margin: 0;
-    // padding: 0;
-}
-header {
-	width: 100%;
-	height: 90px;
-	font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
-	// z-index: 2;
-	// position: absolute;
-	color: $cream;
-	// text-align: center;
-	// width: 100%;
-
-}
-	.logo {
-		font-size: 65px;
-		// @include span(2 of 16);
-		// padding-top: -20px;
-		line-height: 1;
-		// float: left;
-		// margin: 10px 20px;
-		display: inline-block;
-
-	}
-	.name {
-		line-height: 2.5;
-		font-size: 32px;
-		// clear: both;
-		display: inline-block;
-
-	}
-	.logo-name {
-		border: 1px solid green;
-		margin: auto 0;
-	}
 
 .content {
+	// @include outer-container;
 	background-color: pink;
 	width: 100%;
 	margin: 0 auto;
@@ -123,13 +45,13 @@ header {
 	background-color: #400000;
 }
 .box.writing:hover {
-	background-color: #000050;
+	background-color: #000040;
 }
 .box.code:hover {
 	background-color: #003000;
 }
 .box.photo:hover {
-	background-color: #222222;
+	background-color: #111111;
 }
 .main {
 	background-color: $maroon;
@@ -161,15 +83,40 @@ header {
 	}
 }
 
-footer {
-	// background-color: $hunter;
-	bottom: 0;
-	width: 100%;
-	z-index: 2;
-	position: absolute;
-	color: $cream;
-	text-align: center;
-	margin: auto 0;
-	width: 100%;
+// @include media($desktop-landscape) {
+.box {
+	height: 50vh;
+	.blurb {
+	}
+	h1 {
+		font-size: 60px;
+	}
 }
+.box.main {
+	// @include span(6 of 12 inside);
+	// height: 20vh;
+	@include span-columns(6);
+}
+.box.writing {
+	// @include span(6 of 12 last inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+	@include span-columns(6);
+	float: left;
+}
+.box.code {
+	// @include span(6 of 12 last inside);
+	// height: 80vh;
+	// float: left;
+	// clear: both;
+}
+.box.photo {
+	// @include span(6 of 12 inside);
+	// height: 80vh;
+	// float: left;
+	clear: both;
+}
+// }
+
 
