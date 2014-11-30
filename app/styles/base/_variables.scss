@@ -1,7 +1,9 @@
 // Typography
 $sans-serif: $helvetica;
-$serif: $georgia;
-$base-font-family: $sans-serif;
+// $serif: $georgia;
+$serif: 'Libre Baskerville', Baskerville, Georgia,serif;
+// $base-font-family: $sans-serif;
+$base-font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 $header-font-family: $base-font-family;
 
 // Sizes
@@ -21,18 +23,21 @@ $light-yellow: 		#FFF6BF;
 $light-green: 		#E6EFC2;
 $cream:				#EFEFEF;
 $navy:				#000030;
-$maroon:			#300000;
-$hunter:			#002000;
+$dark-maroon:		#300000;
+$maroon:			#400000;
+$dark-hunter:		#002000;
+$hunter:			#003000;
 $gray:				#222222;
 $tar:				#111111;
 $black:				#000000;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $cream;
+
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: $gray;
+$base-accent-color: $dark-gray;
 
 // Link Colors
 $base-link-color: $base-accent-color;
