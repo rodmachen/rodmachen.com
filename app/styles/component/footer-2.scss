@@ -116,11 +116,11 @@
     font-family: $sans-serif;
     font-weight: 700;
     // line-height: $navigation-height;
-    line-height: 4em;
+    line-height: 5em;
     margin: 0;
     padding-right: 1em;
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
     @include media ($horizontal-bar-mode) {
       display: none;
