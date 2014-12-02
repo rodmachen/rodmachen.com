@@ -1,0 +1,137 @@
+// Uncomment this for a sticky footer.
+//
+// .wrapper-for-content-outside-of-footer {
+//   min-height: 100%;
+//   height: auto !important;
+//   height: 100%;
+//   margin: 0 auto -4em;
+// }
+
+// html, body {
+//  height: 100%;
+// }
+
+// .wrapper-for-content-outside-of-footer:after {
+//   content: "";
+//   display: block;
+// }
+
+// .footer-2, .wrapper-for-content-outside-of-footer:after {
+//   height: 17em;
+
+//   @include media($large-screen) {
+//     height: 4em;
+//   }
+// }
+
+.footer-2 {
+  .footer-container {
+    @include outer-container;
+
+  }
+  h1 {
+    color: $cream;
+    font-weight: normal;
+    font-size: 5em;
+  }
+  h2 {
+    font-weight: normal;
+
+  }
+  // $footer-background: desaturate(darken($base-accent-color, 20), 30);
+  $footer-background: #000000;
+  $footer-color: $cream;
+  $footer-link-color: $footer-color;
+  $footer-disclaimer-color: $footer-color;
+  // $base-spacing: 3em;
+  
+  background: $footer-background;
+  padding: 0em;
+  // padding: 2em;
+  width: 100%;
+
+  .footer-logo {
+    // margin-right: 1em;
+    // margin-bottom: 1em;
+    float: left;    
+    // max-height: $navigation-height;
+    padding-left: 1em;
+    padding-right: 2em;
+    @include media($large-screen) {
+      float: left;
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-logo img {
+    // height: 1.6em;
+  } 
+
+  ul {
+    margin-bottom: 1em;
+    @include media($large-screen) {
+      float: left;
+      margin-left: 1em;
+      margin-bottom: 0;
+    }
+  }
+
+  ul li {
+    padding-right: 1em;
+    font-weight: 800;
+
+    @include media($large-screen) {
+      display: inline;
+      text-align: left;
+    }
+  }
+
+  ul li a {
+    color: $footer-link-color;
+
+    &:hover {
+      color: transparentize($footer-color, 0);
+    }
+  }
+
+  .footer-secondary-links {
+    @include media($large-screen) {
+      float: right;
+    }
+
+    li {
+      font-size: .8em;
+      font-weight: 400;
+    }
+
+    ul.footer-social {
+      margin-top: 1em;
+
+      @include media($large-screen) {
+        float: right;
+        margin-top: 0;
+      }
+
+      li {
+        float: left;
+        font-size: 1em;
+        padding-right: .7em;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+
+      img {
+        opacity: .7;
+        height: 1.6em;
+        padding: 1px;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
