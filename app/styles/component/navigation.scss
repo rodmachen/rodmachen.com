@@ -1,4 +1,5 @@
 header.navigation {
+  margin-bottom: 20px;
   h1 {
     color: $cream;
     font-size: 5em; 
@@ -20,10 +21,17 @@ header.navigation {
       
   .photo {
         font-family: $helvetica;
-        font-weight: bold;
+        // font-weight: bold;
       }
-  .right {
-    float: right;
+  #nav-name {
+      line-height: 110px;
+  }
+  #push-right {
+      padding-left: 150px;
+
+  }
+  ul#navigation-menu.right {
+    float: left;
   }
 
   $navigation-padding: 1em;
@@ -75,10 +83,12 @@ header.navigation {
     float: right;
     font-family: $sans-serif;
     font-weight: 700;
-    line-height: $navigation-height;
+    // line-height: $navigation-height;
+    line-height: 4em;
     margin: 0;
     padding-right: 1em;
     text-transform: uppercase;
+    font-size: 1.4em;
 
     @include media ($horizontal-bar-mode) {
       display: none;
