@@ -17,106 +17,108 @@
 //   // gutter-position: inside,
 //   );
 
+.home {
 
-.content {
-	// @include outer-container;
-	background-color: pink;
-	width: 100%;
-	margin: 0 auto;
-}
-
-.box {
-	height: 25vh;
-	text-align: center;
-	color: $cream;
-	.blurb {
+	.content {
+		// @include outer-container;
+		background-color: pink;
 		width: 100%;
 		margin: 0 auto;
-		position: relative;
-	  	top: 50%;
-	  	transform: translateY(-50%);
+	}
 
-	}
-	h1 {
-		font-size: 2.75rem;	
-	}
-}
-.box.main:hover {
-	background-color: #400000;
-}
-.box.writing:hover {
-	background-color: #000040;
-}
-.box.code:hover {
-	background-color: #003000;
-}
-.box.photo:hover {
-	background-color: #111111;
-}
-.main {
-	background-color: $maroon;
-	h1 {
-		font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
-		font-weight: normal;
-	}
-}
-.writing {
-	background-color: $navy;	
-	h1 {
-		font-family: "Courier New",Courier,monospace;
-		font-weight: normal;
-	}
-}
+	.box {
+		height: 25vh;
+		text-align: center;
+		color: $cream;
+		.blurb {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+		  	top: 50%;
+		  	transform: translateY(-50%);
 
-.code {
-	background-color: $hunter;
-	h1 {
-		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
-		font-weight: 600;
+		}
+		h1 {
+			font-size: 2.75rem;	
+		}
 	}
-}
-.photo {
-	background-color: $black;
-	h1 {
-		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-		font-weight: bold;
+	.box.main:hover {
+		background-color: #400000;
 	}
-}
+	.box.writing:hover {
+		background-color: #000040;
+	}
+	.box.code:hover {
+		background-color: #003000;
+	}
+	.box.photo:hover {
+		background-color: #111111;
+	}
+	.main {
+		background-color: $maroon;
+		h1 {
+			font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
+			font-weight: normal;
+		}
+	}
+	.writing {
+		background-color: $navy;	
+		h1 {
+			font-family: "Courier New",Courier,monospace;
+			font-weight: normal;
+		}
+	}
 
-// @include media($desktop-landscape) {
-.box {
-	height: 50vh;
-	.blurb {
+	.code {
+		background-color: $hunter;
+		h1 {
+			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+			font-weight: 600;
+		}
 	}
-	h1 {
-		font-size: 60px;
+	.photo {
+		background-color: $black;
+		h1 {
+			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
 	}
+
+	// @include media($desktop-landscape) {
+	.box {
+		height: 50vh;
+		.blurb {
+		}
+		h1 {
+			font-size: 60px;
+		}
+	}
+	.box.main {
+		// @include span(6 of 12 inside);
+		// height: 20vh;
+		@include span-columns(6);
+	}
+	.box.writing {
+		// @include span(6 of 12 last inside);
+		// height: 80vh;
+		// float: left;
+		// clear: both;
+		@include span-columns(6);
+		float: left;
+	}
+	.box.code {
+		// @include span(6 of 12 last inside);
+		// height: 80vh;
+		// float: left;
+		// clear: both;
+	}
+	.box.photo {
+		// @include span(6 of 12 inside);
+		// height: 80vh;
+		// float: left;
+		clear: both;
+	}
+
 }
-.box.main {
-	// @include span(6 of 12 inside);
-	// height: 20vh;
-	@include span-columns(6);
-}
-.box.writing {
-	// @include span(6 of 12 last inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-	@include span-columns(6);
-	float: left;
-}
-.box.code {
-	// @include span(6 of 12 last inside);
-	// height: 80vh;
-	// float: left;
-	// clear: both;
-}
-.box.photo {
-	// @include span(6 of 12 inside);
-	// height: 80vh;
-	// float: left;
-	clear: both;
-}
-// }
 
 

@@ -1,13 +1,14 @@
-header.navigation {
-	background-color: #400;
-	$navigation-search-background: $cream;
-}
-
-.centered-navigation {
-	background-color: #400;
-
+.main {
+	header.navigation {
+		background-color: #400;
 	}
 
-.footer-2 {
-	background: #400;
+	.centered-navigation {
+		background-color: #400;
+
+		}
+
+	.footer-2 {
+		background: #400;
+	}
 }

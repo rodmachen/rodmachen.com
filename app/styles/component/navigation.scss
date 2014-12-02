@@ -4,24 +4,28 @@ header.navigation {
     font-size: 5em; 
     font-weight: normal;
   }
-  h2 {
+  h2, h3 {
     font-weight: normal;
-  }
-  h3 li.nav-link.writing {
-    // font-family: ;  
-    font-weight: normal;
-
+    
   }
 
-  li.nav-link .code {
-    // font-family: ;
-    font-weight: normal;
+      .writing {
+        font-family: Courier,"Courier New",monospace;
+        font-weight: normal ; 
+      }
+      .code {
+        font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+        font-weight: bold;
+      }
+      
+  .photo {
+        font-family: $helvetica;
+        font-weight: bold;
+      }
+  .right {
+    float: right;
+  }
 
-  }
-  li.nav-link .photo {
-    font-family: $helvetica;
-    font-weight: bold;
-  }
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
   $navigation-color: transparentize($cream, 0.05);
