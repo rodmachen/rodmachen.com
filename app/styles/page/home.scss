@@ -23,32 +23,33 @@
 	}
 	.container {
 		@include fill-parent();
-		@include row(table);
-		.blurb {
-			// width: 100%;
-			// margin: 0 auto;
-			// position: absolute;
-		  	top: 50%;
-
-		}
+		@include row(table);	
 	}
 	.box {
 		height: 50vh;
-		text-align: center;
 		color: $cream;
-		
+		position: relative;
+		padding: 0;
 		h1 {
-			font-size: 60px;
+			font-size: 70px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			// transform: translate5(-50%);
+			text-align: center;
+			width: 90%;
 		}
 	}
-
 	.box.main {
 		background-color: $maroon;
+					margin-left: auto;
+    		margin-right: auto;
+
 		h1 {
 			font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
 			font-weight: normal;
 		}
-		@include span-columns(6);
+		@include span-columns(6 of 12, table);
 		@include pad();
 	}
 	.box.writing {
@@ -57,28 +58,18 @@
 			font-family: "Courier New",Courier,monospace;
 			font-weight: normal;
 		}
-		// float: left;
-		// clear: both;
-		@include span-columns(6);
+		@include span-columns(6 of 12, table);
 		@include reset-display;
 		@include pad();
-
-		// float: left;
 	}
-
 	.box.photo {
 		background-color: $black;
 		h1 {
 			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 			font-weight: bold;
 		}
-		// float: left;
-		clear: both;
 		@include span-columns(6 of 12, table);
-		@include pad($padding: 0px);
-		// padding: 0;
-
-
+		@include pad();
 	}
 
 	.box.code {
@@ -87,12 +78,10 @@
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: 600;
 		}
-		// float: left;
-		// clear: both;
 		@include span-columns(6 of 12, table);
 		@include reset-display;
 		@include pad();
-		padding: 0;
+		// padding: 0;
 
 	}
 
@@ -128,13 +117,13 @@
 		background-color: #500000;
 	}
 	.box.writing:hover {
-		background-color: #000050;
+		background-color: #000040;
 	}
 	.box.code:hover {
 		background-color: #004000;
 	}
 	.box.photo:hover {
-		background-color: #222222;
+		background-color: #111111;
 	}
 
 	// @include media($desktop-landscape) {
