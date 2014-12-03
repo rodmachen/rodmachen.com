@@ -1,0 +1,145 @@
+
+// @charset "utf-8";
+// @import "compass";
+// @import "normalize";
+// @import "susy";
+// @import "memo";
+// @import "breakpoint";
+// @include border-box-sizing;
+
+
+
+// $susy: (
+//   global-box-sizing: border-box,
+//   use-custom: (rem: true),
+//   columns: 12,
+//   // debug: (image: show),
+//   // gutter-position: inside,
+//   );
+
+.home {
+
+	.content {
+		// @include outer-container;
+		background-color: pink;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	// .box {
+	// 	height: 25vh;
+	// 	text-align: center;
+	// 	color: $cream;
+	// 	.blurb {
+	// 		width: 100%;
+	// 		margin: 0 auto;
+	// 		position: relative;
+	// 	  	top: 50%;
+	// 	  	transform: translateY(-50%);
+
+	// 	}
+	// 	h1 {
+	// 		font-size: 2.75rem;	
+	// 	}
+	// }
+	.box.main:hover {
+		background-color: #400000;
+	}
+	.box.writing:hover {
+		background-color: #000040;
+	}
+	.box.code:hover {
+		background-color: #003000;
+	}
+	.box.photo:hover {
+		background-color: #111111;
+	}
+	.main {
+		background-color: $maroon;
+		h1 {
+			font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
+			font-weight: normal;
+		}
+	}
+	.writing {
+		background-color: $navy;	
+		h1 {
+			font-family: "Courier New",Courier,monospace;
+			font-weight: normal;
+		}
+	}
+
+	.code {
+		background-color: $hunter;
+		h1 {
+			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+			font-weight: 600;
+		}
+	}
+	.photo {
+		background-color: $black;
+		h1 {
+			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
+	}
+
+	// @include media($desktop-landscape) {
+	.container {
+		@include fill-parent();
+		@include row(table);
+	}
+	.box {
+		height: 50vh;
+		text-align: center;
+		color: $cream;
+		.blurb {
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+		  	top: 50%;
+		  	transform: translateY(-50%);
+		}
+		h1 {
+			font-size: 60px;
+		}
+	}
+	.box.main {
+		// @include span(6 of 12 inside);
+		// height: 20vh;
+		@include span-columns(6);
+		@include pad();
+	}
+	.box.writing {
+		// @include span(6 of 12 last inside);
+		// height: 80vh;
+		// float: left;
+		// clear: both;
+		@include span-columns(6);
+		@include reset-display;
+		@include pad();
+
+		// float: left;
+	}
+	.box.code {
+		// float: left;
+		// clear: both;
+		@include span-columns(6);
+		// @include reset-display;
+		@include pad();
+		@include reset-display;
+
+
+	}
+	.box.photo {
+		// float: left;
+		// clear: both;
+		@include span-columns(6);
+		@include pad();
+		// @include reset-display;
+
+	}
+
+}
+
+
