@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: Responsive Web Design and Foundation
 <!-- categories: front-end class -->
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: A Typical Day
 <!-- categories: the-coding-life -->
 ---

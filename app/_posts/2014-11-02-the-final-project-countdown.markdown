@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: The Final Project Countdown
 <!-- categories: the-coding-life -->
 ---

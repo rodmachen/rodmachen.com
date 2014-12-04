@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: The Walls Came Tumblin' Down
 <!-- categories: front-end class -->
 ---

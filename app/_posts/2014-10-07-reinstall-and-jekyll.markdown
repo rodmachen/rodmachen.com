@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: Reinstall & Jekyll
 <!-- categories: front-end class -->
 published: false

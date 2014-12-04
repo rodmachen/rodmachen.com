@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: post-code
 title: A Successful Reboot
 published: true
+category: code
 ---
 
 Today has been a bit of a rebound day for me. After hitting some pretty sizable bumps on the road to completing my MakerSquare final project, things are finally falling into place.

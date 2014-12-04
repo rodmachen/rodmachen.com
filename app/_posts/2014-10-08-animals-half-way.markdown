@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-code
 title: Animal Project and Halfway Done
 <!-- categories: front-end class -->
 ---

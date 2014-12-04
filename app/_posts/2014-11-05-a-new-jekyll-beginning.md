@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: post-code
 published: true
 title: A New Jekyll Beginning
+category: code
 ---
 
 After using Jekyll for this blog over the last month–having been introduced to it in my MakerSquare class–I've found a new way to use it: Prose.
