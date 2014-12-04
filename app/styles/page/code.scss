@@ -1,0 +1,31 @@
+.code {
+	header.navigation {
+		background-color: #003000;
+		// ul li.nav-link {
+		// 	background-color: #200;
+		// }
+		// &a {
+		// 	background-color: #003000;
+		// }
+	}
+
+	.centered-navigation {
+		background-color: #003000;
+
+		}
+
+	.footer-2 {
+		background: #003000;
+	}
+
+	.container {
+		@include outer-container;
+
+	}
+	.section {
+		@include span-columns(10 of 16);
+	}
+	.aside {
+		@include span-columns(6 of 16);
+	}
+}
