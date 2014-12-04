@@ -30,14 +30,14 @@
 
   .card-image {
     overflow: hidden;
-    max-height: 150px;
-
+    max-height: 344px;
     img {
-      width: 100%;
+      // width: 100%;
       @include transition (all 0.2s ease-in-out);
       background: $card-image-background;
       border-top-left-radius: $base-border-radius;
       border-top-right-radius: $base-border-radius;
+    margin: auto 0;
     }
   }
 
@@ -77,14 +77,26 @@
     .writing {
       font-family: "Courier New",Courier,monospace;
       font-weight: normal;
-
+      font-size: 50px;
+    }
+    .code {
+      font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+      font-weight: bold;
+      font-size: 50px;
+    }
+    .photo {
+      font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 44px;
+      margin-bottom: 7px
     }
   }
 
   .card-copy {
     padding: $base-spacing/2 $gutter/2;
-    font-size: .9em;
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    height: 135px;
   }
 
   .card-stats {

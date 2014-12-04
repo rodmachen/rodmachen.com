@@ -2,7 +2,7 @@
 	body {
 		p {
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
-			font-size: 1.333em;
+			font-size: 1.5em;
 		}
 	}
 	header.navigation {
@@ -16,16 +16,22 @@
 	.footer-2 {
 		background: #003000;
 	}
-
+	h2.writing, h2.photo {
+		opacity: .3;
+	}
+	h2.code {
+        // font-weight: bold;
+	}
 	.container {
 		@include outer-container;
-
 	}
 	.section {
-		@include span-columns(10 of 16);
+		@include span-columns(11 of 16);
+		// border: 1px solid #000050;
 	}
 	.aside {
-		@include span-columns(6 of 16);
+		@include span-columns(5 of 16);
+		// border: 1px solid #000050;
 	}
 	a.post-link {
 		font-family: 'Roboto', sans-serif;
@@ -37,11 +43,12 @@
 		font-weight: 700;
 		font-size: 48px;
 	}
-	.menu {
+	.menu, .page-heading{
 		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 900;
-		text-align: center;
-		font-size: 4em;
+		// text-align: center;	
+		font-size: 5em;
+		margin-bottom: .5em;
 	}
 }
