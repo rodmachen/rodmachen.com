@@ -1,7 +1,7 @@
 ---
 layout: post-code
 title: Animal Project and Halfway Done
-<!-- categories: front-end class -->
+category: code
 ---
 Tonight was very much “hands on.” For most of the evening with worked in small groups trying so solve a series of problems.
 

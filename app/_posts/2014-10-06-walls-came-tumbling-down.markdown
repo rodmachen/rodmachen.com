@@ -1,7 +1,7 @@
 ---
 layout: post-code
 title: The Walls Came Tumblin' Down
-<!-- categories: front-end class -->
+category: code
 ---
 
 After last night’s snafu, I spent today reinstalling everything on my laptop. Everything. 

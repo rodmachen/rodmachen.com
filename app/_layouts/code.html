@@ -23,9 +23,21 @@
 
     <!-- {% include shared/header.html %} -->
     {% include shared/nav.html %}
-    {{ content }}
-    {% include shared/footer.html %}
 
+  <div class="container">
+    <div class="section">
+
+
+      {{ content }}
+
+    </div>
+
+    <div class="aside">
+      <h1>Menu</h1>
+    </div>
+  </div>  
+  
+    {% include shared/footer.html %}
     {% include shared/scripts.html %}
     {% include shared/google-analytics.html %}
   </body>

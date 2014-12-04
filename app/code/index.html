@@ -2,13 +2,10 @@
 layout: code
 title: code by Rod Machen
 ---
-<div class="container">
-	<div class="section">
-
 	  <h1 class="page-heading"></h1>
 
 	  <ul class="post-list">
-	    {% for post in site.posts %}
+	    {% for post in site.categories.code %}
 	      <li>
 	        <span class="post-meta">{{ post.date | date: "%m/%d/%Y" }}</span>
 
@@ -20,10 +17,3 @@ title: code by Rod Machen
 	    {% endfor %}
 	  </ul>
 
-	<!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>  -->
-	</div>
-
-	<div class="aside">
-		<h1>Menu</h1>
-	</div>
-</div>

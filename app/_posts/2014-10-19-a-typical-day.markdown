@@ -1,7 +1,7 @@
 ---
 layout: post-code
 title: A Typical Day
-<!-- categories: the-coding-life -->
+category: code
 ---
 Today was the perfect day of coding. Completely typical for this enterprise. Typical in that I attempted to complete a task, ran into a bunch of obstacles, and had to keep plugging away. In other words, what I’ll spend half of my time doing as a professional developer. 
 

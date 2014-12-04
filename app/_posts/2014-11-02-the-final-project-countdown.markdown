@@ -1,7 +1,7 @@
 ---
 layout: post-code
 title: The Final Project Countdown
-<!-- categories: the-coding-life -->
+category: code
 ---
 I’m in the homestretch of my [MakerSquare](http://www.makersquare.com) class. We’re taking all of the front-end technologies we’ve learned and  putting them to use in self-selected final project.
 

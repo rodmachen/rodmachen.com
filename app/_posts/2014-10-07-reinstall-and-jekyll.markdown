@@ -3,6 +3,7 @@ layout: post-code
 title: Reinstall & Jekyll
 <!-- categories: front-end class -->
 published: false
+category: code
 ---
 
 After last night’s snafu, I spent today reinstalling everything on my laptop. Everything. 

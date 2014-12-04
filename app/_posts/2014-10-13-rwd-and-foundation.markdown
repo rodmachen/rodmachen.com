@@ -1,7 +1,7 @@
 ---
 layout: post-code
 title: Responsive Web Design and Foundation
-<!-- categories: front-end class -->
+category: code
 ---
 Tonight was the first time I have actually prepped for class. Usually, I’m lucky to show up with a working brain, but I had a little more time this weekend than usual.
 
