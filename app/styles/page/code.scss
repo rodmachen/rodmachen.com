@@ -1,17 +1,16 @@
 .code {
+	body {
+		p {
+			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+			font-size: 1.333em;
+		}
+	}
 	header.navigation {
 		background-color: #003000;
-		// ul li.nav-link {
-		// 	background-color: #200;
-		// }
-		// &a {
-		// 	background-color: #003000;
-		// }
 	}
 
 	.centered-navigation {
 		background-color: #003000;
-
 		}
 
 	.footer-2 {
@@ -27,5 +26,26 @@
 	}
 	.aside {
 		@include span-columns(6 of 16);
+	}
+	a.post-link {
+		font-family: 'Roboto', sans-serif;
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+
+		font-weight: 900;
+		font-size: 48px;
+	}
+	h1.post-title {
+		font-family: 'Roboto', sans-serif;
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+
+		font-weight: 900;
+		font-size: 48px;
+	}
+	.menu {
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
+		text-align: center;
+		font-size: 4em;
 	}
 }
