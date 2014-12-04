@@ -26,7 +26,7 @@ header.navigation {
       line-height: 110px;
   }
   #push-right {
-      padding-left: 150px;
+      padding-left: 210px;
 
   }
   ul#navigation-menu.right {
@@ -35,7 +35,7 @@ header.navigation {
 
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
-  $navigation-color: transparentize($cream, 0.05);
+  $navigation-color: $cream;
   $navigation-color-hover: white;
   $navigation-height: 100px;
   $navigation-nav-button-background: $base-accent-color;

@@ -59,7 +59,7 @@
       line-height: 90px;
   }
   #push-right {
-      padding-left: 150px;
+      padding-left: 210px;
 
   }
 
@@ -69,7 +69,7 @@
 
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
-  $navigation-color: transparentize($cream, 0.05);
+  $navigation-color: $cream;
   $navigation-color-hover: white;
   $navigation-height: 96px;
   $navigation-nav-button-background: $base-accent-color;
@@ -84,8 +84,8 @@
   $horizontal-bar-mode: $large-screen;
 
   background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
-  height: 100px;
+  // border-bottom: 1px solid darken($navigation-background, 10);
+  height: 102px;
   width: 100%;
   z-index: 999;
 
