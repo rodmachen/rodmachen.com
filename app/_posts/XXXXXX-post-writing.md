@@ -1,8 +1,8 @@
 ---
-layout: post-code
+layout: post-writing
 title: XXXXXX
 published: false
-category: code
+category: writing
 tags: 
 ---
 

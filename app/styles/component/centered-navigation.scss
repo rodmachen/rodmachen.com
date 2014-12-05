@@ -1,3 +1,4 @@
+
 .centered-navigation {
   padding-top: .5em;
   h1 {
@@ -8,16 +9,16 @@
   h2 {
     font-weight: normal;
   }
-  $centered-navigation-padding: 1em;
-  $centered-navigation-logo-height: 3em;
+  $centered-navigation-padding: .5em;
+  $centered-navigation-logo-height: 2.5em;
   $centered-navigation-background: #000;
   // $centered-navigation-background: #400;
   // $centered-navigation-color: transparentize($base-font-color, 0.3);
   $centered-navigation-color: transparentize($cream, 0.05);
   // $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-color-hover: $cream;
-  $centered-navigation-height: 5.5em;
-  $centered-navigation-item-padding: 1em;
+  $centered-navigation-height: 3em;
+  $centered-navigation-item-padding: .75em;
   $centered-navigation-submenu-padding: 1em;
   $centered-navigation-submenu-width: 12em;
   $centered-navigation-item-nudge: 2.2em;
@@ -26,7 +27,7 @@
   background-color: $centered-navigation-background;
   border-bottom: 1px solid darken($centered-navigation-background, 6);
   font-family: $serif;
-  height: $centered-navigation-height;
+  // height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;
   

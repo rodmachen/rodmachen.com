@@ -1,22 +1,38 @@
 .writing {
 	header.navigation {
-		background-color: #000030;
-		// ul li.nav-link {
-		// 	background-color: #200;
-		// }
-		// &a {
-		// 	background-color: #000030;
-		// }
+		background-color: #000040;
+		margin-bottom: 0px;
 	}
 	.centered-navigation {
-		background-color: #000030;
-
+		background-color: #2A2A8C;
+		font-family: Courier,"Courier New",monospace;
+		// font-family: monospace;
+		font-size: 1.5em;
 		}
-
 	.footer-2 {
-		background: #000030;
+		background: #000040;
 	}
 	h2.code, h2.photo {
-		opacity: .3;
+		opacity: .5;
 	}
+	.container {
+		@include outer-container;
+		// height: 500px;
+		padding: 2em 6em;
+		.post-meta {
+				font-family: Courier,"Courier New",monospace;
+			}
+		.post-link, .post-title {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		margin-bottom: 1em;
+			}
+		p {
+			font-size: 1.33em;
+			line-height: 1.5em;
+			text-align: justify;
+			
+		}
+	}
+
 }

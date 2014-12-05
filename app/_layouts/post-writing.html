@@ -1,22 +1,13 @@
 ---
-layout: code
+layout: writing
 ---
-<div class="container">
-
-	<div class="section">
 		<div class="post">
 		  <header class="post-header">
 		    <h1 class="post-title">{{ page.title }}</h1>
-		    <p class="post-meta">{{ page.date | date: "%m/%d/%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		    
 		  </header>
 		  <article class="post-content">
 		    {{ content }}
 		  </article>
+		  <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 		</div>
-	</div>
-
-	<div class="aside">
-		<h1>Menu</h1>
-	</div>
-	
-</div>

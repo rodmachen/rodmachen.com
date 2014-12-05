@@ -2,3 +2,17 @@
 layout: writing
 title: writing by Rod Machen
 ---
+	  <!-- <h1 class="page-heading">Articles</h1> -->
+
+	  <ul class="post-list">
+	    {% for post in site.categories.writing %}
+	      <li>
+	        <!-- <span class="post-meta">{{ post.date | date: "%m/%d/%Y" }}</span> -->
+
+	        <h1>
+	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        </h1>
+	        <p>{{ post.excerpt }}</p>
+	      </li>
+	    {% endfor %}
+	  </ul>
