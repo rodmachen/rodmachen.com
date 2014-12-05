@@ -2,6 +2,7 @@
 	body {
 		p {
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+			font-weight: 400;
 			font-size: 1.5em;
 		}
 	}
@@ -20,7 +21,7 @@
 		opacity: .4;
 	}
 	h2.code {
-        // font-weight: bold;
+        font-weight: bold;
 	}
 	.container {
 		@include outer-container;
@@ -32,23 +33,34 @@
 	.aside {
 		@include span-columns(5 of 16);
 		// border: 1px solid #000050;
+		text-align: center;	
+		p {
+			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		}
 	}
 	a.post-link {
-		font-family: 'Roboto', sans-serif;
-		font-weight: 700;
-		font-size: 48px;
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 44px;
 	}
 	h1.post-title {
-		font-family: 'Roboto', sans-serif;
-		font-weight: 700;
-		font-size: 48px;
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 44px;
 	}
-	.menu, .page-heading{
-		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 900;
+	.page-heading{
+		font-weight: normal;
 		// text-align: center;	
 		font-size: 5em;
 		margin-bottom: .5em;
+		// visibility: hidden;
+	}
+	.menu {
+		// font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+		font-weight: 600;
+		font-size: 4em;
+		margin-bottom: .5em;
+		// visibility: hidden;
 	}
 }
