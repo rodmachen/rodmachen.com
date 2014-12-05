@@ -18,14 +18,14 @@
   // $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-color-hover: $cream;
   $centered-navigation-height: 3em;
-  $centered-navigation-item-padding: .75em;
+  $centered-navigation-item-padding: 0em;
   $centered-navigation-submenu-padding: 1em;
   $centered-navigation-submenu-width: 12em;
   $centered-navigation-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
   background-color: $centered-navigation-background;
-  border-bottom: 1px solid darken($centered-navigation-background, 6);
+  // border-bottom: 1px solid darken($centered-navigation-background, 6);
   font-family: $serif;
   // height: $centered-navigation-height;
   width: 100%;
@@ -98,7 +98,7 @@
 
   .nav-link:first-child {
     @include media($horizontal-bar-mode) {
-      margin-left: $centered-navigation-item-nudge;
+      // margin-left: $centered-navigation-item-nudge;
     }
   }
 
