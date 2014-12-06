@@ -18,6 +18,9 @@
 //   );
 
 .home {
+	body {
+		height: 100%;
+	}
 	.content {
 		@include outer-container(100%);
 	}

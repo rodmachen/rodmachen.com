@@ -4,6 +4,7 @@
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: 400;
 			font-size: 1.5em;
+			line-height: 1.33em;
 		}
 	}
 	header.navigation {
@@ -41,12 +42,14 @@
 	a.post-link {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		font-weight: bold;
-		font-size: 44px;
+		font-size: 40px;
+		margin-bottom: -1em;
 	}
 	h1.post-title {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		font-weight: bold;
-		font-size: 44px;
+		font-size: 48px;
+		margin-bottom: .5em;
 	}
 	.page-heading{
 		font-weight: normal;
@@ -62,5 +65,10 @@
 		font-size: 4em;
 		margin-bottom: .5em;
 		// visibility: hidden;
+	}
+	.post-meta {
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 1em;
 	}
 }

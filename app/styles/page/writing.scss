@@ -5,7 +5,7 @@
 	}
 	.centered-navigation {
 		// background-color: #2A2A8C;
-		background-color: #444444;
+		background-color: #000060;
 		font-family: Courier,"Courier New",monospace;
 		font-size: 1.5em;
 		margin-bottom: 1.5em;
@@ -25,6 +25,7 @@
 		.post-meta {
 			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 			font-weight: bold;
+			font-size: 1em;
 			}
 		.post-link, .post-title {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
@@ -38,12 +39,12 @@
 		width: 840px
 	}
 	.post-link {
-		font-size: 1.5em;
+		font-size: 1.33em;
 		margin-bottom: 1em;
 
 	}
 	.post-title {
-		font-size: 4.5em;
+		font-size: 4em;
 		text-align: center;
 		margin-bottom: .35em;
 		
