@@ -1,7 +1,7 @@
 ---
 layout: post-writing
 title: A Test Post
-published: false
+published: true
 category: writing
 <!-- tags: food -->
 ---

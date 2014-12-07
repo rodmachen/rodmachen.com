@@ -10,7 +10,7 @@
 		font-size: 1.5em;
 		margin-bottom: 1.5em;
 		ul {
-			width: 840px;
+			// width: 840px;
 		}
 		}
 	.footer-2 {
@@ -34,7 +34,7 @@
 		p {
 			font-size: 1.33em;
 			line-height: 1.5em;
-			text-align: justify;
+			// text-align: justify;
 		}
 		width: 840px
 	}
@@ -55,6 +55,8 @@
 	}
 	img {
 		display: block;
+		margin: 0 auto;
+		border: 1px solid #111111;
 	}
 	}
 
