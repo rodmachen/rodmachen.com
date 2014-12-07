@@ -22,9 +22,6 @@
 	h2.writing, h2.photo {
 		opacity: .4;
 	}
-	h2.code {
-        font-weight: bold;
-	}
 	.container {
 		@include outer-container;
 	}

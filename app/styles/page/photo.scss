@@ -8,11 +8,18 @@
 		}
 	.footer-2 {
 		background: #111111;
+        margin-top: 40px;
 	}
 	h2.writing, h2.code {
 		opacity: .5;
 	}
 	h2.photo {
-        // font-weight: bold;
+        font-weight: bold;
 	}
+	.construction {
+		font-size: 7em;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+	}
+
 }
