@@ -17,7 +17,8 @@
   $centered-navigation-color: transparentize($cream, 0.05);
   // $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-color-hover: $cream;
-  $centered-navigation-height: 3em;
+  $centered-navigation-height: 0em;
+  // $centered-navigation-item-padding: 3em;
   $centered-navigation-item-padding: 0em;
   $centered-navigation-submenu-padding: 1em;
   $centered-navigation-submenu-width: 12em;
@@ -27,7 +28,7 @@
   background-color: $centered-navigation-background;
   // border-bottom: 1px solid darken($centered-navigation-background, 6);
   font-family: $serif;
-  // height: $centered-navigation-height;
+  height: 50px;
   width: 100%;
   z-index: 9999;
   
@@ -111,7 +112,8 @@
       }
     background: $centered-navigation-background;
     display: block;
-    line-height: $centered-navigation-height;
+    // line-height: $centered-navigation-height;
+    line-height: 10px;
     overflow: hidden;
     padding-right: $centered-navigation-submenu-padding;
     text-align: right;
