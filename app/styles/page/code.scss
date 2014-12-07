@@ -17,6 +17,7 @@
 
 	.footer-2 {
 		background: #003000;
+		@include span-columns(16 of 16);
 	}
 	h2.writing, h2.photo {
 		opacity: .4;
