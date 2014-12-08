@@ -1,5 +1,6 @@
 ---
-title: 'Mad Men: Mad Women'
+title: 'Mad Men: '
+sub-title: 'Mad Women'
 author: Rod Machen
 layout: post-writing
 permalink: /mad-men-mad-women/
@@ -7,7 +8,7 @@ categories:
   - Screens
   - writing
 ---
-<img class="alignright wp-image-637" src="http://words.rodmachen.com/wp-content/uploads/2014/05/madmenpeggy-223x225.jpg" alt="madmenpeggy" width="298" height="300" />Are the most important characters on Mad Men indeed men? Don Draper’s handsome insouciance. Roger Sterling’s rakish sass. Pete Campbell’s receding hairline. All have been central to television’s reigning drama, but the other side of the gender line has something to offer as well. And as this season gets underway, a fundamental shift may be occurring.
+<!-- <img class="alignright wp-image-637" src="http://words.rodmachen.com/wp-content/uploads/2014/05/madmenpeggy-223x225.jpg" alt="madmenpeggy" width="298" height="300" /> -->Are the most important characters on Mad Men indeed men? Don Draper’s handsome insouciance. Roger Sterling’s rakish sass. Pete Campbell’s receding hairline. All have been central to television’s reigning drama, but the other side of the gender line has something to offer as well. And as this season gets underway, a fundamental shift may be occurring.
 
 There have always been women in key roles on Mad Men, but something has changed. A series set in the tumultuous 1960&#8217;s at a Madison Avenue advertising agency was going to have to grapple with the changing roles of women during that time. And while they have been important to the ongoing story, these female characters have been–more often than not–either in supporting roles or as foils for the male leads. Not so any more.<!--more-->
 

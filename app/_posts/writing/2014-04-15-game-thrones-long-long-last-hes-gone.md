@@ -1,5 +1,6 @@
 ---
-title: 'Game of Thrones: At long, long last he&#8217;s gone'
+title: 'Game of Thrones:'
+sub-title: "At long, long last he's gone!"
 author: Rod Machen
 layout: post-writing
 permalink: /game-thrones-long-long-last-hes-gone/

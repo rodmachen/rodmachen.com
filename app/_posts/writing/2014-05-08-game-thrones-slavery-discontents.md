@@ -1,16 +1,17 @@
 ---
-title: 'Game of Thrones: Slavery and its Discontents'
+title: 'Game of Thrones: '
+sub-title: 'Slavery and its Discontents'
 <!-- author: Rod Machen -->
 layout: post-writing
 <!-- permalink: /game-thrones-slavery-discontents/ -->
 categories:
-  - Screens
   - writing
+tags:
+  - screens
 ---
-*This article was originally published by the Austin Chronicle on May 7, 2014 under the title <a href="http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/" target="_blank">Breaking Chains, Bending the Knee</a>. Spoilers follow.*
-
+(This article was originally published by the Austin Chronicle on May 7, 2014 under the title [*Breaking Chains, Bending the Knee*](http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/). Spoilers follow.)  
 <!-- <img class="alignright size-medium wp-image-646" src="http://words.rodmachen.com/wp-content/uploads/2014/05/Daenerys-300x211.jpg" alt="Daenerys" width="300" height="211" /> -->
-In modern popular culture, the depiction of slavery usually involves stories set in the Deep South. The fantasy genre is not the place where one would expect to see it explored, but on HBO's ***Game of Thrones***, slavery has become a driving force not only for the ongoing and multivarious plotlines, but as another front in the battle between good and evil.<!--more-->
+In modern popular culture, the depiction of slavery usually involves stories set in the Deep South. The fantasy genre is not the place where one would expect to see it explored, but on HBO's Game of Thrones, slavery has become a driving force not only for the ongoing and multivarious plotlines, but as another front in the battle between good and evil.<!--more-->
 
 As an aspirant to the throne – one among many in this series – Daenerys Targaryen (played forcefully by Emilia Clarke) started behind the eightball. The eventual Mother of Dragons not only saw most of her family slaughtered and the rest kicked out of their homeland, but she began her quest for the crown with no army at all. Throughout the show’s first three seasons, she went about the business of not only collecting soldiers but confronting a system of slavery so entrenched that its geographic center is called Slaver's Bay.
 
