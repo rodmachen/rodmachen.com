@@ -1,26 +1,35 @@
 # rodmachen.com
 
-[Describe the project.]
+This site represents my personal presence on the web. Included is a graphical landing page; a main directory; a repository for all of my various writing, including freelance; a page dedicated to code and the writing thereof; and my photography portfolio.
 
-## Project Setup
-This project utilizes Playbook, reference Playbook's [setup guide](https://github.com/centresource/generator-playbook#get-started).
+## Technologies use in this project
 
-1. Clone this repository
-2. `npm install`
-3. `bower install`
-4. `bundle install`
+### Development tools
+##### [Playbook](https://github.com/centresource/generator-playbook)
+##### Yeoman
+##### Grunt
 
-## Usage
+### Static-site generator
+##### Jekyll
+##### kramdown for Markdown
 
-### Grunt Tasks
-##### grunt serve
-Serve your source locally into your browser. LiveReload will automatically load any changes to HTML, CSS and JavaScript that you make.
+### Front-end tools
+##### Sass
+##### Bourbon
+##### Neat
+##### Bitters
+##### Refills
+##### Normalize
+##### Modernizr
 
-##### grunt check
-Check the quality of your source with tools like [JSLint](http://www.jslint.com/), [CSSLint](http://csslint.net/) and [csscss](http://zmoazeni.github.io/csscss/).
 
-##### grunt test
-Run any test that you have defined for your source.
+### Hosting
+##### Amazon Web Services (S3, Route 53, Cloudfront)
+##### Github
 
-##### grunt build
-Build the concatenated, minified production version of the source into the `dist` directory.
+### Plugins
+##### FitText
+
+### Miscellaneous
+##### Google Analytics
+
