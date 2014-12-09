@@ -11,7 +11,7 @@ tags:
   - Published
   - Television
 ---
-*This article was originally published by the Austin Chronicle on April 15, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-15/revenge-is-sweet/" target="_blank">Revenge Is Sweet</a>.&#8221; Spoilers follow.*
+*Originally published by the Austin Chronicle on April 15, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-15/revenge-is-sweet/" target="_blank">Revenge Is Sweet</a>.&#8221; Spoilers follow.*
 
 Sunday’s night episode &#8220;The Lion and the Rose&#8221; bade goodbye to a character. Spoilers after the jump.<!--more-->
 

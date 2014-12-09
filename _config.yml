@@ -41,6 +41,7 @@ paginate_path: 'page:num'
 # Markdown library
 # markdown: redcarpet
 markdown: kramdown
+# markdown: rdiscount
 # Markdown library options
 # redcarpet:
   # extensions: ['fenced_code_blocks', 'smart']

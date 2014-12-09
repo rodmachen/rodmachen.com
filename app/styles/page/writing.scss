@@ -1,11 +1,13 @@
 .writing {
 	header.navigation {
-		background-color: #000040;
+		background-color: #400000;
+		// background-color: #000040;
 		margin-bottom: 0px;
 	}
 	.centered-navigation {
-		// background-color: #2A2A8C;
-		background-color: #000070;
+
+		background-color: #700000;
+		// background-color: #000070;
 		font-size: 1.5em;
 		margin-bottom: 1.5em;
 		line-height: 1em;
@@ -19,7 +21,8 @@
 		font-weight: 400;
 	}
 	.footer-2 {
-		background: #000040;
+		background: #400000;
+		// background: #000040;
 	}
 	h2.code, h2.photo {
 		opacity: .5;
@@ -27,6 +30,7 @@
 	.container {
 		@include outer-container;
 		// height: 500px;
+
 		.post-meta {
 			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 			font-weight: bold;
@@ -40,6 +44,9 @@
 			font-size: 1.5em;
 			line-height: 1.33em;
 			// text-align: justify;
+			a {
+				color: #700000;
+			}
 		}
 		width: 1040px
 	}

@@ -9,7 +9,7 @@ categories:
 tags:
   - screens
 ---
-(This article was originally published by the Austin Chronicle on May 7, 2014 under the title [*Breaking Chains, Bending the Knee*](http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/). Spoilers follow.)  
+(Originally published by the Austin Chronicle on May 7, 2014 under the title [Breaking Chains, Bending the Knee](http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/). Spoilers follow.)  
 <!-- <img class="alignright size-medium wp-image-646" src="http://words.rodmachen.com/wp-content/uploads/2014/05/Daenerys-300x211.jpg" alt="Daenerys" width="300" height="211" /> -->
 In modern popular culture, the depiction of slavery usually involves stories set in the Deep South. The fantasy genre is not the place where one would expect to see it explored, but on HBO's Game of Thrones, slavery has become a driving force not only for the ongoing and multivarious plotlines, but as another front in the battle between good and evil.<!--more-->
 

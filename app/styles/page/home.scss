@@ -30,7 +30,7 @@
 	}
 	.box {
 		height: 50vh;
-		color: $cream;
+		color: #cccccc;
 		position: relative;
 		padding: 0;
 		h1 {
@@ -44,7 +44,7 @@
 		}
 	}
 	.box.main {
-		background-color: $maroon;
+		background-color: #000040;
 					margin-left: auto;
     		margin-right: auto;
 
@@ -56,7 +56,7 @@
 		@include pad();
 	}
 	.box.writing {
-		background-color: $navy;	
+		background-color: #300000;	
 		h1 {
 			font-family: "Courier New",Courier,monospace;
 			font-weight: normal;
@@ -66,23 +66,24 @@
 		@include pad();
 	}
 	.box.photo {
-		background-color: $black;
+		background-color: #000000;
 		h1 {
 			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 			font-weight: bold;
 		}
 		@include span-columns(6 of 12, table);
 		@include pad();
+		@include reset-display;
+
 	}
 
 	.box.code {
-		background-color: $hunter;
+		background-color: #003000;
 		h1 {
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: 600;
 		}
 		@include span-columns(6 of 12, table);
-		@include reset-display;
 		@include pad();
 		// padding: 0;
 
@@ -117,16 +118,18 @@
 	// 	background-color: #111111;
 	// }
 	.box.main:hover {
-		background-color: #500000;
+		background-color: #000050;
+		// background-color: #500000;
 	}
 	.box.writing:hover {
-		background-color: #000040;
+		background-color: #400000;
+		// background-color: #000040;
 	}
 	.box.code:hover {
 		background-color: #004000;
 	}
 	.box.photo:hover {
-		background-color: #111111;
+		background-color: #222222;
 	}
 
 	// @include media($desktop-landscape) {
