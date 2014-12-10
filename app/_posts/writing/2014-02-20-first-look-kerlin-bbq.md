@@ -1,5 +1,6 @@
 ---
-title: 'First Look: Kerlin BBQ'
+title: 'Kerlin BBQ'
+sub-title: 'A First Look'
 author: Rod Machen
 layout: post-writing
 permalink: /first-look-kerlin-bbq/
@@ -7,14 +8,12 @@ categories:
   - Austin
   - Food
   - writing
-tags:
-  - First Take
 ---
 <p dir="ltr">
   At this point, hearing about a new barbecue trailer doing good work in Austin is no longer a surprise. <a href="http://labarbecue.com/" target="_blank">La Barbecue</a> and <a href="http://www.johnmuellermeatco.com/" target="_blank">John Mueller</a> were my forays into this genre, but after being blown away by <a href="http://www.craftmeats.com/" target="_blank">Micklethwait and his Craft Meats</a>, I&#8217;m willing to try a new one any time. <a href="http://www.kerlinbbq.com/" target="_blank">Kerlin BBQ</a> was next on my list.
 </p>
 
-<img class="size-full wp-image-369 alignright" alt="Kerlin BBQ sign" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-sign.jpg" width="320" height="256" />
+<!-- <img class="size-full wp-image-369 alignright" alt="Kerlin BBQ sign" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-sign.jpg" width="320" height="256" /> -->
 
 <p dir="ltr">
   Barbecue is an interesting cuisine because the foremost ingredient is a pit boss willing to do the hard work, day after day after day. Cook a quality piece of meat at a low temperature over good wood for a long time. It&#8217;s not that simple, but it is.
@@ -28,22 +27,22 @@ tags:
   It&#8217;s my understanding that Bill Kerlin came from the competition BBQ world, a far cry from the volume business that even a trailer requires. Overall takeaway: He&#8217;s doing just fine.
 </p>
 
-<img class="size-full wp-image-367  alignright" alt="Kerlin BBQ blue cheese coleslaw" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-slaw.jpg" width="720" height="540" />
+<!-- <img class="size-full wp-image-367  alignright" alt="Kerlin BBQ blue cheese coleslaw" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-slaw.jpg" width="720" height="540" /> -->
 
 <p dir="ltr">
   I&#8217;m going to start in a weird place: the sides. I had heard about a blue cheese coleslaw, so I made sure to order some. It was just what I hoped for. Plenty of blue cheese flavor and slaw that wasn&#8217;t just a pile of soggy mush.
 </p>
 
 <p dir="ltr">
-  <img class="alignright size-full wp-image-366" alt="Kerlin BBQ creamed corn with bacon" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-corn.jpg" width="720" height="540" />Usually, I&#8217;d make sure to try the potato salad–<a href="http://www.louiemuellerbarbecue.com/" target="_blank">Louie Mueller&#8217;s</a> version is my gold standard, so I&#8217;m always looking to compare–but another side called out to me: creamed corn with bacon. Not everything is better with bacon, but this was. The pork flavor was not overwhelming, but rather enhanced this rich version. It was less creamy but more buttery than say Rudy&#8217;s version, and balanced out the meat.
+  <!-- <img class="alignright size-full wp-image-366" alt="Kerlin BBQ creamed corn with bacon" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-corn.jpg" width="720" height="540" /> -->Usually, I&#8217;d make sure to try the potato salad–<a href="http://www.louiemuellerbarbecue.com/" target="_blank">Louie Mueller&#8217;s</a> version is my gold standard, so I&#8217;m always looking to compare–but another side called out to me: creamed corn with bacon. Not everything is better with bacon, but this was. The pork flavor was not overwhelming, but rather enhanced this rich version. It was less creamy but more buttery than say Rudy&#8217;s version, and balanced out the meat.
 </p>
 
 <p dir="ltr">
-  <img class="alignright size-full wp-image-389" alt="Kerlin BBQ pickles and sauce" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-pickles-sauce.jpg" width="720" height="480" />The pickles were homemade and served in thick slices. A very nice addition. And the sauce has both heat and vinegar but not too much of either.
+  <!-- <img class="alignright size-full wp-image-389" alt="Kerlin BBQ pickles and sauce" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-pickles-sauce.jpg" width="720" height="480" /> -->The pickles were homemade and served in thick slices. A very nice addition. And the sauce has both heat and vinegar but not too much of either.
 </p>
 
 <p dir="ltr">
-  <img class="alignright size-full wp-image-365" alt="Kerlin BBQ brisket and pork ribs" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-meat.jpg" width="720" height="540" />The pork ribs were tasty and tender, and just about as good as I&#8217;ve ever had. This one will go on repeat.
+  <!-- <img class="alignright size-full wp-image-365" alt="Kerlin BBQ brisket and pork ribs" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-meat.jpg" width="720" height="540" /> -->The pork ribs were tasty and tender, and just about as good as I&#8217;ve ever had. This one will go on repeat.
 </p>
 
 <p dir="ltr">
@@ -55,5 +54,5 @@ tags:
 </p>
 
 <p dir="ltr">
-  Next time: moist brisket and pork ribs again, then try the sausage and potato salad. If they add a dessert without bananas, I&#8217;ll try that, too.<img class="alignright size-full wp-image-364" alt="Kerlin BBQ tray" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-tray.jpg" width="720" height="540" />
+  Next time: moist brisket and pork ribs again, then try the sausage and potato salad. If they add a dessert without bananas, I&#8217;ll try that, too.<!-- <img class="alignright size-full wp-image-364" alt="Kerlin BBQ tray" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Kerlin-BBQ-tray.jpg" width="720" height="540" /> -->
 </p>

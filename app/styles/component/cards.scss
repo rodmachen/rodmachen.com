@@ -8,8 +8,9 @@
   $card-border: 1px solid $card-border-color;
   $card-background: lighten($card-border-color, 10);
   $card-header-background: $card-background;
-  $card-hover-background: lighten($card-background, 5);
-  $card-image-background: #DBD199;
+  $card-hover-background: $card-background;
+  $card-image-background: #900000;
+  // $card-image-background: #DBD199;
   $card-image-hover-background: lighten($card-image-background, 5);
   $card-stats-color: lighten($base-accent-color, 10);
   $base-spacing: $base-line-height;
@@ -72,7 +73,7 @@
     border-bottom: $card-border;
     border-radius: $base-border-radius $base-border-radius 0 0;
     // font-weight: bold;
-    padding: $base-spacing/3 $gutter/2;
+    // padding: $base-spacing/3 $gutter/2;
     text-align: center;
     .writing {
       font-family: "Courier New",Courier,monospace;
@@ -130,23 +131,23 @@
     }
   }
 
-  &:hover {
-    background-color: $card-hover-background;
+  // &:hover {
+  //   background-color: $card-hover-background;
     
-    .card-image img {
-      background: $card-image-hover-background;
-    }
+  //   .card-image img {
+  //     background: $card-image-hover-background;
+  //   }
   
-    .card-header {
-      background-color: $card-hover-background;
-    }
-  }
+  //   .card-header {
+  //     background-color: $card-hover-background;
+  //   }
+  // }
 
-  &:active {
-    background-color: $card-background;
+  // &:active {
+  //   background-color: $card-background;
 
-    .card-header {
-      background-color: $card-background;
-    }
-  }
+  //   .card-header {
+  //     background-color: $card-background;
+  //   }
+  // }
 }

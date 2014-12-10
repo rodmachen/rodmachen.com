@@ -1,6 +1,7 @@
 ---
 layout: post-writing
 title: A Test Post
+sub-title: With Subtitle
 published: true
 category: writing
 <!-- tags: food -->

@@ -8,23 +8,42 @@
 
 		background-color: #700000;
 		// background-color: #000070;
-		font-size: 1.5em;
+		font-size: 1.4em;
 		margin-bottom: 1.5em;
 		line-height: 1em;
 		ul {
 			// width: 840px;
 		}
 		}
+	.cards {
+	}
+
 	.card {
 		@include media($large-screen) {
 	    @include span-columns(12);  
 	    @include omega(3n);
 	  }
 	}
+	.card, .card-header {
+	  	background: #FAFAFA;
+	}
+	.card-header {
+		// margin: 0 2em;
+		padding: 2em ;
+		color: #500000;
+		a {
+			color: #500000;
+		}
+	}
+	.card-copy {
+		height: auto;
+		padding: 1.5em 3em 1.5em 3em;
+	}
 	.title {
 		text-align: center;
-		font-size: 138px;
-		font-weight: 400;
+		font-size: 145px;
+		font-weight: normal;
+		color: #500000;
 	}
 	.footer-2 {
 		background: #400000;
@@ -54,7 +73,7 @@
 				color: #700000;
 			}
 		}
-		width: 1000px
+		width: 1050px
 	}
 	.post-link {
 		font-size: 4em;
@@ -78,11 +97,11 @@
 	.post-content {
 	p {
 		// padding: 0 6em;
-		margin-top: 1em;
+		// margin-top: 1em;
 	}
 	img {
 		display: block;
-		margin: 0 auto;
+		margin: 1.5em auto;
 		border: 1px solid #111111;
 	}
 	}
