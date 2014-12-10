@@ -2,7 +2,6 @@
 title: 'Color: American Photography Transformed'
 author: Rod Machen
 layout: post-writing
-permalink: /color-american-photography-transformed/
 categories:
   - Austin
   - Events

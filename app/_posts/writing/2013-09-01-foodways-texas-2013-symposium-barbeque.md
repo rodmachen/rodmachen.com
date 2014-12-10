@@ -2,14 +2,12 @@
 title: 'Foodways Texas 2013 Symposium: Our Barbeque, Ourselves'
 author: Rod Machen
 layout: post-writing
-permalink: /foodways-texas-2013-symposium-barbeque/
 categories:
-  - Austin
-  - Events
-  - Food
+  - writing
 tags:
-  - Published
-  - Food
+  - food
+  - austin
+  - events
 ---
 <p dir="ltr">
   <em>This article was originally published by the Austin Chronicle on April 14, 2013 under the title &#8220;<a href="http://www.austinchronicle.com/daily/food/2013-04-14/was-the-foodways-texas-symposium-worth-the-price/" target="_blank">Was the Foodways Texas Symposium Worth the Price?</a>&#8220;</em>

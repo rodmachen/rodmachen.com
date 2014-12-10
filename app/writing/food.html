@@ -6,7 +6,8 @@ layout: writing
 	<h1 class="title responsive_headline">Food</h1>
 	<!-- <hr> -->
 	<div class="cards">
-	    {% for post in site.categories.food %}
+	    {% for post in site.categories.writing %}
+	    {% if post.tags contains 'food' %}
   		<div class="card">
     		<div class="card-header">
 				<h1 class="post-link">
@@ -20,6 +21,7 @@ layout: writing
 	        	<p>{{ post.excerpt }}</p>
 			</div>
 		</div>
+		{% endif %}
 		{% endfor %}
 	</div>
   </div>

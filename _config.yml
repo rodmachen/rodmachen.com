@@ -24,7 +24,7 @@ include: ['.htaccess']
 # date  /:categories/:year/:month/:day/:title.html
 # pretty  /:categories/:year/:month/:day/:title/
 # none  /:categories/:title.html
-permalink: none
+permalink: /:categories/:title.html
 
 # Publish posts with future date.
 # _config.build.yml sets this to false on `grunt build`
@@ -35,7 +35,7 @@ future: true
 show_drafts: false
 
 # Split posts over multiple subdirectories called “page2”, “page3”, … “pageN”
-paginate: 10
+paginate: 5
 paginate_path: 'page:num'
 
 # Markdown library
