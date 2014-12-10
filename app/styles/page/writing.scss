@@ -15,6 +15,12 @@
 			// width: 840px;
 		}
 		}
+	.card {
+		@include media($large-screen) {
+	    @include span-columns(12);  
+	    @include omega(3n);
+	  }
+	}
 	.title {
 		text-align: center;
 		font-size: 138px;
