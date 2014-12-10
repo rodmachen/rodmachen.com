@@ -9,6 +9,7 @@ categories:
   - Food
 tags:
   - Published
+  - Food
 ---
 <p dir="ltr">
   <em>This article was originally published by the Austin Chronicle on April 14, 2013 under the title &#8220;<a href="http://www.austinchronicle.com/daily/food/2013-04-14/was-the-foodways-texas-symposium-worth-the-price/" target="_blank">Was the Foodways Texas Symposium Worth the Price?</a>&#8220;</em>

@@ -1,0 +1,25 @@
+---
+title: Food
+layout: writing
+---
+
+
+  <div class="container">
+	<h1 class="title responsive_headline">Food</h1>
+	<hr>
+	  <ul class="post-list">
+	    {% for post in site.categories.food %}
+	      <li>
+	        <!-- <span class="post-meta">{{ post.date | date: "%m/%d/%Y" }}</span> -->
+
+	        <h1 class="post-link">
+	          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        </h1>
+	        <h1 class="post-link-2">
+	          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.sub-title }}</a>
+	        </h1>
+	        <p>{{ post.excerpt }}</p>
+	      </li>
+	    {% endfor %}
+	  </ul>
+  </div>
