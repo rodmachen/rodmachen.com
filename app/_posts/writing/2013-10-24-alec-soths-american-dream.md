@@ -1,18 +1,19 @@
 ---
 title: Alec Soth’s American Dream
+<!-- title: American Dream -->
 author: Rod Machen
 layout: post-writing
-permalink: /alec-soths-american-dream/
-categories:
-  - Austin
-  - Events
-  - The Arts
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - art
+  - published
+  
 ---
-<p dir="ltr">
-  This article was <a href="http://www.austinchronicle.com/daily/arts/2013-10-24/alec-soths-american-dream/" target="_blank">originally published</a> by the Austin Chronicle on October 24, 2013.
-</p>
+
+
+
 
 <p dir="ltr">
   Alec Soth’s journey as an artist has been a long and illustrious one, one he shared with a packed audience at the University of Texas Wednesday. He began shooting photography in large format in the style of Stephen Shore, William Eggleston, and Robert Frank, a take on the everyday world that found beauty in unexpected places.
@@ -49,3 +50,5 @@ tags:
 <p dir="ltr">
   Soth will also participate in this weekend’s three-day symposium “Magnum Photos Into the Digital Age,” presented by the Harry Ransom Center. The symposium is in conjunction with the exhbition &#8220;Radical Transformation: Magnum Photos Into the Digital Age,&#8221; which is on view through Jan. 5 at the Ransom Center, 21st & Guadalupe. For more information, visit www.hrc.utexas.edu.
 </p>
+
+(This article was <a href="http://www.austinchronicle.com/daily/arts/2013-10-24/alec-soths-american-dream/" target="_blank">originally published</a> by the Austin Chronicle on October 24, 2013.)

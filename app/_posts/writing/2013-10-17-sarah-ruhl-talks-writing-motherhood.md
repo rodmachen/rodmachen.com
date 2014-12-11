@@ -1,18 +1,18 @@
 ---
-title: Sarah Ruhl Talks Writing and Motherhood
+title: Sarah Ruhl
+sub-title: Talks Writing and Motherhood
 author: Rod Machen
 layout: post-writing
 permalink: /sarah-ruhl-talks-writing-motherhood/
-categories:
-  - Austin
-  - Events
-  - Pages
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - pages
+  - published
+  
 ---
-<p dir="ltr">
-  <em>This article was <a href="http://www.austinchronicle.com/daily/books/2013-10-17/sarah-ruhl-talks-writing-and-motherhood/" target="_blank">originally published</a> by the Austin Chronicle on October 17, 2013.</em>
-</p>
+
 
 <p dir="ltr">
   Sarah Ruhl has earned a place in contemporary theatre as one of the best dramatists of our time, but her heart is split between this important work and a home life she relishes.
@@ -53,3 +53,5 @@ tags:
 <p dir="ltr">
   She now does her writing out of the house, but her children stay front and center in a life that continues to find professional success along with familial satisfaction. For her, there is no other way.
 </p>
+
+(This article was <a href="http://www.austinchronicle.com/daily/books/2013-10-17/sarah-ruhl-talks-writing-and-motherhood/" target="_blank">originally published</a> by the Austin Chronicle on October 17, 2013.)

@@ -1,16 +1,19 @@
 ---
-title: 'Alec Soth &#038; the Texas Triangle'
+title: Alec Soth  
+sub-title: The Texas Triangle  
 author: Rod Machen
 layout: post-writing
-permalink: /alec-soth-texas-triangle/
-categories:
-  - Austin
-  - Events
-  - The Arts
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - art
+  - pages
+  - published
 ---
-*This article was originally published by the Austin Chronicle on December 12, 2013 under the title “<a href="http://www.austinchronicle.com/daily/arts/2013-12-12/squaring-the-triangle/" target="_blank">Squaring the Triangle.</a>“*
+
+
+
 
 <p dir="ltr">
   Magnum photographer Alec Soth and writer Brad Zellar have finished their tour of Texas, and on Saturday they partied. The Harry Ransom Center hosted a pop-up show of the pair’s Texas Triangle project, a two-week photographic and journalistic exploration of the Lone Star State bounded by Dallas, Houston, and San Antonio.
@@ -37,3 +40,5 @@ tags:
 </p>
 
 With the Ransom Center’s celebration of all things Magnum Photos coming to a close, it was fitting that one of their members celebrated the conclusion of a project with a party on the premises. A packed house certainly enjoyed the drinks and art on a cold Saturday night in Austin.
+
+(This article was originally published by the Austin Chronicle on December 12, 2013 under the title “<a href="http://www.austinchronicle.com/daily/arts/2013-12-12/squaring-the-triangle/" target="_blank">Squaring the Triangle.</a>“)

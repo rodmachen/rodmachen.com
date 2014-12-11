@@ -1,18 +1,17 @@
 ---
-title: 'Anne Hull&#8217;s Guide to Investigative Journalism'
+title: Anne Hull
+sub-title: 'Guide to Investigative Journalism'
 author: Rod Machen
 layout: post-writing
-permalink: /anne-hulls-guide-to-investigative-journalism/
-categories:
-  - Austin
-  - Events
-  - Pages
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - pages
+  - published
+  
 ---
-<p dir="ltr">
-  <em>This article was originally published by the Austin Chronicle on October 2, 2013 under the title “<a href="http://www.austinchronicle.com/daily/books/2013-10-02/immerse-yourself-in-anne-hulls-words/" target="_blank">Immerse Yourself in Anne Hull&#8217;s Words.</a>“</em>
-</p>
+
 
 <p dir="ltr">
   Pulitzer Prize-winning journalist Anne Hull spoke Tuesday night at the University of Texas, discussing the state of modern journalism and her work documenting the human side of the biggest stories of our day.
@@ -44,4 +43,6 @@ tags:
 
 <p dir="ltr">
   Hull’s message to young journalists was short and sweet: You won’t get paid much, so find a place to write that shares your values. She has spent a lifetime living this out, and her readers are better for it.
+
+(This article was originally published by the Austin Chronicle on October 2, 2013 under the title “<a href="http://www.austinchronicle.com/daily/books/2013-10-02/immerse-yourself-in-anne-hulls-words/" target="_blank">Immerse Yourself in Anne Hull&#8217;s Words.</a>“)
 </p>

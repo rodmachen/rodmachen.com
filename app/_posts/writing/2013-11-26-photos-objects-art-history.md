@@ -1,17 +1,17 @@
 ---
-title: Photos as Objects of Art and History with Magnum Photos
+title: Magnum Photos 
+sub-title: Objects of Art and History
 author: Rod Machen
 layout: post-writing
-permalink: /photos-objects-art-history/
-categories:
-  - Austin
-  - Events
-  - Pages
-  - The Arts
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - art
+  - pages
+  - published
 ---
-*This article was <a href="http://www.austinchronicle.com/daily/arts/2013-11-26/photos-as-objects-of-art-and-history/" target="_blank">originally published</a> by the Austin Chronicle on November 26, 2013.*
+
 
 <p dir="ltr">
   The Magnum Photos collection that now resides at the Harry Ransom Center is a beast. The new book Reading Magnum is an attempt to tame it. At 200,000 individual pieces, that’s no easy task, as editor Steven Hoelscher noted during a reading last Thursday sponsored by the Austin Center for Photography.
@@ -40,3 +40,5 @@ tags:
 <p dir="ltr">
   An audience member asked Hoelscher about the possibility of the collection eventually being digitized. While some cursory scanning has already happened, an archival-level digitization process would be an enormous undertaking, one Hoelscher isn’t sure will happen any time soon given the other priorities of the Ransom Center. As an academic and researcher, Hoelscher wishes the archive contained more internal documents about how Magnum was run. All photographers retain the rights to their own photos, but the collective allows them access and cachet they might not have individually. Herding this group of cats can’t be easy, but the work they produce is sublime. Reading Magnum: A Visual Archive of the Modern World puts it on full display.
 </p>
+
+(This article was <a href="http://www.austinchronicle.com/daily/arts/2013-11-26/photos-as-objects-of-art-and-history/" target="_blank">originally published</a> by the Austin Chronicle on November 26, 2013.)

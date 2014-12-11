@@ -1,16 +1,16 @@
 ---
-title: 'Junot Diaz &#038; What It Means To Be a Man'
+title: 'Junot Diaz '
+sub-title: 'What It Means To Be a Man'
 author: Rod Machen
 layout: post-writing
-permalink: /junot-diaz-means-man/
-categories:
-  - Austin
-  - Events
-  - Pages
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - pages
+  - published
+  
 ---
-*This article was originally published by the Austin Chronicle on September 24, 2013 under the title “<a href="http://www.austinchronicle.com/daily/books/2013-09-24/ut-crowd-welcomes-junot-diaz/" target="_blank">UT Crowd Welcomes Junot Diaz.</a>“*
 
 <p dir="ltr">
   The Junot Diaz event Monday night started before it ever began. Well before show time, the auditorium in the Blanton Museum of Art filled to capacity, so Diaz took matters into his own hands and brought the show to the people.
@@ -43,3 +43,5 @@ tags:
 <p dir="ltr">
   In response to a question about his portrayal of females, Diaz addressed the misogyny and male-centric viewpoint present in most of his writing. He made the case that only by expressing the full range of male experience, warts and all, can we address its problematic nature. He hopes even feminists will be able to use the voice he’s speaking with to someday turn the corner on this outdated form of masculinity.
 </p>
+
+(This article was originally published by the Austin Chronicle on September 24, 2013 under the title “<a href="http://www.austinchronicle.com/daily/books/2013-09-24/ut-crowd-welcomes-junot-diaz/" target="_blank">UT Crowd Welcomes Junot Diaz.</a>“)
