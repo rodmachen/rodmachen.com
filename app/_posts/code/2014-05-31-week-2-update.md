@@ -1,8 +1,6 @@
 ---
 title: 'Learning to Code: Week 2 Update'
-author: Rod Machen
 layout: post-code
-permalink: /week-2-update/
 categories:
   - Code
 ---

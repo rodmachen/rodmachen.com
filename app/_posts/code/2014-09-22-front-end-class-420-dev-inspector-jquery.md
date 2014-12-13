@@ -1,8 +1,6 @@
 ---
 title: 'Front-end class 4/20 &#8211; Dev Inspector &#038; jQuery'
-author: Rod Machen
 layout: post-code
-permalink: /front-end-class-420-dev-inspector-jquery/
 categories:
   - Code
 ---

@@ -1,8 +1,6 @@
 ---
 title: Front-end class 2/20
-author: Rod Machen
 layout: post-code
-permalink: /front-end-class-220/
 categories:
   - Code
 ---

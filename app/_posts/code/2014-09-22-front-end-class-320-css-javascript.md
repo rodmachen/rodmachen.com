@@ -1,8 +1,6 @@
 ---
 title: 'Front-end class 3/20 &#8211; CSS &#038; JavaScript'
-author: Rod Machen
 layout: post-code
-permalink: /front-end-class-320-css-javascript/
 categories:
   - Code
 ---

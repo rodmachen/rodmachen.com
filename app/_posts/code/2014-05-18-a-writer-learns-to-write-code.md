@@ -1,10 +1,8 @@
 ---
 title: A Writer Learns to Write Code
-author: Rod Machen
 layout: post-code
-permalink: /a-writer-learns-to-write-code/
 categories:
-  - Code
+  - code
 ---
 Not quite yet, but that&#8217;s the idea.
 

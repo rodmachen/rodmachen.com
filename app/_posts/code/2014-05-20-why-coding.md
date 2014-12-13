@@ -1,8 +1,6 @@
 ---
 title: Why coding?
-author: Rod Machen
 layout: post-code
-permalink: /why-coding/
 categories:
   - Code
 ---
