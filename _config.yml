@@ -35,8 +35,8 @@ future: true
 show_drafts: false
 
 # Split posts over multiple subdirectories called “page2”, “page3”, … “pageN”
-paginate: 5
-paginate_path: 'page:num'
+# paginate: 5
+# paginate_path: 'page:num'
 
 # Markdown library
 # markdown: redcarpet

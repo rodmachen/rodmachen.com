@@ -5,13 +5,13 @@ layout: post-writing
 published: false
 category: writing
 tags:
-  <!-- - art -->
-  <!-- - austin -->
-  <!-- - events -->
-  <!-- - food -->
-  <!-- - pages -->
-  <!-- - published -->
-  <!-- - screens -->
+ - art
+ - austin
+ - events
+ - food
+ - pages
+ - published
+ - screens
 ---
 
 

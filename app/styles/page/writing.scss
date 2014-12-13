@@ -45,9 +45,12 @@
 	}
 	.title {
 		text-align: center;
-		font-size: 145px;
+		font-size: 48px;
 		font-weight: normal;
-		color: #500000;
+		// color: #500000;
+		a {
+				color: #700000;
+			}
 	}
 	.footer-2 {
 		background: #400000;

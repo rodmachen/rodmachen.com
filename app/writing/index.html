@@ -5,9 +5,11 @@ title: writing by Rod Machen
 
   <div class="container">
 	<!-- <h1 class="title responsive_headline">Austin Stories</h1> -->
+	<h1 class="title">From the desk of</h1>
+	<h1 class="title responsive_headline">Rod Machen</h1>
 	<!-- <hr> -->
 	<div class="cards">
-	    {% for post in site.categories.writing %}
+	    {% for post in site.categories.writing limit: 15%}
   		<div class="card">
     		<div class="card-header">
 				<h1 class="post-link">
@@ -23,4 +25,6 @@ title: writing by Rod Machen
 		</div>
 		{% endfor %}
 	</div>
+	<h1 class="title">For more, please choose a <a href="/writing/categories.html">category.</a></h1>
+
   </div>
