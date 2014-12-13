@@ -1,16 +1,15 @@
 ---
-title: 'The Grand Budapest Hotel: Review'
+title: The Grand Budapest Hotel
+sub-title: A Review
 author: Rod Machen
 layout: post-writing
-permalink: /grand-budapest-hotel-review/
-categories:
-  - Screens
+category:
   - writing
 tags:
-  - Review
+  - screens
 ---
 <p dir="ltr">
-  <a href="http://www.peterstrain.co.uk/The-Grand-Budapest-Hotel"><img class="alignright  wp-image-588" alt="PSTRAIN_GBH_WEB" src="http://words.rodmachen.com/wp-content/uploads/2014/03/PSTRAIN_GBH_WEB-159x225.jpg" width="250" height="353" /></a>My basic inclination is, like many, to like every new film from Wes Anderson. He had me had Bottle Rocket, and even the ones I haven&#8217;t enjoyed as much (Life Aquatic, The Darjeeling Limited) haven&#8217;t pushed me away.
+  <!-- <a href="http://www.peterstrain.co.uk/The-Grand-Budapest-Hotel"><img class="alignright  wp-image-588" alt="PSTRAIN_GBH_WEB" src="http://words.rodmachen.com/wp-content/uploads/2014/03/PSTRAIN_GBH_WEB-159x225.jpg" width="250" height="353" /></a> -->My basic inclination is, like many, to like every new film from Wes Anderson. He had me had Bottle Rocket, and even the ones I haven&#8217;t enjoyed as much (Life Aquatic, The Darjeeling Limited) haven&#8217;t pushed me away.
 </p>
 
 <p dir="ltr">
@@ -27,9 +26,9 @@ The story is essentially a character study of one M. Gustav: a hotel concierge, 
   After one of his elderly paramours dies, Gustav is both blessed by the will and subsequently accused of murder. The subsequent unfolding takes our main character and his sidekick on a journey throughout Europe in search of clues and closure.
 </p>
 
-<p dir="ltr">
+<!-- <p dir="ltr">
   <img class="alignleft size-large wp-image-584" alt="Grand Budapest Hotel" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Grand-Budapest-Hotel-720x406.jpg" width="720" height="406" />
-</p>
+</p> -->
 
 <p dir="ltr">
   While so much of the film exhibits a purposeful intentionality by its director, he injects little moments of disjointedness to keep the action loose. The studied and elegant speech, not only from Gustav but all of the other characters as well, is punctuated with bursts of course language, profanity that seems out of place in a world of grand hotels and dowager countesses. So too does the range of accents present. A mix of actors from around the western world are used, and even though the film ostensibly takes place in Eastern Europe, they all keep their own way of speaking. It lends a comfort to the delivery but pulls back the curtain just a bit on the suspension of disbelief.
@@ -51,4 +50,4 @@ The story is essentially a character study of one M. Gustav: a hotel concierge, 
   There can never be too many beautiful films, so I look forward to more Wes Anderson over the years. His ability imbue them with sympathetic characters and catchy plots make it all the better.
 </p>
 
-* Top photo credit: <a href="http://www.peterstrain.co.uk/" target="_blank">Peter Strain</a>*
+<!-- * Top photo credit: <a href="http://www.peterstrain.co.uk/" target="_blank">Peter Strain</a>* -->

@@ -9,7 +9,6 @@ tags:
   - events
   - pages
   - published
-  
 ---
 
 

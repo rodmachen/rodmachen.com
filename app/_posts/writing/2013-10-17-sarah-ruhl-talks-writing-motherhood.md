@@ -1,16 +1,14 @@
 ---
 title: Sarah Ruhl
-sub-title: Talks Writing and Motherhood
+sub-title: Writing and Motherhood
 author: Rod Machen
 layout: post-writing
-permalink: /sarah-ruhl-talks-writing-motherhood/
 category: writing
 tags:
   - austin
   - events
   - pages
   - published
-  
 ---
 
 

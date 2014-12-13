@@ -1,24 +1,23 @@
 ---
-title: 'Don&#8217;t worry teachers: You&#8217;re not alone!'
+title: Don’t worry teachers
+sub-title: You’re not alone!
 author: Rod Machen
 layout: post-writing
-permalink: /dont-worry-teachers-youre-alone/
-categories:
-  - Austin
-  - Events
+category:
   - writing
 tags:
-  - Published
-  - SXSW
+  - austin
+  - events
+  - published
+  - sxsw
 ---
-*This article was originally published by the Austin Chronicle on March 7, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/news/2014-03-07/teachers-helper/" target="_blank">Teacher’s Helper</a>.&#8221;*
 
 <p dir="ltr">
   The demands on teachers&#8217; time are legion, but a burgeoning online movement is here to help.
 </p>
 
 <p dir="ltr">
-  <img class="alignright size-full wp-image-439" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SXSWedu-moderator.jpg" alt="SXSWedu lesson sharing moderator" width="320" height="320" />Digital lesson plan sharing has reached enormous levels and is growing by the day, an SXSWedu panel audience learned this week. According to Louise Rogers, CEO of TSL, a U.K.-based hosting service, hundreds of thousands of lessons have been downloaded millions of times.
+  <!-- <img class="alignright size-full wp-image-439" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SXSWedu-moderator.jpg" alt="SXSWedu lesson sharing moderator" width="320" height="320" /> -->Digital lesson plan sharing has reached enormous levels and is growing by the day, an SXSWedu panel audience learned this week. According to Louise Rogers, CEO of TSL, a U.K.-based hosting service, hundreds of thousands of lessons have been downloaded millions of times.
 </p>
 
 <p dir="ltr">
@@ -34,7 +33,7 @@ tags:
 </p>
 
 <p dir="ltr">
-  Rogers said her site TES Connect started off innocuously enough as a simple online meeting place for teachers to discuss the myriad issues they deal with. Soon, these educators were swapping lessons at a brisk pace, necessitating a dedicated network just for that activity.<img class="alignright size-full wp-image-440" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SXSWedu-Panel.jpg" alt="SXSWedu lesson sharing panel" width="720" height="480" />
+  Rogers said her site TES Connect started off innocuously enough as a simple online meeting place for teachers to discuss the myriad issues they deal with. Soon, these educators were swapping lessons at a brisk pace, necessitating a dedicated network just for that activity.<!-- <img class="alignright size-full wp-image-440" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SXSWedu-Panel.jpg" alt="SXSWedu lesson sharing panel" width="720" height="480" /> -->
 </p>
 
 <p dir="ltr">
@@ -48,3 +47,5 @@ tags:
 <p dir="ltr">
   With the massive amount of sharing and collaboration that is going on between teachers today, it won&#8217;t be long until textbooks go the way of chalkboard and transparency projectors: outdated technology that no longer has a prominent place in the classroom. Teachers and students can&#8217;t wait.
 </p>
+
+(This article was originally published by the Austin Chronicle on March 7, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/news/2014-03-07/teachers-helper/" target="_blank">Teacher’s Helper</a>.)

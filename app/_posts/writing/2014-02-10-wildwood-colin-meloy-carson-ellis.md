@@ -1,20 +1,18 @@
 ---
-title: The Wildwood of Colin Meloy and Carson Ellis
+title: The Wildwood Chronicles
+sub-title: Colin Meloy & Carson Ellis
 author: Rod Machen
 layout: post-writing
-permalink: /wildwood-colin-meloy-carson-ellis/
-categories:
-  - Austin
-  - Events
-  - Pages
-  - writing
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - pages
+  - published
 ---
-*This article was originally published by the Austin Chronicle on February 10, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/books/2014-02-10/venture-into-a-wildwood/" target="_blank">Venture Into a &#8216;Wildwood&#8217;</a>&#8220;*
 
 <p dir="ltr">
-  <img class="alignright  wp-image-320" alt="Colin Meloy Carson Ellis" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Meloy-Ellis-BW-1-675x540.jpg" width="320" height="256" />With their newest novel, <a href="http://www.wildwoodchronicles.com/books" target="_blank">Wildwood Imperium</a>, recently released, Colin Meloy and Carson Ellis welcomed a large crowd of excited kids – and not a few bearded hipsters – to <a href="http://www.bookpeople.com/" target="_blank">BookPeople</a> Wednesday night for a reading and remembrance of things past.
+  <!-- <img class="alignright  wp-image-320" alt="Colin Meloy Carson Ellis" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Meloy-Ellis-BW-1-675x540.jpg" width="320" height="256" /> -->With their newest novel, <a href="http://www.wildwoodchronicles.com/books" target="_blank">Wildwood Imperium</a>, recently released, Colin Meloy and Carson Ellis welcomed a large crowd of excited kids – and not a few bearded hipsters – to <a href="http://www.bookpeople.com/" target="_blank">BookPeople</a> Wednesday night for a reading and remembrance of things past.
 </p>
 
 The frontman for lit-pop band the <a href="http://www.decemberists.com/" target="_blank">Decemberists</a> and his wife/collaborator held court before a packed house to talk about their new book, as well as older work, both musical and literary.<!--more-->
@@ -28,7 +26,7 @@ The frontman for lit-pop band the <a href="http://www.decemberists.com/" target=
 </p>
 
 <p dir="ltr">
-  He even read from a piece of juvenilia entitled &#8220;The Killer Marshmellow.&#8221; The punctuation was post-modern, and the plot straightforward. A career was born.<img class="alignright size-full wp-image-321" alt="Colin Meloy Carson Ellis" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Meloy-Ellis-BW-2.jpg" width="720" height="576" />
+  He even read from a piece of juvenilia entitled &#8220;The Killer Marshmellow.&#8221; The punctuation was post-modern, and the plot straightforward. A career was born.<!-- <img class="alignright size-full wp-image-321" alt="Colin Meloy Carson Ellis" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Meloy-Ellis-BW-2.jpg" width="720" height="576" /> -->
 </p>
 
 <p dir="ltr">
@@ -67,4 +65,4 @@ The frontman for lit-pop band the <a href="http://www.decemberists.com/" target=
   Seems like stories follow him about wherever he goes. Those will now make their way into his new musical work, but the audience Wednesday night can’t wait for the next time he takes his talents to the page.
 </p>
 
-&nbsp;
+(This article was originally published by the Austin Chronicle on February 10, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/books/2014-02-10/venture-into-a-wildwood/" target="_blank">Venture Into a &#8216;Wildwood&#8217;</a>)

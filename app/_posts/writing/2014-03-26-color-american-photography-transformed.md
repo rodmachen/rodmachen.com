@@ -1,14 +1,14 @@
 ---
-title: 'Color: American Photography Transformed'
-author: Rod Machen
+title: "Color: American Photography Transformed"
 layout: post-writing
-categories:
-  - Austin
-  - Events
-  - The Arts
+author: Rod Machen
+category:
   - writing
+tags:
+  - austin
+  - art
+  - published
 ---
-*This article was also published by the Austin Chronicle on March 28, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-28/give-me-those-nice-bright-colors/" target="_blank">Give Me Those Nice, Bright Colors</a>.&#8221;*
 
 <p dir="ltr">
   When William Eggleston arrived on the scene with his seminal Guide, many considered this to be the beginning of color photography, initially including John Rohrbach, senior curator of photographs at Ft. Worth&#8217;s prestigious <a href="http://www.cartermuseum.org/exhibitions/color-american-photography-transformed" target="_blank">Amon Carter Museum</a>.
@@ -23,7 +23,7 @@ categories:
 </p>
 
 <p dir="ltr">
-  <img class="alignleft size-large wp-image-578" alt="Amarillo drive in Stephen Shore" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Amarillo-drive-in-Stephen-Shore-679x540.jpg" width="679" height="540" />The story begins in the middle of the 19th century when Levi Hill, a rural preacher in the Catskills of Upstate New York, took up photography after coming down with a recurring case of laryngitis. He sought out painter Asher Durand and was given the following advice: Find a way to make color photography, &#8220;and you will be ahead of all the painters.”
+  <!-- <img class="alignleft size-large wp-image-578" alt="Amarillo drive in Stephen Shore" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Amarillo-drive-in-Stephen-Shore-679x540.jpg" width="679" height="540" /> -->The story begins in the middle of the 19th century when Levi Hill, a rural preacher in the Catskills of Upstate New York, took up photography after coming down with a recurring case of laryngitis. He sought out painter Asher Durand and was given the following advice: Find a way to make color photography, &#8220;and you will be ahead of all the painters.”
 </p>
 
 <p dir="ltr">
@@ -66,6 +66,8 @@ categories:
   Rohrbach singled out contemporary photographer Alec Soth for directing his use of color very discretely. In an image of a red-headed woman against a gray background, Rohrbach saw a representation of the history of color photography. The past is comprised of monochromatic images, but the future comes in splashes of well-placed color. With digital cameras and Photoshop, artists can almost paint with color now via photographic means. The future will surely be filled with many more great images, but as recent history tells us, color isn&#8217;t going anywhere.
 </p>
 
-<p dir="ltr">
+<!-- <p dir="ltr">
   <em>Photo credit: Stephen Shore, West 9th Avenue, Amarillo, Texas, October 2, 1974, Courtesy of the artist and 303 Gallery, New York.</em>
-</p>
+</p> -->
+
+(This article was first published by the Austin Chronicle on March 28, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-28/give-me-those-nice-bright-colors/" target="_blank">Give Me Those Nice, Bright Colors</a>)

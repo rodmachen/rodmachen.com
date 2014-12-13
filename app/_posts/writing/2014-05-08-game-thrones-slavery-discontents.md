@@ -1,15 +1,13 @@
 ---
-title: 'Game of Thrones: '
+title: 'Game of Thrones'
 sub-title: 'Slavery and its Discontents'
-<!-- author: Rod Machen -->
 layout: post-writing
-<!-- permalink: /game-thrones-slavery-discontents/ -->
 categories:
   - writing
 tags:
   - screens
+  - published
 ---
-(Originally published by the Austin Chronicle on May 7, 2014 under the title [Breaking Chains, Bending the Knee](http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/). Spoilers follow.)  
 <!-- <img class="alignright size-medium wp-image-646" src="http://words.rodmachen.com/wp-content/uploads/2014/05/Daenerys-300x211.jpg" alt="Daenerys" width="300" height="211" /> -->
 In modern popular culture, the depiction of slavery usually involves stories set in the Deep South. The fantasy genre is not the place where one would expect to see it explored, but on HBO's Game of Thrones, slavery has become a driving force not only for the ongoing and multivarious plotlines, but as another front in the battle between good and evil.<!--more-->
 
@@ -32,3 +30,5 @@ A more interesting angle on this comes from looking at gender. Viewers got a tas
 Even with Daenerys continuing her abolitionist ways, recent events have thrown a wrinkle into her plans. On last Sunday’s episode, First of His Name, the complexities of such an endeavor became evident. Daenerys is informed that the two previous cities she has overtaken and freed have fallen back into less-noble hands. Leaving a city in the charge of a group of former slaves without proper resources doesn't appear to be a formula for success.
 
 Daenerys is undeterred: I will not let those I have freed slide back into chains. She decides to postpone her military adventure back to her homeland in order to stay in her current city of Meereen and rule, a practice run for a queenship she hopes to continue in Westeros. There are no easy answers in the world of suffering and retribution, but with this decision, Daenerys – mother of dragons, fount of inspiration – has taken a crucial step away from talk and toward action. It'll be interesting to see if the day-to-day realities of ruling will change the revolutionary and generous spirit that has drawn so many followers to her, both in her adopted land and in the viewing audience.
+
+(Originally published by the Austin Chronicle on May 7, 2014 under the title [Breaking Chains, Bending the Knee](http://www.austinchronicle.com/daily/screens/2014-05-07/breaking-chains-bending-the-knee/).)  

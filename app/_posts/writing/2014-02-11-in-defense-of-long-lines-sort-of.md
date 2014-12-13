@@ -1,18 +1,13 @@
 ---
-title: In Defense of Long Lines . . . Sort of
+title: In Defense of Long Lines
+sub-title: . . . sort of
 author: Rod Machen
 layout: post-writing
-permalink: /in-defense-of-long-lines-sort-of/
-categories:
-  - Austin
-  - Food
-  - writing
+category: writing
 tags:
-  - Feature
+  - austin
+  - food
 ---
-<p dir="ltr">
-  <img class="alignright  wp-image-350" alt="A long line of Bowery men waiting for bread" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Bowery_men_waiting_for_bread_in_bread_line_New_York_City_Bain_Collection.jpg" width="320" height="240" />
-</p>
 
 <p dir="ltr">
   A recently post by <a href="http://www.austinchronicle.com/authors/chase-hoffberger/" target="_blank">Chase Hoffberger</a> at the <a href="http://www.austinchronicle.com/daily/" target="_blank">Austin Chronicle&#8217;s Daily</a> has me thinking a lot about long lines. We live in a city of lines in a culture of lines. We wait <em>in</em> line while people up north wait <em>on</em> line, but regardless of the idiom, we wait. We wait for those things we deem worthy of waiting for from food to phones and anything in between.
@@ -39,3 +34,6 @@ The current reigning champion of most Austin-tacious line is at <a href="https:/
 <p dir="ltr">
   Maybe I&#8217;ll go with friends.
 </p>
+<!-- <p dir="ltr">
+  <img class="alignright  wp-image-350" alt="A long line of Bowery men waiting for bread" src="http://words.rodmachen.com/wp-content/uploads/2014/02/Bowery_men_waiting_for_bread_in_bread_line_New_York_City_Bain_Collection.jpg" width="320" height="240" />
+</p> -->

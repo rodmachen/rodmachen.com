@@ -1,12 +1,12 @@
 ---
-title: 'Mad Men: '
+title: 'Mad Men'
 sub-title: 'Mad Women'
 author: Rod Machen
 layout: post-writing
-permalink: /mad-men-mad-women/
-categories:
-  - Screens
+category:
   - writing
+tags:
+  - screens
 ---
 <!-- <img class="alignright wp-image-637" src="http://words.rodmachen.com/wp-content/uploads/2014/05/madmenpeggy-223x225.jpg" alt="madmenpeggy" width="298" height="300" /> -->Are the most important characters on Mad Men indeed men? Don Draper’s handsome insouciance. Roger Sterling’s rakish sass. Pete Campbell’s receding hairline. All have been central to television’s reigning drama, but the other side of the gender line has something to offer as well. And as this season gets underway, a fundamental shift may be occurring.
 

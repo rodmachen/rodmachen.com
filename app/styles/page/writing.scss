@@ -1,4 +1,8 @@
 .writing {
+	body {
+		background: #eeeeee;
+		font-family: Courier,"Courier New",monospace;
+	}
 	header.navigation {
 		background-color: #400000;
 		// background-color: #000040;
@@ -8,9 +12,9 @@
 
 		background-color: #700000;
 		// background-color: #000070;
-		font-size: 1.5em;
+		font-size: 1.33em;
 		margin-bottom: 1.5em;
-		line-height: 1em;
+		line-height: 1.25em;
 		ul {
 			// width: 840px;
 		}
@@ -66,8 +70,8 @@
 			}
 		p {
 			font-family: Courier,"Courier New",monospace;
-			font-size: 1.33em;
-			line-height: 1.33em;
+			font-size: 1.25em;
+			line-height: 1.25em;
 			// text-align: justify;
 			a {
 				color: #700000;
@@ -103,6 +107,7 @@
 		display: block;
 		margin: 1.5em auto;
 		border: 1px solid #111111;
+		max-height: 720px;
 	}
 	}
 

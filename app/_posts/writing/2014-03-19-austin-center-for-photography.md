@@ -1,16 +1,16 @@
 ---
-title: Austin Center for Photography is No More
+title: Austin Center for Photography
+sub-title: Closed for business
 author: Rod Machen
 layout: post-writing
-permalink: /austin-center-for-photography/
-categories:
-  - Austin
-  - The Arts
+category:
   - writing
 tags:
-  - Published
+  - austin
+  - art
+  - published
 ---
-*This article was originally published by the Austin Chronicle on March 19, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-19/closed-shutter/" target="_blank">Closed Shutter</a>.&#8221;*<img class="alignright size-full wp-image-490" style="border: 0px;" alt="ACP logo" src="http://words.rodmachen.com/wp-content/uploads/2014/03/ACP-logo.jpg" width="160" height="160" />
+
 
 After five years, the <a href="https://www.facebook.com/AustinCenterforPhotography" target="_blank">Austin Center for Photograph<b>y</b></a> is closing up shop.
 
@@ -28,4 +28,6 @@ ACP will shut down its website at the end of March, but it will continue to diss
 
 While it&#8217;s sad to see it go, the Austin Center for Photography did a lot of good work over the last half decade, and Austin audiences have been exposed to great art and great artists. In the coming months, it will be interesting to see who in Austin&#8217;s photo community will step in to fill the void.
 
-&nbsp;
+(This article was originally published by the Austin Chronicle on March 19, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-19/closed-shutter/" target="_blank">Closed Shutter</a>.&#8221;)
+
+<!-- <img class="alignright size-full wp-image-490" style="border: 0px;" alt="ACP logo" src="http://words.rodmachen.com/wp-content/uploads/2014/03/ACP-logo.jpg" width="160" height="160" /> -->

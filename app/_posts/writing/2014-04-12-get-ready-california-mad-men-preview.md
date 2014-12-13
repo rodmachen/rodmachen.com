@@ -1,17 +1,16 @@
 ---
-title: 'Get Ready, California: A Mad Men Preview'
+title: Get Ready, California
+sub-title: A Mad Men Preview
 author: Rod Machen
 layout: post-writing
-permalink: /get-ready-california-mad-men-preview/
-categories:
-  - Screens
+category:
   - writing
 tags:
-  - Published
+  - screens
+  - published
 ---
-*This article was originally published by the Austin Chronicle on April 12, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-12/let-the-madness-begin/" target="_blank">Let the Madness Begin</a>.&#8221;*
 
-As the sixth season of ***Mad Men*** drew to a close last June, it appeared a new beginning was afoot. Sunkist was on board as a client, and a Los Angeles branch of the firm was set to be opened by none other than Don Draper himself.
+As the sixth season of **Mad Men** drew to a close last June, it appeared a new beginning was afoot. Sunkist was on board as a client, and a Los Angeles branch of the firm was set to be opened by none other than Don Draper himself.
 
 He wanted this change. He needed this change. His drinking had brought him low, very low. Rock bottom appeared to be a night spent in the hoosegow for punching a minister. Maybe a move to California would be the first of twelve healing steps.<!--more-->
 
@@ -19,7 +18,7 @@ Then other people&#8217;s problems came into play. Ted Chaough – his former-ne
 
 Head writer **Matthew Weiner** wasn&#8217;t done with us, however. Don was called in for a not-quite-firing. After a passionate, personal, and perplexing pitch to Hershey&#8217;s, he was asked to take some time off. No, he was *told* to take some time off. Indefinitely.
 
-Then what do we have to look forward to in this final season? We know that in the mold of *Breaking Bad*, AMC will split this final season into two parts with seven episodes over the next couple of months and another seven a year from now. *Mad Men* is arguably the best show in all of television at the moment; hard to blame those execs for milking this ending for all its worth.
+Then what do we have to look forward to in this final season? We know that in the mold of Breaking Bad, AMC will split this final season into two parts with seven episodes over the next couple of months and another seven a year from now. *Mad Men* is arguably the best show in all of television at the moment; hard to blame those execs for milking this ending for all its worth.
 
 Two of the most prominent characters appear to be set for big changes. Peggy will take over for Don and assume the position she has been groomed for since the beginning. She&#8217;ll do so without her star-crossed lover Chaough or her mentor Draper. With the seventies on the horizon, this woman just might gain some liberation after all. She’s already got the smart pant suits.
 
@@ -29,4 +28,4 @@ This much is certain: Glenn will surely return for an awkward but endearing appe
 
 It&#8217;s 1969. Nixon&#8217;s in office. The firm has gone bicoastal. Pete’s hairline continues to recede. There are lots of stories left to be told in this world of ego, success, and self destruction. Sunday night can’t get here soon enough.
 
-&nbsp;
+(This article was originally published by the Austin Chronicle on April 12, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-12/let-the-madness-begin/" target="_blank">Let the Madness Begin</a>.)

@@ -1,19 +1,15 @@
 ---
-title: 'Game of Thrones:'
+title: 'Game of Thrones'
 sub-title: "At long, long last he's gone!"
 author: Rod Machen
 layout: post-writing
-permalink: /game-thrones-long-long-last-hes-gone/
-categories:
-  - Screens
+category:
   - writing
 tags:
-  - Published
-  - Television
+  - screens
+  - published
 ---
-*Originally published by the Austin Chronicle on April 15, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-15/revenge-is-sweet/" target="_blank">Revenge Is Sweet</a>.&#8221; Spoilers follow.*
-
-Sunday’s night episode &#8220;The Lion and the Rose&#8221; bade goodbye to a character. Spoilers after the jump.<!--more-->
+(Sunday’s night episode &#8220;The Lion and the Rose&#8221; bade goodbye to a major character. Spoilers after the jump.)
 
 The most hated person in all of HBO’s *Game of Thrones* was finally killed last Sunday as King Joffrey Baratheon (played by Jack Gleeson) was dispatched with all of the drama and pain the character so richly deserved. It was a sweet moment in an often bitter show for those who despised him (AKA: everyone).
 
@@ -31,4 +27,5 @@ Of course, that wasn’t the only death this episode. The other contender for �
 
 Now that he’s dead, audiences won’t have Joffrey to kick around anymore, but the show will move on; this momentous event happened in just the second episode of the season, presaging much more (and bigger?) to come. The death of such a hated figure is a small amount of righteous vengeance in a show filled mostly with heartbreaking sorrow. He won’t be missed.
 
-&nbsp;
+(Originally published by the Austin Chronicle on April 15, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/screens/2014-04-15/revenge-is-sweet/" target="_blank">Revenge Is Sweet</a>.)
+

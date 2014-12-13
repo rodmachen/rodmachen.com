@@ -1,20 +1,19 @@
 ---
-title: The Michener Center for Writers Presents Zadie Smith
+title: Zadie Smith
+sub-title: Michener Center for Writers
 author: Rod Machen
 layout: post-writing
-permalink: /zadie-smith/
-categories:
-  - Austin
-  - Events
-  - Pages
-  - writing
+category: writing
 tags:
-  - Published
+  - austin
+  - events
+  - pages
+  - published
 ---
-*This article was originally published by the Austin Chronicle on March 28, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/books/2014-03-28/get-to-know-zadie-smith/print/" target="_blank">Get to Know Zadie Smith</a>.&#8221;*
+
 
 <p dir="ltr">
-  <img class="alignright size-full wp-image-606" alt="Zadie Smith" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Zadie-Smith.jpg" width="320" height="320" />Zadie Smith was in Austin Thursday for a talk sponsored by the Michener Center for Writers. She brought with her a new short story, much good humor, and interesting thoughts about the link between her teaching and writing.
+  <!-- <img class="alignright size-full wp-image-606" alt="Zadie Smith" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Zadie-Smith.jpg" width="320" height="320" /> -->Zadie Smith was in Austin Thursday for a talk sponsored by the Michener Center for Writers. She brought with her a new short story, much good humor, and interesting thoughts about the link between her teaching and writing.
 </p>
 
 <p dir="ltr">
@@ -64,3 +63,5 @@ tags:
 <p dir="ltr">
   At only 38 years old, Zadie Smith has much more writing in her, and whether its short stories, novels or nonfiction, she’s sure to keep challenging her audience. It’s not in her to do otherwise.
 </p>
+
+(This article was originally published by the Austin Chronicle on March 28, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/books/2014-03-28/get-to-know-zadie-smith/print/" target="_blank">Get to Know Zadie Smith</a>.)

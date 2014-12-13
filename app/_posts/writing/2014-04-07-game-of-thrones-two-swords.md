@@ -1,17 +1,15 @@
 ---
-title: 'Game of Thrones &#8211; &#8220;Two Swords&#8221;'
+title: Game of Thrones 
+sub-title: Two Swords
 author: Rod Machen
 layout: post-writing
-permalink: /game-of-thrones-two-swords/
-categories:
-  - Screens
+category:
   - writing
+tags:
+  - screens
 ---
-*Reflection on Game of Thrones Season 4, Episode 1 &#8220;Two Swords.&#8221; Of course, spoilers.*
 
-<p dir="ltr">
   The lords and ladies, knights and whores of Westeros are back for an as-always highly anticipated season of Game of Thrones. While a few main characters and plot threads weren’t present-notably Bran, Stannis, and Theon-the others were back in the full swing of things.
-</p>
 
 <p dir="ltr">
   The Lannisters have taken center stage in this drama, befitting the family currently on the throne. The most charismatic character of the bunch, Jamie, is dealing both with his return to King’s Landing as well as his new life as a one-handed knight. Every scene from this episode put him in his (new) place. His father wants him to go back to their homeland to rule, and even gives him a new sword made of Valyrian steel (one of two made from melting down Ned Stark’s weapon.) Jamie refuses, wanting to be near his sister/lover Cersei, but she’s done with him, too. She’s endured too much pain in his absence and refuses to let things go back to the good old incestuous days. Even Joffrey derides Jamie as being a worthless bodyguard in his current form. Everyone suffers in King’s Landing, and Jamie is no exception.
@@ -44,3 +42,5 @@ categories:
 <p dir="ltr">
   From almost the beginning, this series has been chiefly concerned with the multiple men vying for the Iron Throne. With two of them dead and Stannis absent from this episode, that plot arc seems to be have been pushed to the back burner. At this point in the story the numerous wounds-both physical and emotional-the characters have experienced have taken over. The hurt and the hurtful will continue to dance, and more pain is surely on the way. There’s no rest for the people of Westeros, and sometimes pain is the only constant.<span style="line-height: 1.5em;"> </span>
 </p>
+
+<!-- (Reflection on Game of Thrones Season 4, Episode 1, "Two Swords.") -->

@@ -1,20 +1,18 @@
 ---
-title: 'Larry Fink: A Great Photographer and a Real Character'
+title: 'Larry Fink: Photographer'
+sub-title: 'And a Real Character'
 author: Rod Machen
 layout: post-writing
-permalink: /larry-fink-great-photographer-real-character/
-categories:
-  - Austin
-  - Events
-  - The Arts
+category:
   - writing
 tags:
-  - Published
+  - austin
+  - events
+  - art
+  - published
 ---
-*This article was originally published by the Austin Chronicle on March 4, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-04/focus-on-larry-fink/" target="_blank">Focus on Larry Fink.</a>&#8220;*
-
 <p dir="ltr">
-  <img class="alignright size-full wp-image-444" alt="Larry Fink" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Larry-Fink.jpg" width="320" height="320" />Larry Fink&#8217;s work speaks for itself, but last Friday night the famed photographer was more than happy to do the talking. As the latest Icon of Photography in the Austin Center for Photography ongoing lecture series, Fink delighted the crowd with stories that spanned a half century and ideas that show he is as scrappy as ever.<!--more-->
+  <!-- <img class="alignright size-full wp-image-444" alt="Larry Fink" src="http://words.rodmachen.com/wp-content/uploads/2014/03/Larry-Fink.jpg" width="320" height="320" /> -->Larry Fink&#8217;s work speaks for itself, but last Friday night the famed photographer was more than happy to do the talking. As the latest Icon of Photography in the Austin Center for Photography ongoing lecture series, Fink delighted the crowd with stories that spanned a half century and ideas that show he is as scrappy as ever.<!--more-->
 </p>
 
 <p dir="ltr">
@@ -44,3 +42,5 @@ tags:
 <p dir="ltr">
   All this was precipitously close to never happening. During that journey with his Beat friends, Fink had a life-altering confrontation at the border near Laredo. After being found in possession of marijuana, he and his compatriots were surrounded by officers and fired upon with warning shots into the ground around his Olds 88. The car was confiscated, and Fink received five years probation. It was during this time that he slowed down enough to begin his photographic career in earnest. At 72 years of age, he doesn&#8217;t appear to be slowing down anymore.
 </p>
+
+(This article was originally published by the Austin Chronicle on March 4, 2014 under the title &#8220;<a href="http://www.austinchronicle.com/daily/arts/2014-03-04/focus-on-larry-fink/" target="_blank">Focus on Larry Fink.</a>&#8220;)
