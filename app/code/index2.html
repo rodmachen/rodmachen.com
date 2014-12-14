@@ -8,7 +8,7 @@ title: The Coding Life by Rod Machen
 	  <h1 class="page-heading">The Coding Life</h1>
 		<hr>
 	  <ul class="post-list">
-	    {% for post in site.categories.code limit: 10%}
+	    {% for post in site.categories.code %}
 	      <li>
 	        <h2>
 	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -18,7 +18,6 @@ title: The Coding Life by Rod Machen
 	      <hr>
 	    {% endfor %}
 	  </ul>
-	  <a href="/code/index2.html"><h1 class="all-posts">All posts</h1>
     </div>
 
     <div class="aside">
