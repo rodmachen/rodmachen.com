@@ -10,7 +10,7 @@ title: writing by Rod Machen
 	<!-- <hr> -->
 	<div class="cards">
 	    {% for post in site.categories.writing limit: 15%}
-  		<div class="card">
+  		<div class="card" onclick="location.href='{{ post.url | prepend: site.baseurl }}';">
     		<div class="card-header">
 				<h1 class="post-link">
 		          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
