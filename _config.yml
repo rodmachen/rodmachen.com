@@ -24,7 +24,7 @@ include: ['.htaccess']
 # date  /:categories/:year/:month/:day/:title.html
 # pretty  /:categories/:year/:month/:day/:title/
 # none  /:categories/:title.html
-permalink: /:categories/:title.html
+permalink: /:categories/:title/
 
 # Publish posts with future date.
 # _config.build.yml sets this to false on `grunt build`
