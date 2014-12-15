@@ -34,26 +34,42 @@
 		// border: 1px solid #000050;
 		text-align: center;	
 		p {
-			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-			font-weight: bold;
+			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+			font-weight: normal;
 		}
 	}
-	a.post-link {
+	.menu {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-		font-weight: bold;
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+		// font-weight: bold;
+		font-size: 4em;
+		margin-bottom: .5em;
+		// visibility: hidden;
+	}
+	p.sub-heading {
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: normal;
+	}
+	a.post-link {
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: normal;
 		font-size: 44px;
 		margin-bottom: -1em;
 	}
 	h1.post-title {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		font-weight: bold;
 		font-size: 48px;
 		margin-bottom: .5em;
 	}
 	.page-heading{
-		font-weight: normal;
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		// font-weight: normal;
 		// text-align: center;	
-		font-size: 5.4em;
+		font-size: 6.1em;
 		// margin-bottom: .5em;
 		// visibility: hidden;
 		.all {
@@ -62,22 +78,17 @@
 		}
 	}
 	.all-posts{
-		font-weight: normal;
+		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		// font-weight: normal;
 		// text-align: center;	
-		font-size: 5.4em;
+		font-size: 2.5em;
 		// margin-bottom: .5em;
 		// visibility: hidden;
 			text-align: center;
 			color: #006000;
 	}
-	.menu {
-		// font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
-		font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
-		font-weight: 600;
-		font-size: 4em;
-		margin-bottom: .5em;
-		// visibility: hidden;
-	}
+
 	.post-meta {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		font-weight: bold;
