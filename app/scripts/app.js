@@ -37,4 +37,6 @@ $(document).ready(function() {
   });
 });
 
-//FitText
+//Google fonts
+
+
