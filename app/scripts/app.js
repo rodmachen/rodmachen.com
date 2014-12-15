@@ -37,6 +37,3 @@ $(document).ready(function() {
   });
 });
 
-//Google fonts
-
-
