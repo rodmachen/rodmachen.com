@@ -10,7 +10,7 @@ title: The Coding Life by Rod Machen
 	  <ul class="post-list">
 	    {% for post in site.categories.code limit: 10%}
 	      <li>
-	        <h2>
+	        <h2 class="center">
 	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	        </h2>
 	        <p>{{ post.excerpt }}</p>
