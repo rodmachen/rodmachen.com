@@ -111,6 +111,9 @@
     }
     padding-left: $navigation-padding;
     padding-right: 2em;
+    @include media($medium-screen-down) {
+      padding-right: 1em;
+    }
 
     // img {
     //   max-height: $navigation-height;

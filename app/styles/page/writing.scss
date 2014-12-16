@@ -23,9 +23,10 @@
 	}
 
 	.card {
+		// margin: 1em;
 		@include media($large-screen) {
 	    @include span-columns(12);  
-	    @include omega(3n);
+	    // @include omega(3n);
 	  }
 	}
 	.card, .card-header {
@@ -35,13 +36,17 @@
 		// margin: 0 2em;
 		padding: 2em ;
 		color: #500000;
-		a {
-			color: #500000;
+		a {color: #500000;}
+		@include media($medium-screen-down) {
+			padding: .5em;
 		}
 	}
 	.card-copy {
 		height: auto;
 		padding: 1.5em 3em 1.5em 3em;
+		@include media($medium-screen-down) {
+			padding: 0 .75em;
+		}
 	}
 	.title {
 		text-align: center;
@@ -49,9 +54,10 @@
 		font-weight: normal;
 		margin-bottom: 16px;
 		// color: #500000;
-		a {
-				color: #600000;
-			}
+		a {color: #600000;}
+		@include media($medium-screen-down) {
+			font-size: 32px;
+	    }
 	}
 	.footer-2 {
 		background: #400000;
@@ -80,16 +86,20 @@
 			a {
 				color: #700000;
 			}
+					@include media($medium-screen-down) {
+			font-size: 1em;
+			line-height: 1.1em;
 		}
-		width: 1050px
+		}
 	}
-	.post-link {
+	.post-link, .post-link-2 {
 		font-size: 4em;
 		text-align: center;
+		@include media($medium-screen-down) {
+			font-size: 2em;
+	    }
 	}
 	.post-link-2 {
-		font-size: 4em;
-		text-align: center;
 		font-weight: normal;
 	}
 	.post-title {
