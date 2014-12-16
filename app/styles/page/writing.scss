@@ -45,7 +45,7 @@
 		height: auto;
 		padding: 1.5em 3em 1.5em 3em;
 		@include media($medium-screen-down) {
-			padding: 0 .75em;
+			padding: 0.5em .75em;
 		}
 	}
 	.title {
@@ -56,7 +56,7 @@
 		// color: #500000;
 		a {color: #600000;}
 		@include media($medium-screen-down) {
-			font-size: 32px;
+			font-size: 28px;
 	    }
 	}
 	.footer-2 {
@@ -74,6 +74,10 @@
 			font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 			font-weight: bold;
 			font-size: 1em;
+			@include media($medium-screen-down) {
+				font-size: .75em;
+				line-height: 1.5em;
+			}
 			}
 		.post-link, .post-title, .post-link-2, .post-title-2 {
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
@@ -86,9 +90,9 @@
 			a {
 				color: #700000;
 			}
-					@include media($medium-screen-down) {
+		@include media($medium-screen-down) {
 			font-size: 1em;
-			line-height: 1.1em;
+			line-height: 1.2em;
 		}
 		}
 	}
@@ -96,20 +100,21 @@
 		font-size: 4em;
 		text-align: center;
 		@include media($medium-screen-down) {
-			font-size: 2em;
+			font-size: 1.75em;
 	    }
 	}
 	.post-link-2 {
 		font-weight: normal;
 	}
-	.post-title {
+	.post-title, .post-title-2 {
 		font-size: 4em;
 		text-align: center;
-		font-weight: bold;
+		// font-weight: bold;
+		@include media($medium-screen-down) {
+			font-size: 1.75em;
+	    }
 	}
 	.post-title-2 {
-		font-size: 4em;
-		text-align: center;
 		font-weight: normal;
 	}
 	.post-content {
