@@ -20,6 +20,7 @@
 .home {
 	body {
 		height: 100%;
+		background: #555555
 	}
 	.content {
 		@include outer-container(100%);
@@ -27,6 +28,10 @@
 	.container {
 		@include fill-parent();
 		@include row(table);	
+		@media screen and (orientation:portrait) {
+		@include row();	
+
+		}
 	}
 	.box {
 		height: 50vh;
@@ -40,8 +45,11 @@
 			transform: translateY(-50%);
 			// transform: translate5(-50%);
 			text-align: center;
-			width: 90%;
+			width: 95%;
 		}
+		@media screen and (orientation:portrait) {
+			height: 25vh;
+	}
 	}
 	.box.main {
 		background-color: #000040;
@@ -54,8 +62,9 @@
 		}
 		@include span-columns(6 of 12, table);
 		@include pad();
-		// @include media($medium-screen);
-			// @include span-columns(12 of 12, table);
+		@media screen and (orientation:portrait) {
+			@include span-columns(12 of 12);
+	}
 
 
 	}
@@ -66,10 +75,11 @@
 			font-weight: normal;
 		}
 		@include span-columns(6 of 12, table);
+		// @include pad();
 		@include reset-display;
-		@include pad();
-		@include media($medium-screen);
-			// @include span-columns(12 of 12, table);
+		@media screen and (orientation:portrait) {
+			@include span-columns(12 of 12);
+	}
 	}
 	.box.photo {
 		background-color: #000000;
@@ -80,7 +90,9 @@
 		@include span-columns(6 of 12, table);
 		@include pad();
 		@include reset-display;
-
+		@media screen and (orientation:portrait) {
+			@include span-columns(12 of 12);
+	}
 	}
 
 	.box.code {
@@ -91,8 +103,9 @@
 		}
 		@include span-columns(6 of 12, table);
 		@include pad();
-		// padding: 0;
-
+		@media screen and (orientation:portrait) {
+			@include span-columns(12 of 12);
+	}
 	}
 
 	// .box {
