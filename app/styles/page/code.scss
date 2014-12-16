@@ -4,7 +4,7 @@
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: 400;
 			font-size: 1.5em;
-			line-height: 1.33em;
+			line-height: 1.25em;
 		}
 	}
 	header.navigation {
@@ -30,32 +30,46 @@
 		padding: 0 2em;
 		// border: 1px solid #000050;
 		// background: #ffffff;
-		@include span-columns(16 of 16);
-		@include media($medium-screen-up) {
+		@include span-columns(11 of 16);
+		@include media($large-screen-down) {
 			@include span-columns(16 of 16);
 		}
-		@include media($large-screen-up) {
-			@include span-columns(11 of 16);
+		@include media($medium-screen-down) {
+			@include span-columns(16 of 16);
 		}
+
 
 	}
 	.aside {
 		// @include span-columns(8 of 16);
-		@include span-columns(16 of 16);		
-		@include media($medium-screen-up) {
-			@include span-columns(8 of 16);
+		@include span-columns(5 of 16);		
+		@include media($large-screen-down) {
+			@include span-columns(16 of 16);
 		}
-		@include media($large-screen-up) {
-			@include span-columns(5 of 16);
+		@include media($medium-screen-down) {
+			@include span-columns(16 of 16);
 		}
 
-		// background: #ffffff;
+
+		background: #ffffff;
 		
 		// border: 1px solid #000050;
 		text-align: center;	
 		p {
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: normal;
+		}
+	}
+
+	.sub-aside {
+		margin-bottom: 1em;
+		border: 1px solid #000050;
+		@include span-columns(16 of 16);		
+		@include media($large-screen-down) {
+			@include span-columns(8 of 16);
+		}
+		@include media($medium-screen-down) {
+			@include span-columns(16 of 16);
 		}
 	}
 	.menu {
