@@ -16,5 +16,30 @@
 	h2.photo {
 		font-weight: bold;
 	}
+	
+	.cards {
+		@include media($large-screen-down) {
+		max-width: 400px;
+	}
+		@include media($medium-screen-down) {
+		max-width: 320px;
+	}
+	}
+	.card {
+    @include span-columns(4);  
+    @include omega(3n);
+		@include media($large-screen-down) {
+			@include span-columns(16 of 16);
+			width: 400px;
+			clear: both;
+			display: block;
+			margin: 1em auto;
+		}
+		@include media($medium-screen-down) {
+			width: 320px;
+		
+	}
+	}
 
+	
 }
