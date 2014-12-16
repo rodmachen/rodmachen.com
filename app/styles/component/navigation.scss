@@ -1,5 +1,8 @@
 header.navigation {
   margin-bottom: 50px;
+    @include media($medium-screen-down) {
+  margin-bottom: 25px;
+    }
   h1 {
     color: $cream;
     font-size: 5em; 
@@ -24,10 +27,13 @@ header.navigation {
       }
   #nav-name {
       line-height: 110px;
+
   }
   #push-right {
       padding-left: 202px;
-
+    @include media($large-screen-down) {
+      padding-left: 132px;
+    }
   }
   ul#navigation-menu.right {
     float: left;
@@ -68,6 +74,7 @@ header.navigation {
     padding-left: $navigation-padding;
     padding-right: 2em;
     margin-top: 3px;
+
 
     img {
       max-height: $navigation-height;

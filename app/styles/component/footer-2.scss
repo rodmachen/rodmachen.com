@@ -60,6 +60,9 @@
   }
   #push-right {
       padding-left: 202px;
+    @include media($large-screen-down) {
+      padding-left: 132px;
+    }
 
   }
 
