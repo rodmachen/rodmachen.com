@@ -23,8 +23,14 @@
         text-align: center;
 	}
 	.container-box {
+		@include outer-container;
 		height: 63vh;
-
+		@include media($large-screen-down) {
+		height: 72vh;
+		}
+        @include media($medium-screen-down) {
+		height: 61vh;
+		}
 	}
 
 }
