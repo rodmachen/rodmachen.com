@@ -54,6 +54,10 @@
 		}
 		@include span-columns(6 of 12, table);
 		@include pad();
+		// @include media($medium-screen);
+			// @include span-columns(12 of 12, table);
+
+
 	}
 	.box.writing {
 		background-color: #300000;	
@@ -64,6 +68,8 @@
 		@include span-columns(6 of 12, table);
 		@include reset-display;
 		@include pad();
+		@include media($medium-screen);
+			// @include span-columns(12 of 12, table);
 	}
 	.box.photo {
 		background-color: #000000;

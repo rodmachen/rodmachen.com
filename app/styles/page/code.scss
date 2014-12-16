@@ -26,12 +26,29 @@
 		@include outer-container;
 	}
 	.section {
-		@include span-columns(11 of 16);
+		// @include span-columns(16 of 16);
+		padding: 0 2em;
 		// border: 1px solid #000050;
 		// background: #ffffff;
+		@include span-columns(16 of 16);
+		@include media($medium-screen-up) {
+			@include span-columns(16 of 16);
+		}
+		@include media($large-screen-up) {
+			@include span-columns(11 of 16);
+		}
+
 	}
 	.aside {
-		@include span-columns(5 of 16);
+		// @include span-columns(8 of 16);
+		@include span-columns(16 of 16);		
+		@include media($medium-screen-up) {
+			@include span-columns(8 of 16);
+		}
+		@include media($large-screen-up) {
+			@include span-columns(5 of 16);
+		}
+
 		// background: #ffffff;
 		
 		// border: 1px solid #000050;
