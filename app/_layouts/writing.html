@@ -15,7 +15,7 @@
 
   </head>
 
-  <body>
+  <body >
     <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -23,9 +23,9 @@
     <!-- {% include shared/header.html %} -->
     {% include shared/nav.html %}
     {% include shared/centered-navigation.html %}
-
+    <div class="texture-normal">
     {{ content }}
-
+    </div>
     {% include shared/footer.html %}
     {% include shared/scripts.html %}
     <script>$(".responsive_headline").fitText(.725);</script>

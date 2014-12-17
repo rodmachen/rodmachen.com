@@ -1,6 +1,6 @@
 .writing {
 	body {
-		background: #eeeeee;
+		// background: #eeeeee;
 		font-family: Courier,"Courier New",monospace;
 	}
 	header.navigation {
@@ -16,12 +16,16 @@
 		background-color: #700000;
 		// background-color: #000070;
 		font-size: 1.33em;
-		margin-bottom: 1.5em;
-		line-height: 1.25em;
+		// margin-bottom: 1.5em;
+		line-height: 1.33em;
 		ul {
 			// width: 840px;
 		}
 		}
+	.footer-2 {
+		margin-top: 0em;
+		background: #400000;
+	}
 	.cards {
 	}
 
@@ -62,25 +66,24 @@
 			font-size: 28px;
 	    }
 	}
+	.title {
+	}
 	.title-name {
 		font-size: 80px;
 		@include media($medium-screen-down) {
 			font-size: 44px;
 	    }
 	}
-	.footer-2 {
-		background: #400000;
-		// background: #000040;
-	}
 	h2.code, h2.photo {
 		opacity: .5;
 	}
 	.container {
+		// margin-top: .5em;
 		// border: 1px solid red;
 		// margin: 1em;
-		padding: 0 1em;
+		padding: 1.75em 1em 0em 1em;
 		@include media($medium-screen-down) {
-			padding: 0 .5em;
+			padding: .5em .5em 0em .5em;
 		}
 		@include outer-container;
 		// height: 500px;
@@ -144,5 +147,10 @@
 		max-height: 720px;
 	}
 	}
+
+	.texture-normal {
+	  @include texture(180deg, lighten(#eeeeee, 1), darken(#eeeeee, 1), 67, 1); 
+	}
+
 
 }
