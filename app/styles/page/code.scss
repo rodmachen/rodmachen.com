@@ -13,6 +13,7 @@
 	}
 	header.navigation {
 		background-color: #003000;
+		margin-bottom: 0px;
 	}
 
 	.centered-navigation {
@@ -22,12 +23,17 @@
 	.footer-2 {
 		background: #003000;
 		@include span-columns(16 of 16);
+		margin-top: 0px;
 	}
 	h2.writing, h2.photo {
 		opacity: .4;
 	}
 	.container {
 		@include outer-container;
+		padding: 2em;
+		@include media($medium-screen-down) {
+			padding: 1em .5em 0em .5em;
+		}
 	}
 	.section {
 		// @include span-columns(16 of 16);
@@ -166,4 +172,8 @@
 		font-weight: bold;
 		font-size: 1em;
 	}
+	.texture-normal {
+	  @include texture(180deg, lighten(#eeeeee, 1), darken(#eeeeee, 1), 62, 1); 
+	}
+
 }
