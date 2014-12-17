@@ -27,7 +27,7 @@
 
   background-color: $centered-navigation-background;
   // border-bottom: 1px solid darken($centered-navigation-background, 6);
-  font-family: Courier,"Courier New",monospace;
+  // font-family: Courier,"Courier New",monospace;
   height: 50px;
   width: 100%;
   z-index: 9999;
@@ -117,7 +117,7 @@
     // line-height: $centered-navigation-height;
     line-height: 1.75em;
     overflow: hidden;
-    padding-right: $centered-navigation-submenu-padding;
+    padding-right: 1.5em;
     text-align: right;
     width: 100%;
     z-index: 9999;
