@@ -6,7 +6,7 @@
 			font-size: 1.5em;
 			line-height: 1.25em;
 		@include media($medium-screen-down) {
-			font-size: 1.1em;
+			font-size: 1.25em;
 			line-height: 1.1em;
 		}
 		}
@@ -48,7 +48,8 @@
 
 	}
 	.aside {
-		// padding: 1em;
+		padding: 1em;
+		// margin: 1em;
 		@include span-columns(5 of 16);		
 		@include media($large-screen-down) {
 			@include span-columns(16 of 16);
@@ -58,7 +59,7 @@
 		}
 
 
-		background: #ffffff;
+		// background: #ffffff;
 		
 		// border: 1px solid #000050;
 		text-align: center;	
@@ -69,8 +70,20 @@
 	}
 
 	.sub-aside {
-		// margin: 1em;
-		border: 1px solid #000050;
+		background: #dddddd;
+		margin: 1em 0;
+		padding: 1em;
+		height: 450px;
+		@include media($medium-screen-down) {
+			height: 310px;
+		}
+		border: 1px solid #009000;
+		p.about-text {
+			font-size: 1.6em;
+			line-height: 1.25em;
+			text-align: left;
+			// font-weight: bold;
+		}
 		@include span-columns(16 of 16);		
 		@include media($large-screen-down) {
 			@include span-columns(8 of 16);
@@ -84,7 +97,7 @@
 		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		// font-weight: bold;
 		font-size: 4em;
-		margin-bottom: .5em;
+		margin-bottom: .25em;
 		// visibility: hidden;
 		@include media($medium-screen-down) {
 			font-size: 2.5em;
