@@ -33,20 +33,23 @@
 		font-weight: bold;
 	}
 	hr {
-		border-bottom: 1px solid #006000;
+		border-bottom: 1px solid #007000;
 	}
 	.container {
 		@include outer-container;
 		padding: 2em;
 		@include media($medium-screen-down) {
-			padding: 1em .5em 0em .5em;
+			padding: 0em 1em;
 		}
 	}
 	.section {
-		// @include span-columns(16 of 16);
-		padding: 0 2em;
+		border: 1px solid #007000;
+		background: #dddddd;
+		padding: 1em 2em;
+		margin: 2em 0;
 		@include media($medium-screen-down) {
-			padding: 0 .5em;
+			padding: 2em .5em;
+
 		}
 		// border: 1px solid #000050;
 		// background: #ffffff;
@@ -56,12 +59,14 @@
 		}
 		@include media($medium-screen-down) {
 			@include span-columns(16 of 16);
+
 		}
 
 
 	}
 	.aside {
-		padding: 1em;
+		// border: 1px solid red;
+		padding: 1em 0em;
 		// margin: 1em;
 		@include span-columns(5 of 16);		
 		@include media($large-screen-down) {
@@ -84,13 +89,16 @@
 
 	.sub-aside {
 		background: #dddddd;
-		margin: 1em auto;
+		margin: 1em 0;
 		padding: 1em;
-		height: 450px;
-		@include media($medium-screen-down) {
-			height: 330px;
+		// height: 450px;
+		@include media($large-screen-down) {
+			height: 430px;
 		}
-		border: 1px solid #006000;
+		@include media($medium-screen-down) {
+			height: 100%;
+		}
+		border: 1px solid #007000;
 		p.about-text {
 			font-size: 1.5em;
 			line-height: 1.15em;
@@ -100,6 +108,7 @@
 		@include span-columns(16 of 16);		
 		@include media($large-screen-down) {
 			@include span-columns(8 of 16);
+			padding: 1em 2em;
 		}
 		@include media($medium-screen-down) {
 			@include span-columns(16 of 16);
@@ -180,7 +189,7 @@
 		font-size: 1em;
 	}
 	.texture-normal {
-	  @include texture(180deg, lighten(#eeeeee, 1), darken(#eeeeee, 1), 62, 1); 
+	  @include texture(180deg, lighten(#efefef, 1), darken(#efefef, 1), 62, 1); 
 	}
 
 }
