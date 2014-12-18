@@ -7,6 +7,12 @@
 		background-color: #400000;
 		// background-color: #000040;
 		margin-bottom: 0px;
+	// #push-right {
+ //      padding-left: 22px;
+ //    @include media($large-screen-down) {
+ //      padding-left: 132px;
+ //    }
+ //  }
 	}
 	.centered-navigation {
 		// font-family: 'Libre Baskerville', Baskerville, Georgia,serif;
@@ -25,6 +31,12 @@
 	.footer-2 {
 		margin-top: 0em;
 		background: #400000;
+	// #push-right {
+ //      padding-left: 202px;
+ //    @include media($large-screen-down) {
+ //      padding-left: 132px;
+ //    }
+ //  }
 	}
 	.cards {
 	}
@@ -74,9 +86,14 @@
 			font-size: 44px;
 	    }
 	}
-	h2.code, h2.photo {
+	h2.code {
 		opacity: .5;
 	}
+	h2.photo {
+		opacity: .5;
+		font-weight: bold;
+	}
+
 	.container {
 		// margin-top: .5em;
 		// border: 1px solid red;

@@ -59,11 +59,10 @@
       line-height: 90px;
   }
   #push-right {
+      padding-left: 170px;
+    @include media(1057px) {
       padding-left: 202px;
-    @include media($large-screen-down) {
-      padding-left: 132px;
     }
-
   }
 
    ul#navigation-menu.right {
@@ -179,7 +178,7 @@
     display: block;
     line-height: 90px;
     overflow: hidden;
-    padding-right: .8em;
+    padding-right: .1em;
     text-align: right;
     width: 100%;
     z-index: 9999;

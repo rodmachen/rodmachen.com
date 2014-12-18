@@ -25,8 +25,15 @@
 		@include span-columns(16 of 16);
 		margin-top: 0px;
 	}
-	h2.writing, h2.photo {
+	h2.writing {
 		opacity: .4;
+	}
+	h2.photo {
+		opacity: .4;
+		font-weight: bold;
+	}
+	hr {
+		border-bottom: 1px solid #006000;
 	}
 	.container {
 		@include outer-container;
@@ -77,16 +84,16 @@
 
 	.sub-aside {
 		background: #dddddd;
-		margin: 1em 0;
+		margin: 1em auto;
 		padding: 1em;
 		height: 450px;
 		@include media($medium-screen-down) {
-			height: 310px;
+			height: 330px;
 		}
-		border: 1px solid #009000;
+		border: 1px solid #006000;
 		p.about-text {
-			font-size: 1.6em;
-			line-height: 1.25em;
+			font-size: 1.5em;
+			line-height: 1.15em;
 			text-align: left;
 			// font-weight: bold;
 		}
@@ -102,7 +109,7 @@
 		font-family: 'Helvetica Neue',Helvetica, Arial, sans-serif;
 		// font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 		// font-weight: bold;
-		font-size: 4em;
+		font-size: 3.65em;
 		margin-bottom: .25em;
 		// visibility: hidden;
 		@include media($medium-screen-down) {
@@ -147,11 +154,11 @@
 		font-weight: bold;
 		// font-weight: normal;
 		text-align: center;	
-		font-size: 5.5em;
+		font-size: 5em;
 		// margin-bottom: .5em;
 		// visibility: hidden;
 		@include media($medium-screen-down) {
-			font-size: 2.5em;
+			font-size: 2.35em;
 			line-height: 1em;
 		}
 	}
