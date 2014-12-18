@@ -21,6 +21,7 @@ title: writing by Rod Machen
 			</div>
     		<div class="card-copy">
 	        	<p>{{ post.excerpt }}</p>
+		        <p><a href="{{ post.url | prepend: site.baseurl }}">+More</a></p>
 			</div>
 		</div>
 		{% endfor %}
