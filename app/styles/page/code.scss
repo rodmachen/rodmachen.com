@@ -43,7 +43,7 @@
 		}
 	}
 	.section {
-		border: 1px solid #007000;
+		border: 2px solid #005000;
 		background: #dddddd;
 		padding: 1em 2em;
 		margin: 2em 0;
@@ -94,7 +94,7 @@
 		@include media($medium-screen-down) {
 			height: 100%;
 		}
-		border: 1px solid #007000;
+		border: 1px solid #005000;
 		p.about-text {
 			font-size: 1.5em;
 			line-height: 1.15em;
@@ -204,7 +204,7 @@
 		font-size: 1em;
 	}
 	.texture-normal {
-	  @include texture(180deg, lighten(#efefef, 1), darken(#efefef, 1), 62, 1); 
+	  // @include texture(180deg, lighten(#efefef, 1), darken(#efefef, 1), 39, 0); 
 	}
 
 }
