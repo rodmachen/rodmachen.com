@@ -3,6 +3,7 @@ layout: code
 ---
 
  <div class="container">
+ 	<div class="post">
     <div class="section">
 
 		<div class="post">
@@ -15,9 +16,9 @@ layout: code
 		  </article>
 		  <p class="post-meta"><a href="https://twitter.com/rod_machen" target="blank">@rod_machen</a> • {{ page.date | date: "%B %d, %Y" }}<!-- {% if page.author %} • {{ page.author }} {% endif %}-->{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 		</div>
-
+	</div>
     </div>
-
-    {% include shared/code-aside.html %}
-
+		<div class="post">
+		    {% include shared/code-aside.html %}
+		</div>
   </div>  
