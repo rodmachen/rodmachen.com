@@ -43,8 +43,8 @@
 		}
 	}
 	.section {
-		border: 2px solid #005000;
-		background: #dddddd;
+		border: 1px solid #006000;
+		background: #eeeeee;
 		padding: 1em 2em;
 		margin: 2em 0;
 		@include media($medium-screen-down) {
@@ -84,7 +84,7 @@
 	}
 
 	.sub-aside {
-		background: #dddddd;
+		background: #eeeeee;
 		margin: 1em 0;
 		padding: 1em;
 		// height: 450px;
@@ -94,7 +94,7 @@
 		@include media($medium-screen-down) {
 			height: 100%;
 		}
-		border: 1px solid #005000;
+		border: 1px solid #006000;
 		p.about-text {
 			font-size: 1.5em;
 			line-height: 1.15em;
@@ -204,7 +204,7 @@
 		font-size: 1em;
 	}
 	.texture-normal {
-	  // @include texture(180deg, lighten(#efefef, 1), darken(#efefef, 1), 39, 0); 
+	  @include texture(180deg, lighten(#f9f9f9, 1), darken(#f9f9f9, 1), 39, 0); 
 	}
 
 }
