@@ -11,6 +11,9 @@ tags:
   This was an interesting year as an Aggie football fan. Not only was the season full of exciting (as well as heartbreaking) moments, but I wrote about all of it for the <a href="http://www.austinchronicle.com" target="_blank">Austin Chronicle</a>. Having to be circumspect after each game was good, though after losses it was hard. Now that I&#8217;ve filed my <a href="http://www.austinchronicle.com/daily/sports/2014-01-08/the-day-johnny-manziel-split-town-for-good/">last story of the year</a>, a look back on the high- and low-lights of the year is in order.
 </p>
 
+
+[![Kyle Field Block T](http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t-medium.jpg)](http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t.jpg)
+
   <li><p>
     Fall Camp: The TMZ-ification of Johnny Manziel.</p><p> Watching the media frenzy in the preseason during the autograph-for-hire investigation was fascinating. On one level, Manziel brought it on himself with his poor judgement, especially in light of all his over-the-top behavior in the off season. Seeing ESPN and company focus like a laser beam on College Station was something else. With no other real stories to cover, it was wall-to-wall scandal coverage. In little more than a year, we had gone from an also-ran in the Big 12 to a Sportcenter must see. I didn&#8217;t like the former, but the latter had a noticeable ick factor. The season couldn&#8217;t start soon enough.
   <p></li>

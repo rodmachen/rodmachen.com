@@ -1,6 +1,6 @@
 ---
-title: Michael Pollan Preaches It
-sub-title: 
+title: Michael Pollan
+sub-title: Preaches It
 layout: post-writing
 category: writing
 tags:

@@ -4,13 +4,8 @@ sub-title: Halfway to the end
 layout: post-writing
 category: writing
 tags:
-  - art
-  - austin
-  - events
-  - food
-  - pages
-#  - published
-#  - screens
+  - published
+  - screens
 ---
 
 The first half of the last season of Mad Men ended with a bang. Or more appropriately, a blastoff.
