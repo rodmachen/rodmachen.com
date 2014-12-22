@@ -29,6 +29,12 @@
     {% include shared/footer.html %}
     {% include shared/scripts.html %}
     <script>$(".responsive_headline").fitText(.725);</script>
+    <!-- Fluidbox plugin for writing -->
+    <script>
+        $(function () {
+            $('a').fluidbox();
+        })
+    </script>
     {% include shared/google-analytics.html %}
   </body>
 </html>
