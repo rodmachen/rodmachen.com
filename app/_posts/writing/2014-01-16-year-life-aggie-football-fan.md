@@ -1,5 +1,6 @@
 ---
-title: A year in the life of an Aggie Football fan
+title: Aggie Football
+sub-title: A year in the life of a fan
 author: Rod Machen
 layout: post-writing
 category: writing
