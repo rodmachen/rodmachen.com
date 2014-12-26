@@ -1,7 +1,6 @@
 ---
-layout: post-code
-published: true
 title: A New Jekyll Beginning
+layout: post-code
 category: code
 ---
 

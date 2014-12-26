@@ -35,7 +35,7 @@ Stevens approaches this trend by delving deep into the past, exploring archives 
 Flavor aside, the thing non-drinkers really want is the same "buzz" that their drinking compatriots get. It's what Stevens calls the "shared experience between you and the bartender." Sanders agrees that her patrons should feel that they are special regardless of the alcohol content of a drink.
 
 "Hand someone a well-crafted non-alcoholic beverage with a bouquet of fresh mint, a beautiful lemon swath, and some fresh berries, and bam, now they feel like they're being pampered," says Sanders, "and that's what the job is all about at the end of the day."
-
+	
 
 
 <!-- <a href="" target="blank">
