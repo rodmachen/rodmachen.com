@@ -119,8 +119,8 @@
 			}
 		p {
 			// font-family: Courier,"Courier New",monospace;
-			font-size: 1.25em;
-			line-height: 1.25em;
+			font-size: 1.15em;
+			line-height: 1.2em;
 			// text-align: justify;
 			a {
 				color: #700000;
@@ -160,7 +160,8 @@
 	img {
 		display: block;
 		margin: 1.5em auto;
-		border: 1px solid #111111;
+		border: 1px solid #999999;
+		border-radius: 2px;
 		max-height: 720px;
 	}
 	}
