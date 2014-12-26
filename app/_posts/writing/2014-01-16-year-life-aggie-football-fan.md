@@ -12,9 +12,13 @@ tags:
   This was an interesting year as an Aggie football fan. Not only was the season full of exciting (as well as heartbreaking) moments, but I wrote about all of it for the <a href="http://www.austinchronicle.com" target="_blank">Austin Chronicle</a>. Having to be circumspect after each game was good, though after losses it was hard. Now that I&#8217;ve filed my <a href="http://www.austinchronicle.com/daily/sports/2014-01-08/the-day-johnny-manziel-split-town-for-good/">last story of the year</a>, a look back on the high- and low-lights of the year is in order.
 </p>
 
-<a href="http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t.jpg" target="blank">
+
+<img src="http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t-medium.jpg" alt="Kyle Field Block T">
+
+
+<!-- <a href="http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t.jpg" target="blank">
     <img src="http://images.rodmachen.com.s3.amazonaws.com/writing/kyle-field-block-t-medium.jpg" alt="Kyle Field Block T">
-</a>
+</a> -->
 
 <!-- <a href="">
   <img src="" alt="">
