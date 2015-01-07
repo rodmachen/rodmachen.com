@@ -1,11 +1,3 @@
-# Base Jekyll configuration
-
-# Grunt handles some Jekyll configuration. If you set something here and
-# it doesn't work, check if it is set in the Gruntfile.
-
-# Use _config.build.yml to override these settings on `grunt build`.
-
-name: rodmachen.com
 description: Rod Machen on the web.
 
 author:
