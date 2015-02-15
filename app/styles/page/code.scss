@@ -4,13 +4,18 @@
 		p {
 			font-family: 'Jura','Electrolize',monaco,Consolas,"Lucida Console",monospace;
 			font-weight: 400;
-			font-size: 1.5em;
-			line-height: 1.15em;
+			font-size: 1.55em;
+			line-height: 1.2em;
+
 		@include media($medium-screen-down) {
 			// font-size: 1.25em;
 			// line-height: 1.1em;
 		}
+		
 		}
+	}
+	p > a{
+			text-decoration: 1px dotted #222222;
 	}
 	header.navigation {
 		background-color: #003000;
