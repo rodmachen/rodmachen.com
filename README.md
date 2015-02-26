@@ -5,7 +5,8 @@ This site represents my personal presence on the web. Included is a graphical la
 ## Technologies use in this project
 
 ### Development tools
-##### [Playbook](https://github.com/centresource/generator-playbook)
+<!-- ##### [Playbook](https://github.com/centresource/generator-playbook) -->
+##### Playbook
 ##### Yeoman
 ##### Grunt
 
