@@ -8,6 +8,7 @@ category:
 tags:
   - austin
   - events
+  - SXSW
 ---
 <p dir="ltr">
   Austin&#8217;s biggest party is over, and real life begins again. This was my best <a href="http://www.sxsw.com" target="_blank">SXSW</a> experience yet, a well-rounded affair of movies, music, food and celebrities. What else is there?

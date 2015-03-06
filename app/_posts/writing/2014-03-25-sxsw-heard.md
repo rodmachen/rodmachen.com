@@ -1,5 +1,5 @@
 ---
-title: SXSW
+title: SXSW 2014
 sub-title: What I Heard
 author: Rod Machen
 layout: post-writing
@@ -8,8 +8,13 @@ category:
 tags:
   - austin
   - events
+  - SXSW
 ---
-<!-- <img class="alignright size-full wp-image-541" alt="SaxXSW" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SaxXSW.jpg" width="320" height="256" /> -->Music got short shrift this SXSW, and I can only count four bands among my adventures. My work as a photographer for the festival got me into Interactive and Film events, but not music. Still, I made one day show, one night gig and some corporate parties. Oh, and some street music like this sax player.
+
+
+Music got short shrift this SXSW, and I can only count four bands among my adventures. My work as a photographer for the festival got me into Interactive and Film events, but not music. Still, I made one day show, one night gig and some corporate parties. Oh, and some street music like this sax player.
+
+<!-- <img class="alignright size-full wp-image-541" alt="SaxXSW" src="http://words.rodmachen.com/wp-content/uploads/2014/03/SaxXSW.jpg" width="320" height="256" /> -->
 
 Back in the day, getting a wrist band was the SXSW thing for me and my friends. Nowadays, I&#8217;m not sure that even gets you in many places since there has been such a proliferation of badges. Day parties are doable, but even they are crowded nightmarish affairs for the most part. The one I found (All Tomorrows Tacos at the Lost Well) was old school: small club, several bands and no crowds. It was refreshing.
 
