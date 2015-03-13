@@ -8,7 +8,7 @@ category:
 tags:
   - austin
   - events
-  - SXSW
+  - sxsw
 ---
 
 

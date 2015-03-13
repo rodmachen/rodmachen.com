@@ -8,7 +8,7 @@ category:
 tags:
   - austin
   - events
-  - SXSW
+  - sxsw
 ---
 Between panels at interactive and waiting in line for movies on 6th Street, <a href="http://www.sxsw.com" target="_blank">SXSW</a> provided lots of opportunities to learn, not all of them positive.
 
