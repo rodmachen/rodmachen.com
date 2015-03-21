@@ -7,7 +7,7 @@ tags:
  - austin
  - events
  - screens
- - SXSW
+ - sxsw
 ---
 The South by Southwest “Everything” festival officially kicks off tomorrow, but for many, it’s already here. SXSW badge and swag pick up started today, and for the edu-cated among us, it started Monday. Either way, the next ten days will be a flurry for anyone who steps into Austin’s downtown. 
 
