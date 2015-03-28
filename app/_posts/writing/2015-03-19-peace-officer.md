@@ -22,4 +22,4 @@ Several national experts are brought in as well to connect the dots from race ri
   <img src="" alt="">
 </a> -->
 
-<!-- (Originally published by the Austin Chronicle on XXXXXX under the title [title](http).) -->
+(Originally published by the Austin Chronicle on March 19, 2015 under the title [SXSW Film Review: Peace Officer](http://www.austinchronicle.com/daily/screens/2015-03-19/sxsw-film-review-peace-officer/).)

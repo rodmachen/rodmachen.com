@@ -22,4 +22,4 @@ The subject matter could lead to a depressing viewing experience. That’s not t
   <img src="" alt="">
 </a> -->
 
-<!-- (Originally published by the Austin Chronicle on XXXXXX under the title [title](http).) -->
+(Originally published by the Austin Chronicle on March 18, 2015 under the title [SXSW Film Review: The Grief of Others](http://www.austinchronicle.com/daily/screens/2015-03-18/sxsw-film-review-the-grief-of-others/).)

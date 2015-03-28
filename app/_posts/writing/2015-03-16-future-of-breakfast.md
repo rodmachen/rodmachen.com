@@ -24,4 +24,4 @@ After a panel discussing a variety of foods, one answer to this question is simp
   <img src="" alt="">
 </a> -->
 
-<!-- (Originally published by the Austin Chronicle on XXXXXX under the title [title](http).) -->
+(Originally published by the Austin Chronicle on March 16, 2015 under the title [Building a Better Breakfast at SouthBites](http://www.austinchronicle.com/daily/sxsw/2015-03-16/building-a-better-breakfast-at-southbites/).)

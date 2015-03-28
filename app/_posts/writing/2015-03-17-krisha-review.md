@@ -26,4 +26,4 @@ For some, watching a movie like this can be hard, but Shults does the audience t
   <img src="" alt="">
 </a> -->
 
-<!-- (Originally published by the Austin Chronicle on XXXXXX under the title [title](http).) -->
+(Originally published by the Austin Chronicle on March 17, 2015 under the title [SXSW Film Review: KRISHA](http://www.austinchronicle.com/daily/sxsw/2015-03-17/sxsw-film-review-krisha/).)
