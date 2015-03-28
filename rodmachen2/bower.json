@@ -1,0 +1,11 @@
+{
+  "name": "rodmachen2",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {
+    "normalize-css": "~3.0.2",
+    "jquery": "~2.1.3"
+  }
+}
