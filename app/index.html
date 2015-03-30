@@ -2,28 +2,26 @@
 layout: home
 title: Rod Machen
 ---
-<div class="content">
-    <div class="container">
-        <div class="main box" onclick="location.href='/main';">
-              <h1 class="responsive_headline">Rod Machen</h1>
-        </div>
-        <div class="writing box" onclick="location.href='/writing';">
-            <div class="blurb">
-                <h1 class="responsive_headline">writing</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-            <div class="code box" onclick="location.href='/code';">
-                <div class="blurb">
-                    <h1 class="responsive_headline">code</h1>
-                </div>
-            </div>
-            <div class="photo box" onclick="location.href='/photo';">
-                <div class="blurb">
-                    <h1 class="responsive_headline">photography</h1>
-                </div>
-            </div>
-
-    </div>
+<style>
+    html {
+      background: url(https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/00406.jpg) no-repeat right top fixed;
+      background-size: cover;
+      text-align: right;
+      clear: both;
+    }
+    .headline {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 3em;
+        padding: 0 .15em 0.05em .15em;
+        margin: 0 auto;
+        color: #ffffff;
+        float: right;
+    }
+</style>
+<!-- <style>body {background-color: #111111}</style> -->
+<div style="clear: both;">
+<h1 class="headline" style="float: left; text-align: right">ROD MACHEN</h1>
+<a href="/photo"><h1 class="headline" style="float: right">photography</h1></a>
+<a href="/writing/"><h1 class="headline" style="float: right; clear: both">writing</h1></a>
+<a href="/code"><h1 class="headline" style="float: right; clear: both">code</h1></a>
 </div>

@@ -1,24 +1,105 @@
 body {
-  color: $medium-gray;
+  // color: $medium-gray;
+  // background-color: #f6f6f6;
+  background: url(https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/00406.jpg) no-repeat right top fixed;
+  background-size: cover;
+  text-align: right;
+  clear: both;
+}
+.headline {
+    font-size: 3em;
+    // text-align: center;
+    padding: 0 .15em 0.05em .15em;
+    // margin: 40vh 0 50vh 0;
+    // background-color: #333333;
+    // background-color: #f6f6f6;
+    margin: 0 auto;
+    color: #ffffff;
+    // color: #111111;
+    // display: block;
+    // clear: both;
+    float: right;
+    // text-shadow: 1px 1px 1px #999999;
+    // font-family: Arial, Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+    // font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+    // font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+    // font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace;
+    // font-weight: normal;
 }
 
-.delete-me {
-  @include align-items(center);
-  @include display(flex);
-  @include justify-content(center);
-  height: 100vh;
+.subhead {
+    // font-family: Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+    // font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+    font-size: 6em;
+    // font-weight: normal;
+    margin: 10vh 0 0 0;
+    // background-color: #f6f6f6;
+    text-align: center;
+    // color: gold;
+    // text-shadow: 1px 1px 4px #111111;
+}
 
-  .inner {
+
+.hero {  
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-border-radius: 3px !default;
+  $base-accent-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $hero-background-top: #7F99BE; 
+  $hero-background-bottom: #20392B;
+  $hero-color: #efefef;
+  $gradient-angle: 10deg;
+  $hero-image: 'https://download.unsplash.com/photo-1423683249427-8ca22bd873e0';
+
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 3.5em;
     text-align: center;
 
-    img {
-      margin-bottom: 0.15em;
+    .hero-copy {
+      text-align: center;
+      
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        font-weight: 200;
+        line-height: 1.4em;
+        margin: 0 auto 3em auto; 
+
+        @include media($large-screen) {
+          font-size: 1.1em;
+          max-width: 60%;
+        }
+      }
     }
 
-    h1 {
-      font-size: 2.25em;
-      font-weight: 200;
-      margin: 0;
+    button {
+      @include button(flat, $base-accent-color);
+      padding: 0.7em 1em;
     }
   }
 }
