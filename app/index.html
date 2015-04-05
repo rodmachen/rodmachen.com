@@ -6,29 +6,54 @@ title: Rod Machen
 <style>
     html {
       background: url(http://i.rodmachen.com/bufalina-cover.jpg) no-repeat right top fixed;
-      /*background: url(https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/00406.jpg) no-repeat right top fixed;*/
       background-size: cover;
       text-align: right;
-      clear: both;}
+    }
+    a {
+      float: right;
+    }
+
     .headline {
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        float: left;
+        /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
         font-size: 3em;
+      font-weight: normal;
         padding: 0 .15em 0.05em .15em;
         margin: 0 auto;
         color: #eeeeee;
-        float: right;}
+    }
     a h1:hover { 
-        color: #ffffff;}
+        color: #ffffff;
+    }
+    .second {
+      clear: both;
+    }
+    @media all and (orientation: portrait) {
+      .name {
+        text-align: left;
+        float:right;
+      }
+      .first {
+        clear: both;
+      }
+    }
+    @media (max-width: 720px) {
+      .headline {
+        font-size: 2.5em;
+      }
+    }
     @media (max-width: 370px) {
-          .headline {
-            font-size: 2em;}
-          }
+      .headline {
+        font-size: 1.9em;
+      }
+    }
     </style>
 
-<div style="clear: both;">
-  <h1 class="headline" style="float: left; text-align: right">ROD MACHEN</h1>
-  <a href="http://rodmachen.photography" target="blank"><h1 class="headline" style="float: right">photography</h1></a>
-  <a href="/writing/"><h1 class="headline" style="float: right; clear: both">writing</h1></a>
-  <a href="http://rodmachen.github.io/" target="blank"><h1 class="headline" style="float: right; clear: both">code</h1></a>
+<div>
+  <h1 class="headline name" >ROD MACHEN</h1>
+  <a href="http://rodmachen.photography.s3-website-us-east-1.amazonaws.com/" target="blank" class="first"><h1 class="headline">photography</h1></a>
+  <a href="/writing/" class="second"><h1 class="headline">writing</h1></a>
+  <a href="http://rodmachen.github.io/" target="blank" class="second"><h1 class="headline">code</h1></a>
 </div>
 
