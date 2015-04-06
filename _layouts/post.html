@@ -1,0 +1,30 @@
+---
+layout: default
+---
+  <h1 class="page-heading">From the Desk of <br class="head-break">Rod Machen</h1>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+  <header class="post-subhead">
+    <h1>{{ page.sub-title }}</h1>
+  </header>
+   <hr class="division">
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+   <hr class="division">
+	
+	 <div class="post-meta"> 
+   <!-- Filed under: -->
+   {% for tags in page.tags %}{{ tags }} | 
+   {% endfor %}
+    <span >
+   {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+   </span>
+	 </div>
+
+</div>

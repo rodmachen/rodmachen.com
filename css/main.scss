@@ -1,0 +1,334 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import
+				"base",
+				"site",
+        "syntax-highlighting"
+;
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	color: $text-color;
+	background-color: #dddddd;
+	font-family: $base-font-family;
+	margin: 0;
+	a {
+		text-decoration: none;
+		color: inherit
+	}
+	ul {
+		list-style-type: none;
+	}
+}
+.wrapper {
+	max-width: 1020px;
+	clear: both;
+	margin: 0 auto;
+}
+.header-name, .footer-name, .post-meta, .post-link, .post-header, .post-subhead, .post-sublink {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.site-header {
+	box-shadow: 0px 0px 10px #777;
+	background-color: $brand-color;
+	color: $background-color;
+	height: 92px;
+	color: $background-color;
+	clear: both;
+	text-align: center;
+}
+.logo {
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	font-weight: normal;
+	font-size: 5em;
+	float: left;
+	padding: 0 .5em 0 .25em;
+	margin: 0;
+	color: $background-color;
+	  &:hover {
+      color: white;
+    }
+}
+.header-name {
+	float: left;
+	line-height: 1.75em;
+	font-size: 1.75em;
+	margin-bottom: 0;
+	color: $background-color;
+    &:hover {
+      color: white;
+    }
+	@media (max-width: 720px) {
+		float: right;
+		margin-right: .55em;
+	}
+}
+.header-nav {
+	font-weight: normal;
+	float: right;
+	font-size: 1.5em;
+	padding: .6em .75em 0 0;
+	color: $background-color;
+    &:hover {
+      color: white;
+    }
+}
+.nav-right {
+	float: right;
+	width: 400px;
+	padding-right: .75em;
+}
+.home, .post {
+	padding: 0em 0.5em;
+}
+.division {
+	margin: 1em 1.5em;
+	@media (max-width: 720px) {
+		margin: .75em 0em;
+	}
+}
+img {
+	margin: .5em 0;
+	width: 100%;
+	box-shadow: 0px 1px 5px #777;
+}
+.page-heading {
+	// display: inline-block;
+	color: $brand-color;
+	font-size: 4.5em;
+	text-align: center;
+	font-weight: normal;
+	// font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	margin: 0 0 .25em 0;
+	padding: .25em 0 0 0;
+	text-shadow: 0px 1px 1px #999;
+	@media (max-width: 1020px) {
+		font-size: 4em;
+	}
+	@media (max-width: 550px) {
+		font-size: 3em;
+	}
+}
+.head-break {
+	display: none;
+	@media (max-width: 870px) {
+		display: block;
+	}
+}
+
+.post-link {
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	margin: 0;
+	@media (max-width: 720px) {
+		font-size: 1.5em;
+	}
+}
+.post-sublink {
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	@media (max-width: 720px) {
+		font-size: 1.5em;
+	}
+}
+
+.post-list {
+	p {
+		font-size: 1.5em;
+		margin-bottom: 0;
+		@media (max-width: 720px) {
+			margin-top: 0em;
+		}
+	}
+	li {
+	padding: 1em 2em 2em 2em;
+	margin: 2em;
+	cursor: pointer; 
+	cursor: hand;
+		@media (max-width: 720px) {
+			margin: 1em .25em;
+			padding: .25em 1em 1em 1em;
+		}
+	}
+	ul {
+		margin: 0;
+	}
+}
+
+.post-list li, .post {
+	background-color: #f9f9f9;
+	box-shadow: 0px 2px 8px #777;
+}
+
+ul.post-list {
+	margin: 0;
+	padding: 0;
+}
+
+.post {
+	padding: 1em 0em;
+	margin: 1.5em 2em;
+	// margin: 2em .5em;
+	h1 {
+		margin: 0;
+	}
+		@media (max-width: 720px) {
+			margin: 1em;
+			padding: 1em;
+			h1 {
+				font-size: 1.5em;
+			}
+		}
+	p {
+		margin: .5em 1em;
+	}
+}
+article {
+	a {
+		border-bottom: 1px dotted #dddddd; 
+		text-decoration: none;
+	}
+	a:hover {
+		border-bottom: 1px dotted #111111; 
+		text-decoration: none;
+	}
+}
+.post-header, .post-subhead {
+	font-size: 1.5em;
+	text-align: center;
+}
+.post-subhead {
+	h1, h2 {
+		font-weight: normal;
+	}
+}
+
+.page-content {
+	min-height: calc(100vh - 184px);
+	min-width: 100%;
+	float: left;
+	margin: 0;
+	h2 {
+		font-weight: normal;
+		padding: .01em 0;
+	}
+	@media (max-width: 720px) {
+		font-size: .85em;
+	}
+
+}
+
+.post-meta {
+	font-size: 1em;
+	text-align: right;
+	margin: 0 1.5em;
+}
+.sidebar {
+	margin: 2em 0;
+	width: 30%;
+	float: left;
+	text-align: center;
+h1 {
+	font-weight: normal;
+}
+}
+
+.footer-name {
+	font-weight: normal;
+	float: left;
+	line-height: 3em;
+	font-size: 1.25em;
+	margin-bottom: 0;
+	color: $background-color;
+    &:hover {
+      color: white;
+    }
+	@media (max-width: 720px) {
+		font-size: 1.1em;
+		float: right;
+		margin-right: 1em;
+	}
+}
+
+.footer-nav {
+	font-weight: normal;
+	// display: inline-block;
+	float: right;
+	font-size: 1.25em;
+	padding: 1em .75em 0 0;
+	color: $background-color;
+    &:hover {
+      color: white;
+    }
+	@media (max-width: 320px) {
+		font-size: 1.1em;
+	}
+}
+
+.post {
+	p {
+		font-size: 1.5em;
+	}
+}
+
+pre,
+code {
+    font-size: 18px;
+    border: 1px solid #999999;
+    // border-radius: 3px;
+    background-color: #efefef;
+    line-height: 22px;
+}
+
+code {
+    padding: 2px 4px;
+}
+
+pre {
+    padding: 8px 12px;
+    // overflow-x: scroll;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.pagination {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 1em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+
+.hidden-small {
+	@media (max-width: 720px) {
+		display: none;
+	}
+}
+
+.hidden-large {
+	// font-size: 1.5em;
+	float: left;
+	margin-left: .5em;
+	@media (min-width: 720px) {
+		display: none;
+	}
+}
+
+.footer-mobile {
+	display: inline-block;
+	// float: right;
+	// margin: 0 auto;
+}
