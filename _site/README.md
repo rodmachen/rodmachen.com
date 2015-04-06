@@ -1,1 +1,0 @@
-The collected works of Rod Machen.

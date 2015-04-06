@@ -37,6 +37,6 @@ Thumbs.db
 # Ignore for Yeoman-Jekyll projects #
 /node_modules
 /vendor/*
-/dist
+/_site/*
 /.tmp
 /s3_website.yml
