@@ -120,11 +120,11 @@ body {
 
 .post-link {
 	font-size: 2em;
-	line-height: 1.25em;
+	line-height: 1.15em;
 	display: block;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding: .33em 0 0 0;
 	@media (max-width: 720px) {
 		font-size: 1.5em;
 		// line-height: 1.5em;
@@ -189,7 +189,7 @@ body {
 			}
 			li {
 				margin: 1em;
-				padding: 0 1em .25em 1em;
+				padding: 0 1em .15em 1em;
 			}
 		}
 }
@@ -289,7 +289,7 @@ h1 {
 .footer-name {
 	font-weight: normal;
 	float: right;
-	line-height: 3em;
+	line-height: 3.1em;
 	font-size: 1.25em;
 	margin-bottom: 0;
 	margin-right: 1em;
@@ -306,10 +306,10 @@ h1 {
 
 .footer-nav {
 	font-weight: normal;
-	// display: inline-block;
 	float: right;
+	margin-right: 1em;
 	font-size: 1.25em;
-	padding: 1em .75em 0 0;
+	line-height: 3.1em;
 	color: $background-color;
     &:hover {
       color: white;
