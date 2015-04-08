@@ -7,7 +7,7 @@ category: writing
 tags:
 #  - art
   - austin
-  - events
+  
 #  - food
 #  - pages
   - published

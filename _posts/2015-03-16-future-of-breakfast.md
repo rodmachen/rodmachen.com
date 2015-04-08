@@ -4,7 +4,7 @@ sub-title: Andrew Zimmern looks ahead
 layout: post
 category: writing
 tags:
- - events
+ 
  - food
  - published
  - sxsw

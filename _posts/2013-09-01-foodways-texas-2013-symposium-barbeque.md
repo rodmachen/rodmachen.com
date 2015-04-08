@@ -8,7 +8,7 @@ categories:
 tags:
   - food
   - austin
-  - events
+  
   - published
 ---
 

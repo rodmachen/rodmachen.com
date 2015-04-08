@@ -5,7 +5,6 @@ author: Rod Machen
 layout: post
 category: writing
 tags:
-  - aggieland
   - sports
 ---
 <p>

@@ -7,7 +7,7 @@ category:
   - writing
 tags:
   - austin
-  - events
+  
   - published
   - sxsw
 ---

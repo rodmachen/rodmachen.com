@@ -6,7 +6,7 @@ layout: post
 category: writing
 tags:
   - austin
-  - events
+  
 #  - kid stuff
 ---
 <a href="http://www.sho.com/sho/dexter/home" target="_blank">Dexter</a> might have had its moments as a television show, but it was never confused for a top-shelf parenting manual. However, not only did it share a brilliant piece of parental advice, but it came from a most unlikely of characters: the Trinity Killer. John Lithgow&#8217;s mass murderer might have had his problems (most of which Dexter Morgan solved for him), but he did have a pretty viable facade of domestic bliss, and heck, other than the abusive outbursts, he was probably a pretty decent dad.

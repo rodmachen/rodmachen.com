@@ -6,7 +6,7 @@ category: writing
 tags:
  - art
  - austin
- - events
+ 
  - published
 ---
 

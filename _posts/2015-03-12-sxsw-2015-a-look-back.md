@@ -5,7 +5,7 @@ layout: post
 category: writing
 tags:
  - austin
- - events
+ 
  - screens
  - sxsw
 ---

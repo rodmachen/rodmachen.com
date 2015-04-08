@@ -4,7 +4,7 @@ sub-title: Whole Foods’ Forager’s Table
 layout: post
 category: writing
 tags:
- - events
+ 
  - food
  - published
 ---

@@ -20,7 +20,8 @@ layout: default
 	
 	 <div class="post-meta"> 
    <!-- Filed under: -->
-   {% for tags in page.tags %}{{ tags }} | 
+   {% for tags in page.tags %}
+    <a href="/categories/{{ tags }}/">{{ tags }}</a> | 
    {% endfor %}
     <span >
    {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}

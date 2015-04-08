@@ -6,9 +6,8 @@ layout: post
 category:
   - writing
 tags:
-  - austin
-  - ausic
-  - events
+  - music
+  
 ---
 Last week, I did something I rarely do anymore: went out to see live music. In fact, I did something even more rare: I saw music two nights in a row. What am I, twenty? (Try double that.) What got this old(ish) man out of the house? A band that hasn&#8217;t toured or released new music since the second Clinton administration.
 
