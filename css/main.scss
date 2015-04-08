@@ -85,7 +85,7 @@ body {
 	padding-right: .75em;
 }
 .home, .post {
-	padding: 0em 0.5em;
+	padding: 0;
 }
 .division {
 	margin: 1em 1.5em;
@@ -120,11 +120,15 @@ body {
 
 .post-link {
 	font-size: 2em;
+	line-height: 1.25em;
 	display: block;
 	text-align: center;
 	margin: 0;
+	padding: 0;
 	@media (max-width: 720px) {
 		font-size: 1.5em;
+		// line-height: 1.5em;
+		padding-top: .5em;
 	}
 }
 .post-sublink {
@@ -138,29 +142,85 @@ body {
 	}
 }
 
+// .post-list {
+// 	p {
+// 		font-size: 1.5em;
+// 		margin-bottom: 0;
+// 		@media (max-width: 720px) {
+// 			margin-top: 0em;
+// 		}
+// 	}
+// 	li {
+// 	padding: 1em 2em 2em 2em;
+// 	margin: 2em;
+// 	cursor: pointer; 
+// 	cursor: hand;
+// 		@media (max-width: 720px) {
+// 			margin: 1em;
+// 			padding: .1em 1em 1em 1em;
+// 		}
+// 	}
+// 	ul {
+// 		margin: 0;
+// 	}
+// }
 .post-list {
 	p {
 		font-size: 1.5em;
-		margin-bottom: 0;
-		@media (max-width: 720px) {
-			margin-top: 0em;
-		}
+		margin: .5em 1em;
 	}
-	li {
-	padding: 1em 2em 2em 2em;
-	margin: 2em;
-	cursor: pointer; 
-	cursor: hand;
-		@media (max-width: 720px) {
-			margin: 1em .25em;
-			padding: .25em 1em 1em 1em;
-		}
-	}
-	ul {
+	margin: 1.5em 2em;
+	h1 {
 		margin: 0;
 	}
+	li {
+	margin: 1.5em 2em;
+	padding: 0 0em .5em 0em;
+	}
+		@media (max-width: 720px) {
+			margin: 1em;
+			padding: 1em;
+			h1 {
+				font-size: 1.5em;
+			}
+			p {
+				font-size: 1.5em;
+				margin: .5em 0;
+			}
+			li {
+				margin: 1em;
+				padding: 0 1em .25em 1em;
+			}
+		}
 }
+.post {
+	p {
+		font-size: 1.5em;
+		margin: .5em 1em;
+	}
+	padding: 1em 0em;
+	margin: 1.5em 2em;
+	h1 {
+		margin: 0;
+	}
 
+		@media (max-width: 720px) {
+			margin: 1em;
+			padding: 1em;
+			h1 {
+				font-size: 1.5em;
+			}
+			p {
+				font-size: 1.5em;
+				margin: .5em 0;
+			}
+		}
+	img {
+		margin: .5em 0;
+		width: 100%;
+		box-shadow: 0px 1px 5px #777;
+	}
+}
 .post-list li, .post {
 	background-color: #f9f9f9;
 	box-shadow: 0px 2px 8px #777;
@@ -171,34 +231,7 @@ ul.post-list {
 	padding: 0;
 }
 
-.post {
-	padding: 1em 0em;
-	margin: 1.5em 2em;
-	// margin: 2em .5em;
-	h1 {
-		margin: 0;
-	}
-	p {
-		margin: .5em 1em;
-		font-size: 1.5em;
-	}
-	img {
-		margin: .5em 0;
-		width: 100%;
-		box-shadow: 0px 1px 5px #777;
-	}
-		@media (max-width: 720px) {
-			margin: 1em;
-			padding: 1em;
-			h1 {
-				font-size: 1.5em;
-			}
-			p {
-				font-size: 1.33em;
-				margin: .5em 0;
-			}
-		}
-}
+
 article {
 	a {
 		// border-bottom: 1px dotted #dddddd; 
@@ -226,7 +259,8 @@ article {
 	margin: 0;
 	h2 {
 		font-weight: normal;
-		padding: .01em 0;
+		padding: 0;
+		// padding: .01em 0;
 	}
 	@media (max-width: 720px) {
 		font-size: .85em;
