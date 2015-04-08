@@ -17,7 +17,7 @@ mail at rodmachen.com
 <a href="https://twitter.com/rodmachen" target="blank">@rodmachen</a>
 
 **Photography** <br>
-<a href="http://rodmachen.photography" target="blank">rodmachen.photography</a>
+<a href="http://photo.rodmachen.com" target="blank">photo.rodmachen.com</a>
 
 **Coding & Tech Writing** <br>
-<a href="http://rodmachen.github.io" target="blank">rodmachen.github.io</a>
+<a href="http://code.rodmachen.com" target="blank">code.rodmachen.com</a>
