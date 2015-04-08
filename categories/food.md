@@ -17,7 +17,6 @@ permalink: /categories/food/
             <a class="post-sublink" >{{ post.sub-title }}</a>
           </h2>
           <hr class="division">
-            {{ post.excerpt }}
         </li>
 			{% endif %}
 		{% endfor %}
