@@ -12,5 +12,5 @@ markdown: kramdown
 
 permalink: /:categories/:title/
 
-paginate: 20
+paginate: 10
 paginate_path: "/writing/page:num/"
