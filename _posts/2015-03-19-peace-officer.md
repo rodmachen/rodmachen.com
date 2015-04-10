@@ -4,9 +4,9 @@ sub-title: A Review
 layout: post
 category: article
 tags:
+ - sxsw
  - published
  - screens
- - sxsw
 ---
 The documentary Peace Officer has an agenda. It meticulously demonstrates the militarization of police that has increased over the last 40 years. If it was only that, it would be nothing more than an effective piece of propaganda. But then there’s Dub.
 

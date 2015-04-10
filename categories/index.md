@@ -4,12 +4,12 @@ layout: page
 ---
 <style>
 	.post	p {
-		font-size: 3em;
+		font-size: 2.5em;
 		text-align: center;
+		margin: .33em 1em;
+		/*border-bottom: 1px dotted #999;*/
 	}
-	.category {
-		margin-top: 1em;
-	}
+
 </style>
 
 <a href="./art" class="category">Art</a>
