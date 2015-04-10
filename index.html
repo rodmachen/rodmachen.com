@@ -55,16 +55,16 @@
     }
     @media (max-width: 370px) {
       .headline {
-        font-size: 1.9em;
+        font-size: 1.8em;
       }
     }
   </style>
 <body>
     <div>
       <h1 class="headline name" >ROD MACHEN</h1>
-      <a href="http://photo.rodmachen.com/" class="first"><h1 class="headline">photography</h1></a>
-      <a href="/archive" class="second"><h1 class="headline">writing</h1></a>
-      <a href="http://code.rodmachen.com/" class="second"><h1 class="headline">code</h1></a>
+      <a href="/archive/" class="first"><h1 class="headline">Culture & the Arts</h1></a>
+      <a href="http://code.rodmachen.com/" class="second"><h1 class="headline">Coding & Tech</h1></a>
+      <a href="http://photo.rodmachen.com" class="second"><h1 class="headline">Photography</h1></a>
     </div>
 
   <script>
@@ -73,7 +73,9 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-48280549-2', 'auto');
+    ga('create', 'UA-48280549-2', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('linker:autoLink', ['code.rodmachen.com', 'photo.rodmachen.com'] );
     ga('send', 'pageview');
   </script>
 
