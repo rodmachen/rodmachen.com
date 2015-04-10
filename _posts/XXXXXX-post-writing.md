@@ -3,7 +3,7 @@ title:
 sub-title: 
 layout: post
 published: false
-category: writing
+category: article
 tags:
  - art
  - austin

@@ -3,7 +3,7 @@ title: The GM Steakhouse
 sub-title: Austin’s past in one iconic diner
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   - food

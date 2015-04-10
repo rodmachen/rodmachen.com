@@ -3,7 +3,7 @@ title: Austin’s Trail of Lights
 sub-title: An exercise in tradition & privilege
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

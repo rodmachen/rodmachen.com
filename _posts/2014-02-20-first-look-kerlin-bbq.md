@@ -3,7 +3,7 @@ title: 'Kerlin BBQ'
 sub-title: 'A First Look'
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   - food

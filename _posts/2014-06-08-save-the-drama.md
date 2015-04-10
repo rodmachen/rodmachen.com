@@ -2,7 +2,7 @@
 title: Save the Drama
 sub-title: for Your Momma and Them
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

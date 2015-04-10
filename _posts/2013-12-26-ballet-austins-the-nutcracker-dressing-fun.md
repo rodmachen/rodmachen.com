@@ -3,7 +3,7 @@ title: Ballet Austin’s The Nutcracker
 sub-title: Dressing up is fun!
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

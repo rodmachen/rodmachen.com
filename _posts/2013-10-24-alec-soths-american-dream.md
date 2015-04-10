@@ -3,7 +3,7 @@ title: Alec Soth’s American Dream
 <!-- title: American Dream -->
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

@@ -4,7 +4,7 @@ sub-title: 'Photographs of the Rolling Stones'
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   - music

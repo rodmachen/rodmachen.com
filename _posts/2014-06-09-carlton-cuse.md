@@ -2,7 +2,7 @@
 title: Carlton Cuse
 sub-title: Isn't Lost
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

@@ -3,7 +3,7 @@ title: 'Junot Diaz '
 sub-title: 'What It Means To Be a Man'
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

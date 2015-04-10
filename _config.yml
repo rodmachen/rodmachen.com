@@ -10,7 +10,7 @@ twitter_username: rodmachen
 # Build settings
 markdown: kramdown
 
-permalink: /article/:title/
+permalink: /:categories/:title/
 
 paginate: 10
 paginate_path: "/archive/page:num/"

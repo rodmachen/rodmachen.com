@@ -4,7 +4,7 @@ sub-title: '2013 - Our Barbeque, Ourselves'
 author: Rod Machen
 layout: post
 categories:
-  - writing
+  - article
 tags:
   - food
   - austin

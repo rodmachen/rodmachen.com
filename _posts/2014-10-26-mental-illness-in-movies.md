@@ -2,7 +2,7 @@
 title: Mental Illness in the Movies
 sub-title: Austin Film Festival
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

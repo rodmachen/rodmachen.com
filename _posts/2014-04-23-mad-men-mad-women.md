@@ -4,7 +4,7 @@ sub-title: 'Mad Women'
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - screens
 ---

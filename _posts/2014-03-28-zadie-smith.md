@@ -3,7 +3,7 @@ title: Zadie Smith
 sub-title: Michener Center for Writers
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

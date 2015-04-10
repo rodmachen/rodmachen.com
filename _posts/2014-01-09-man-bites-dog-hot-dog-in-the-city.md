@@ -3,7 +3,7 @@ title: 'Man Bites Dog'
 sub-title: 'Hot dog in the city'
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   - food

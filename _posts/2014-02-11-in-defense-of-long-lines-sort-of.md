@@ -3,7 +3,7 @@ title: In Defense of Long Lines
 sub-title: . . . sort of
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   - food

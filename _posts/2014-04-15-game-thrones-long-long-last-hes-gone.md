@@ -4,7 +4,7 @@ sub-title: "At long, long last he's gone!"
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - screens
   - published

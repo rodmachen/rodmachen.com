@@ -4,7 +4,7 @@ sub-title: A Mad Men Preview
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - screens
   - published

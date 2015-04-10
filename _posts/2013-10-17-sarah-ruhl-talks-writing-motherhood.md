@@ -3,7 +3,7 @@ title: Sarah Ruhl
 sub-title: Writing and Motherhood
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

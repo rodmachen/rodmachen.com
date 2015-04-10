@@ -4,7 +4,7 @@ sub-title: Long live SXSW.
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   

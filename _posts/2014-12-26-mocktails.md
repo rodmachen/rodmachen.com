@@ -2,7 +2,7 @@
 title: Mocktails
 sub-title: Alcohol- and Fancy-free
 layout: post
-category: writing
+category: article
 tags:
  - austin
  - food

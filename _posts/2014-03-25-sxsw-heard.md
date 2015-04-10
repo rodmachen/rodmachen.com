@@ -4,7 +4,7 @@ sub-title: What I Heard
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   

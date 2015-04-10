@@ -2,7 +2,7 @@
 title: SXSW 2015
 sub-title: A look back before it begins
 layout: post
-category: writing
+category: article
 tags:
  - austin
  

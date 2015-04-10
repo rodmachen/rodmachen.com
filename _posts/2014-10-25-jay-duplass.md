@@ -2,7 +2,7 @@
 title: A Conversation With Jay Duplass
 sub-title: Austin Film Festival
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

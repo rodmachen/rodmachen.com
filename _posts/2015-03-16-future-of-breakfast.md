@@ -2,7 +2,7 @@
 title:  The Future of Breakfast
 sub-title: Andrew Zimmern looks ahead
 layout: post
-category: writing
+category: article
 tags:
  
  - food

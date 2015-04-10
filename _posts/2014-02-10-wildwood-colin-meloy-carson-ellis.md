@@ -3,7 +3,7 @@ title: The Wildwood Chronicles
 sub-title: Colin Meloy & Carson Ellis
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

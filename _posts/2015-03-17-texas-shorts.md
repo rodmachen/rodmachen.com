@@ -2,7 +2,7 @@
 title: "SXSW: Texas Shorts"
 sub-title: A Review
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

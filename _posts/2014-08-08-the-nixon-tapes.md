@@ -2,7 +2,7 @@
 title: The Nixon Tapes
 sub-title: Douglas Brinkley’s Newest Book
 layout: post
-category: writing
+category: article
 tags:
  - pages
  - published

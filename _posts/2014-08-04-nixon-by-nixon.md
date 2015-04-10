@@ -2,7 +2,7 @@
 title: Nixon by Nixon
 sub-title: New Doc Explores Secret Tapes
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

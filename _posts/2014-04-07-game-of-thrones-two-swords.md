@@ -4,7 +4,7 @@ sub-title: Two Swords
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - screens
 ---

@@ -2,7 +2,7 @@
 title: Science Fiction vs. Science Fact
 sub-title: Austin Film Festival
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

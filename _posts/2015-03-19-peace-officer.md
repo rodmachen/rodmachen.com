@@ -2,7 +2,7 @@
 title: "SXSW: Peace Officer"
 sub-title: A Review
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

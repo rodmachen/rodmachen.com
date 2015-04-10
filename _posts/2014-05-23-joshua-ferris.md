@@ -3,7 +3,7 @@ title: Joshua Ferris
 sub-title: To Rise Again at a Decent Hour
 layout: post
 <!-- published: false -->
-category: writing
+category: article
 tags:
 #  - art
   - austin

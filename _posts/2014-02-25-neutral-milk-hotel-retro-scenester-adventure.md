@@ -4,7 +4,7 @@ sub-title: 'A retro-scenester adventure'
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - music
   

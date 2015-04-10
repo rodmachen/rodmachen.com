@@ -2,7 +2,7 @@
 title: "You’re the Worst"
 sub-title: "Stephen Falk’s dark rom-com"
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

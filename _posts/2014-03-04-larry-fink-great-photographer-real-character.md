@@ -4,7 +4,7 @@ sub-title: 'And a Real Character'
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   

@@ -3,7 +3,7 @@ title: Alec Soth
 sub-title: The Texas Triangle  
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

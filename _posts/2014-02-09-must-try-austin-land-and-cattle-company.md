@@ -3,7 +3,7 @@ title: Austin Land and Cattle
 sub-title: Must Try
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   - food

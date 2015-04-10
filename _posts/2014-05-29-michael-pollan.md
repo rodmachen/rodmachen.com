@@ -2,7 +2,7 @@
 title: Michael Pollan
 sub-title: Preaches It
 layout: post
-category: writing
+category: article
 tags:
  - austin
  

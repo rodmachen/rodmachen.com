@@ -4,7 +4,7 @@ sub-title: A Review
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - screens
 ---

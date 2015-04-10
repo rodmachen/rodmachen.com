@@ -4,7 +4,7 @@ sub-title: Closed for business
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   - art

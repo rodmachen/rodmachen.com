@@ -2,7 +2,7 @@
 title: Blog Reblog
 sub-title: A Review
 layout: post
-category: writing
+category: article
 tags:
  - art
  - austin

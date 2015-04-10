@@ -4,7 +4,7 @@ sub-title: You’re not alone!
 author: Rod Machen
 layout: post
 category:
-  - writing
+  - article
 tags:
   - austin
   

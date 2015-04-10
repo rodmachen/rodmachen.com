@@ -3,7 +3,7 @@ title: Aggie Football
 sub-title: A year in the life of a fan
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - sports
 ---

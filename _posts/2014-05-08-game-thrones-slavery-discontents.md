@@ -3,7 +3,7 @@ title: 'Game of Thrones'
 sub-title: 'Slavery and its Discontents'
 layout: post
 categories:
-  - writing
+  - article
 tags:
   - screens
   - published

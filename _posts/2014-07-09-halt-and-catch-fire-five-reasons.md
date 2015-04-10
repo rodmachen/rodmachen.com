@@ -2,7 +2,7 @@
 title: Halt and Catch Fire
 sub-title: Five Reasons to Watch
 layout: post
-category: writing
+category: article
 tags:
  - published
  - screens

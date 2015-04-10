@@ -3,7 +3,7 @@ title: "Color: American Photography Transformed"
 layout: post
 author: Rod Machen
 category:
-  - writing
+  - article
 tags:
   - austin
   - art

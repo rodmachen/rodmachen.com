@@ -3,7 +3,7 @@ title: Magnum Photos
 sub-title: Objects of Art and History
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   

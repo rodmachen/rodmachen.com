@@ -2,7 +2,7 @@
 title: Men Men
 sub-title: Halfway to the end
 layout: post
-category: writing
+category: article
 tags:
   - published
   - screens

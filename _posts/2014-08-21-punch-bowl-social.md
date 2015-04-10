@@ -2,7 +2,7 @@
 title: Punch Bowl Social
 sub-title: A First Look
 layout: post
-category: writing
+category: article
 tags:
  - austin
  - food

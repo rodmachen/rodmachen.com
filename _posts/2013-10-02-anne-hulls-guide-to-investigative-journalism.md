@@ -3,7 +3,7 @@ title: Anne Hull
 sub-title: 'Guide to Investigative Journalism'
 author: Rod Machen
 layout: post
-category: writing
+category: article
 tags:
   - austin
   
