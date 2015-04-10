@@ -13,11 +13,15 @@ permalink: /contact/
 **Email** <br>
 mail at rodmachen.com
 
-**Twitter** <br>
+<a href="https://twitter.com/rodmachen" target="blank">**Twitter**</a>
+<br>
 <a href="https://twitter.com/rodmachen" target="blank">@rodmachen</a>
 
-**Photography** <br>
-<a href="http://photo.rodmachen.com" target="blank">photo.rodmachen.com</a>
 
-**Coding & Tech Writing** <br>
-<a href="http://code.rodmachen.com" target="blank">code.rodmachen.com</a>
+<a href="http://photo.rodmachen.com">**Photography**</a>
+<br>
+<a href="http://photo.rodmachen.com">photo.rodmachen.com</a>
+
+<a href="http://code.rodmachen.com">**Coding & Tech Writing**</a>
+<br>
+<a href="http://code.rodmachen.com">code.rodmachen.com</a>
