@@ -20,11 +20,11 @@ layout: page
 
 <a href="./pages" class="category">Pages</a>
 
-<a href="./published" class="category">Published</a>
+<!-- <a href="./published" class="category">Published</a> -->
 
 <a href="./screens" class="category">Screens</a>
 
-<a href="./sports" class="category">Sports</a>
+<!-- <a href="./sports" class="category">Sports</a> -->
 
 <a href="./sxsw" class="category">SXSW</a>
 
