@@ -12,6 +12,8 @@ The death of a child is tragic beyond measure. Hollywood has mined this territor
 
 Set in the Hudson River Valley, The Grief of Others explores one family in the wake of a tragedy such as this. John (Trevor St. John) and Ricky (Wendy Moniz) have tried to put it behind them, but things aren’t going smoothly. Their daughter Biscuit keeps acting out in increasingly dangerous ways, and son Paul has enough trouble as an overweight kid facing bullies at every turn.
 
+![The Grief of Others](http://thegriefofothers.com/_Media/the-grief-of-others---still_med_hr-2.jpeg)
+
 The film begins with the arrival of John’s other daughter Jess (Sonya Harum), who shows up out of the blue, pregnant and directionless. She’s welcomed in, for the most part, but struggles with the underlying tension that pervades this home.
 
 Harum’s acting carries much of the film, even in the presence of seasoned vets Moniz and St. John. Her interactions with local nice guy Gordie provide many of the film’s most compelling scenes, and the story ultimately becomes hers.
