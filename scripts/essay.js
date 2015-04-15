@@ -1,14 +1,11 @@
 var $body = $('body');
 var $results = $('.results') 
-var $alltext = $("#main_text").val();
 
-$('button').on("click", function() {
+$('textarea').on("input", function() {
+  var $alltext = $("#main_text").val();
+  var words = function (text) {
+    return text.split(" ").length;
+  };
+  var $words = words($alltext);
   $results.append($words);
-})
-
-function words($alltext) {
-  return text.split(" ").length;
-}
-
-var $words = words();
-
+});
