@@ -12,11 +12,11 @@ button {
 
 label {
     display: block;
-    margin-bottom: .25em;
+    margin-bottom: .5em;
 }
 
 
 textarea {
-    font-size: 1em;
-    margin-bottom: 1em;
+    /*font-size: 1em;*/
+    margin-bottom: 0;
 }
