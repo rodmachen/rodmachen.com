@@ -15,7 +15,7 @@ var essayChecker = function() {
   };
   var $words = words(makeWordList, $alltext);
   if ($words > 1) {
-    $results.append('<p><strong>Number of words: </strong>' + $words + '</p>');
+    $results.append('<h3>Number of words: ' + $words + '</h3>');
     $results.append('<p>Make sure this meets the minimum number of words assigned for this essay.</p>');
   }
 
@@ -28,7 +28,7 @@ var essayChecker = function() {
 
   var $semi = semi($alltext);
   if ($semi > 0) {
-    $results.append('<p><strong>Number of semicolons: </strong>' + $semi + '</p>');
+    $results.append('<h3>Number of semicolons: ' + $semi + '</h3>');
     $results.append('<p>Semicolons are difficult to use correctly. Make sure each semicolon is properly used and not just a substitute for ", and".</p>');
   }
 
@@ -44,9 +44,10 @@ var essayChecker = function() {
   };
   var $essay = essay($alltext);
   if ($essay > 0) {
-    $results.append('<p><strong>Occurances of the word "essay": </strong>' + $essay + '</p>');
+    $results.append('<h3>Occurances of the word "essay": ' + $essay + '</h3>');
     $results.append('<p>Please do not use the word "essay" when writing an essay, not even in the title.</p>');
   }
+  $results.append('<h2>Good luck!</h2>');
 }
 
 $('textarea').on("input", essayChecker);
@@ -60,4 +61,4 @@ $('textarea').on("input", essayChecker);
     return ($words)/(filtered.length);
   };
   // var $sentences = sentLength($alltext);
-  // $results.append('<p><strong>Average length of sentences: </strong>' + $sentences + '</p>');
+  // $results.append('<p>Average length of sentences: ' + $sentences + '</p>');
