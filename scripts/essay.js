@@ -1,5 +1,6 @@
-$('textarea').on("input", function() {
-  var $results = $('.results') 
+var $results = $('.results') 
+
+var essayChecker = function() {
   $results.empty();
   var $alltext = $("#main_text").val();
 
@@ -46,8 +47,10 @@ $('textarea').on("input", function() {
     $results.append('<p><strong>Occurances of the word "essay": </strong>' + $essay + '</p>');
     $results.append('<p>Please do not use the word "essay" when writing an essay, not even in the title.</p>');
   }
+}
 
-});
+$('textarea').on("input", essayChecker);
+
 
   var sentLength = function (text) {
     var list = text.split("");
