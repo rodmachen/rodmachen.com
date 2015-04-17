@@ -8,7 +8,7 @@ body {
 	color: green;
 	background-color: #000050;
 	height: 55px;
-	margin: 0 0 .25em 0;
+	margin: 0 0 .5em 0;
 	padding: .5em 0;
 	font-size: 2.75em;
 	font-weight: bold;
@@ -24,24 +24,27 @@ h2 {
 h3 {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	margin: .25em;
 	padding-top: .5em;
 }
 
 p {
 	margin: .33em;
-	font-size: 1.25;
+	font-size: 1.25em;
+
 }
 
 .text-box {
 	width: 625px;
 	margin: 0 auto;
 	margin-top: .5em;
+
 }
 
 textarea {
 	display: block;
 	margin: 0 auto;
 	width: 98%;
+	font-size: 1em;
 }
