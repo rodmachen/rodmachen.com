@@ -1,9 +1,14 @@
-var $results = $('.results') 
-
-var essayChecker = function() {
+// cache $results to avoid memory overages
+var $results = $('.results');
+// 
+// all functionality resides in essayChecker
+function essayChecker() {
+  // clear results after any change
   $results.empty();
-  var $alltext = $("#main_text").val();
 
+  // variable for the submitted essay
+  var $alltext = $("#main_text").val().trim().replace(/(\r\n|\n|\r)/gm," ");
+  console.log($alltext.split(" "))
   var makeWordList = function (text) {
     return text.split(" ");
   }
@@ -11,10 +16,11 @@ var essayChecker = function() {
     return text.split("");
   }
   var words = function (func, text) {
-    return func(text).length;
+    return func(text).filter(function(value) {return value !== ""})
+                     .length;
   };
   var $words = words(makeWordList, $alltext);
-  if ($words > 1) {
+  if ($words > 0) {
     $results.append('<h3>Number of words: ' + $words + '</h3>');
     $results.append('<p>Make sure this meets the minimum number of words assigned for this essay.</p>');
   }
@@ -42,23 +48,26 @@ var essayChecker = function() {
     });
     return filtered.length;
   };
-  var $essay = essay($alltext);
+  // var $essay = essay($alltext);
+  function checkTerms(term) {
+    return $alltext.split(" ")
+                   .filter(function(value) {return value === term})
+                   .length;
+  }
+  // .slice(0, term.length)
+  var $essay = checkTerms("essay") + checkTerms("Essay")
   if ($essay > 0) {
-    $results.append('<h3>Occurances of the word "essay": ' + $essay + '</h3>');
-    $results.append('<p>Please do not use the word "essay" when writing an essay, not even in the title.</p>');
+    $results.append('<h3>Occurances of the word “essay”: ' + $essay + '</h3>');
+    $results.append('<p>Please do not use the word “essay” when writing an essay, not even in the title.</p>');
   }
   $results.append('<h2>Good luck!</h2>');
 }
 
+// watch for input and display
 $('textarea').on("input", essayChecker);
 
+function wordSearch(fullText, elements) {
+  
+}
 
-  var sentLength = function (text) {
-    var list = text.split("");
-    var filtered = list.filter(function(value) {
-          return value === "."
-    });
-    return ($words)/(filtered.length);
-  };
-  // var $sentences = sentLength($alltext);
-  // $results.append('<p>Average length of sentences: ' + $sentences + '</p>');
+
