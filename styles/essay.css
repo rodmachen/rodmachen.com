@@ -7,7 +7,7 @@ body {
 	text-align: center;
 	color: green;
 	background-color: #000050;
-	height: 55px;
+	height: 50px;
 	margin: 0 0 .5em 0;
 	padding: .5em 0;
 	font-size: 2.75em;
@@ -21,6 +21,7 @@ h2 {
 	font-size: 3em;
 	padding: .5em 0;
 }
+
 h3 {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: bold;
@@ -32,14 +33,12 @@ h3 {
 p {
 	margin: .33em;
 	font-size: 1.25em;
-
 }
 
 .text-box {
 	width: 625px;
 	margin: 0 auto;
 	margin-top: .5em;
-
 }
 
 textarea {
@@ -47,4 +46,5 @@ textarea {
 	margin: 0 auto;
 	width: 98%;
 	font-size: 1em;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 }
