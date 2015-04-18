@@ -50,15 +50,25 @@ function essayChecker() {
   };
   // var $essay = essay($alltext);
   function checkTerms(term) {
-    return $alltext.split(" ")
+    return $alltext.replace(/[^\w\s]|_/g, "")
+                   .replace(/\s+/g, " ")
+                   .split(" ")
                    .filter(function(value) {return value === term})
                    .length;
   }
-  // .slice(0, term.length)
   var $essay = checkTerms("essay") + checkTerms("Essay")
   if ($essay > 0) {
-    $results.append('<h3>Occurances of the word “essay”: ' + $essay + '</h3>');
+    $results.append('<h3>Uses of the word “essay”: ' + $essay + '</h3>');
     $results.append('<p>Please do not use the word “essay” when writing an essay, not even in the title.</p>');
+  }
+  var $I = checkTerms("I");
+  var $me = checkTerms("me");
+  var $we = checkTerms("we") + checkTerms("We");
+  var $you = checkTerms("you") + checkTerms("You");
+  var $pov = $I + $me +$we + $you; 
+  if ($pov > 0) {
+    $results.append('<h3>Uses of “I”: ' + $I + ', “me”: ' + $me + ', “we”: ' + $we + ', “you”: ' + $you + '</h3>');
+    $results.append('<p>Please do write in 1st or 2nd person. Use 3rd person instead.</p>');
   }
   $results.append('<h2>Good luck!</h2>');
 }
