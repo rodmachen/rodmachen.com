@@ -1,11 +1,11 @@
 body {
 	font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
-	background-color: #eee;
+	background-color: #f6f6f6;
 }
 
 .essay-headline {
 	text-align: center;
-	color: green;
+	color: #009000;
 	background-color: #000050;
 	height: 50px;
 	margin: 0 0 .5em 0;
@@ -28,6 +28,7 @@ h3 {
 	font-size: 1.75em;
 	margin: .25em;
 	padding-top: .5em;
+	color: #007000;
 }
 
 p {
@@ -42,6 +43,7 @@ p {
 }
 
 textarea {
+	color: #000050;
 	display: block;
 	margin: 0 auto;
 	width: 98%;
