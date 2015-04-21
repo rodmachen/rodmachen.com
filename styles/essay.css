@@ -19,7 +19,7 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 	font-size: 3em;
-	padding: .5em 0;
+	padding: .25em 0;
 }
 
 h3 {
@@ -34,6 +34,17 @@ h3 {
 p {
 	margin: .33em;
 	font-size: 1.25em;
+}
+
+.resubmit {
+	text-align: center;
+	font-style: italic;
+	padding: 0 0 1em 0;
+}
+.results {
+	width: 625px;
+	margin: 0 auto;
+	margin-top: .5em;
 }
 
 .text-box {
