@@ -3,6 +3,15 @@ body {
 	background-color: #f6f6f6;
 }
 
+button {
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 3px;
+	float: right;
+	margin: .25em;
+	background-color: #009000;
+	color: #f6f6f6;
+}
 .essay-headline {
 	text-align: center;
 	color: #009000;
@@ -19,7 +28,9 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 	font-size: 3em;
+	color: #000050;
 	padding: .25em 0;
+	clear: both;
 }
 
 h3 {
@@ -28,18 +39,20 @@ h3 {
 	font-size: 1.75em;
 	margin: .25em;
 	padding-top: .5em;
-	color: #007000;
+	color: #008000;
 }
 
 p {
 	margin: .33em;
 	font-size: 1.25em;
+	float: left;
 }
 
 .resubmit {
 	text-align: center;
 	font-style: italic;
 	padding: 0 0 1em 0;
+	float: none;
 }
 .results {
 	width: 625px;
