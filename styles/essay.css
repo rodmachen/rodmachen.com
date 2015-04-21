@@ -4,7 +4,7 @@ body {
 }
 
 button {
-	font-size: 1em;
+	font-size: .85em;
 	font-weight: bold;
 	border-radius: 3px;
 	float: right;
@@ -44,7 +44,7 @@ h3 {
 
 p {
 	margin: .33em;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	float: left;
 }
 
