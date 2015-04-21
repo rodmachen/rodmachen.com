@@ -69,7 +69,7 @@ function essayChecker() {
   // display number of exclamations
   if ($exclamations > 0) {
     $results.append('<h3>Exclamation points: ' + $exclamations + '</h3>');
-    $results.append('<p>Are you excited? Why are you using exlamation points? Try to cut this down.</p>');
+    $results.append('<p>Are you excited? Why are you using exclamation points? Try to cut this down.</p>');
   }
 
   // create essay counting function
