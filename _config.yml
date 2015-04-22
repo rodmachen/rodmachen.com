@@ -18,3 +18,4 @@ paginate_path: "/archive/page:num/"
 exclude: 
  - code.rodmachen.com/
  - photo.rodmachen.com/
+ - s3_website.yml

@@ -38,6 +38,8 @@ Thumbs.db
 /node_modules
 /vendor/*
 /_site/*
+/code.rodmachen.com/_site/*
+/photo.rodmachen.com/_site/*
 /.tmp
 /s3_website.yml
 /code.rodmachen.com/s3_website.yml
