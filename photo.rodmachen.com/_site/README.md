@@ -1,1 +1,0 @@
-Rod Machen's photography.
