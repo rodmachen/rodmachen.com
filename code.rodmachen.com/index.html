@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+  <div class="home">
+    
+    <!-- <h1 class="page-heading" id="responsive_headline1">From the desk of Rod Machen</h1> -->
+
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+        <li onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+          <h2>
+            <a class="post-link" >{{ post.title }}</a>
+            <!-- <a class="post-sublink" >{{ post.sub-title }}</a> -->
+          </h2>
+          <hr class="division">
+            {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <!-- href="{{ post.url | prepend: site.baseurl }}" -->
+    
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+  </div>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">←</a>
+    {% else %}
+      <span class="previous" style="font-weight: normal"></span>
+    {% endif %}
+    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">→</a>
+    {% else %}
+      <span class="next" style="font-weight: normal"></span>
+    {% endif %}
+  </div>

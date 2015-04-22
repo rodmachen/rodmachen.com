@@ -2,18 +2,15 @@
 title: Rod Machen
 email: mail@rodmachen.com
 description: > # this means to ignore newlines until "baseurl:"
-  Rod Machen's writings.
+  Rod Machen's writings on technology and code.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rodmachen.com" # the base hostname & protocol for your site
-twitter_username: rodmachen
+url: "http://code.rodmachen.com" # the base hostname & protocol for your site
+twitter_username: rod_machen
 
 # Build settings
 markdown: kramdown
 
-permalink: /:categories/:title/
+permalink: /:title/
 
 paginate: 10
-paginate_path: "/archive/page:num/"
-
-exclude: 
- - code.rodmachen.com/
+paginate_path: "/page:num/"
