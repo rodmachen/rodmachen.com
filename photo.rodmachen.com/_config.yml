@@ -1,0 +1,16 @@
+# Site settings
+title: Rod Machen
+email: mail@rodmachen.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rod Machen's photography.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://photo.rodmachen.com" # the base hostname & protocol for your site
+twitter_username: rodmachen
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title/
+
+# paginate: 10
+# paginate_path: "/page:num/"
