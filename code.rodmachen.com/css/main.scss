@@ -235,8 +235,8 @@ ul.post-list {
 
 article {
 	a {
-		// border-bottom: 1px dotted #dddddd; 
-		text-decoration: none;
+		border-bottom: 2px dotted #ccc; 
+		/*text-decoration: underline;*/
 	}
 	a:hover {
 		// border-bottom: 1px dotted #111111; 
