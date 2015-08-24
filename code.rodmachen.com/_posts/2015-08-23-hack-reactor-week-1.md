@@ -17,7 +17,7 @@ To give a taste of my week, here’s an overview of the material I ingested:
 
 **Software Engineering:** Recursion, Scopes/Execution Contexts/Closures, rewrite Underscore.js methods, git, instantiation patterns *(functional, functional-shared, prototypal, pseudoclassical)*, data structures *(stack, queue linked list graph tree set hash table binary search tree)*
 
-**Introductions:** debugging, function binding, test-driven development, deployment, open-source contributions
+**Introductions:** debugging, function binding, test-driven development, deployment, the DOM/jQuery, open-source contributions
 
 I might have more to say about some of these in the future, but suffice it to say, my week was full, my brain is full, and tomorrow it all starts over again.
 
