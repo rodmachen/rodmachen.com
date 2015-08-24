@@ -2,7 +2,7 @@
 title: The Calm Before the Storm
 layout: post
 category: code
-tags: Hack Reactor
+tags: hackreactor
 ---
 
 Tomorrow I begin an important step in my journey learning to code. Leaving the teaching profession for a career in software development has been a long time coming. A year ago, wrote my first line of code. Three months ago, I sent off my last class of high school seniors. Now, I become the student.
