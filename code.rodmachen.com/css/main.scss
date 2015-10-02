@@ -165,14 +165,14 @@ body {
 // 	}
 // }
 .post-list {
-	p {
-		font-size: 1.5em;
+	p, h1, h2, h3, h4, h5, h6 {
 		margin: .5em 1em;
 	}
-	margin: 1.5em 2em;
-	h1 {
-		margin: 0;
+	p {
+		font-size: 1.5em;
 	}
+	margin: 1.5em 2em;
+
 	li {
 	margin: 1.5em 2em;
 	padding: 0 0em .5em 0em;
@@ -193,15 +193,18 @@ body {
 			}
 		}
 }
+
 .post {
+	p, h1, h2, h3, h4, h5, h6 {
+		margin: .5em 1em;
+	}
 	p {
 		font-size: 1.5em;
-		margin: .5em 1em;
 	}
 	padding: 1em 0em;
 	margin: 1.5em 2em;
 	h1 {
-		margin: 0;
+		/*margin: 0;*/
 	}
 
 		@media (max-width: 720px) {
@@ -220,6 +223,11 @@ body {
 		display: block;
 		max-width: 100%;
 		box-shadow: 0px 1px 5px #777;
+	}
+}
+header {
+	h1 {
+		/*margin: 0 !important;*/
 	}
 }
 .post-list li, .post {
@@ -322,10 +330,13 @@ h1 {
 
 pre,
 code {
-    font-size: 18px;
-    border: 1px solid #999999;
-    // border-radius: 3px;
-    background-color: #efefef;
+		color: #00dd00;
+    font-size: 1.2em;
+    /*font-size: 18px;*/
+    /*border: 1px solid #999999;*/
+    /*border-radius: 3px;*/
+    background-color: #000;
+    /*background-color: #efefef;*/
     line-height: 22px;
 }
 
@@ -334,7 +345,8 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+		margin: 0 1.5em;
+    padding: .5em;
     // overflow-x: scroll;
     > code {
         border: 0;
