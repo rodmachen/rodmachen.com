@@ -1,0 +1,82 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+table tr td {
+  font-size: 1.75rem;
+  font-family: monospace
+}
+
+table, form {
+  margin: 0 auto;
+}
+.title {
+  margin-top: .35em;
+  line-height: .85em;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+}
+
+body{
+  background-color: #600000;
+}
+
+.row {
+  background-color: #F6F6F6;
+}
+
+.last {
+  /*margin-bottom: 100px;*/
+}
+
+.footer {
+  margin: 0 auto;
+  /*position: fixed;*/
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 25px; /* choose any height */
+  background-color: #600000;
+  h5 {
+    color: #F6F6F6;
+  }
+}

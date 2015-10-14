@@ -1,0 +1,119 @@
+<!doctype html>
+<html ng-app="roster" class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roster Builder</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/responsive-tables.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body ng-controller="MainCtrl">
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1 class="title">Roster Builder</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 medium-12  large-collapse columns">      
+        <!-- <h5>Enter a player</h5> -->
+        <form ng-submit="addPlayer()">
+          <div class="row">
+            <div class="large-6 small-centered medium-2 columns">
+              <label>Number</label>
+              <input type="number" placeholder="00" max="99" ng-model="num"/>
+            </div>            
+            <div class="large-6 small-centered medium-2 columns">
+              <label>Last Name</label>
+              <input type="text" placeholder="Smith" ng-model="last"/>
+            </div>
+            <div class="large-6 small-centered medium-2 columns">
+              <label>First Name</label>
+              <input type="text" placeholder="Jim" ng-model="first"/>
+            </div>
+            <div class="large-6 small-centered medium-2 columns">
+              <label>Position</label>
+              <input type="text" placeholder="RB" maxlength="2" ng-model="pos"/>
+            </div>
+            <div class="large-6 small-centered medium-2 columns end">
+              <input type="submit" value="Submit" class="button tiny"/>
+            </div>
+          </div>
+        </form>
+      </div>     
+    </div>
+
+    <div class="row last">
+      <div class="large-12 medium-12 columns">  
+        <div>
+          <table class="responsive">
+            <thead>
+              <tr>
+                <th>PLAYERS</th>
+                <th width="">
+                  <a href="#" ng-click="sortType = 'num'; sortReverse = !sortReverse">
+                    Number 
+                    <span ng-show="sortType == 'num'" class="fa fa-caret-down"></span>
+                  </a>
+                </th>
+                <th width="">
+                  <a href="#" ng-click="sortType = 'last'; sortReverse = !sortReverse">
+                    <span ng-show="sortType == 'last'" class="fa fa-caret-down"></span>
+                    Last Name
+                  </a>
+                </th>
+                <th width="">
+                  <a href="#" ng-click="sortType = 'first'; sortReverse = !sortReverse">
+                    <span ng-show="sortType == 'first'" class="fa fa-caret-down"></span>
+                    First Name
+                  </a>
+                </th>
+                <th width="">
+                  <a href="#" ng-click="sortType = 'pos'; sortReverse = !sortReverse">
+                    <span ng-show="sortType == 'pos'" class="fa fa-caret-down"></span>
+                    Position
+                  </a>
+                </th>
+                <th width="125">Remove</th>
+              </tr>    
+            </thead>
+            <tbody>
+              <tr ng-repeat="player in players | orderBy:sortType:sortReverse">
+                <td></td>
+                <td>{{player.num}}</td>
+                <td>{{player.last}}</td>
+                <td>{{player.first}}</td>
+                <td>{{player.pos}}</td>
+                <td><input type="submit" value="X" class="button tiny" ng-click="removePlayer(player)"/></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>     
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <br>
+      </div>
+    </div>
+
+    <div class="row footer">
+      <div class="large-12 columns">
+        <h5>Copyright 2015 - Rod Machen</h5>
+      </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/ngstorage/ngStorage.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+    <script src="app.js"></script>
+    <script src="js/responsive-tables.js"></script>
+  </body>
+</html>
