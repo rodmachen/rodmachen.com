@@ -4,13 +4,13 @@ layout: post
 category: code
 tags: react
 ---
+My exploration of React.js has officially begun, and I’ve learned some fundamental concepts that have helped me get started. Unfortunately, there’s no one-stop-shop for this kind of thing (see [this article](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.vy4ccyn5m) for an explanation of the problem) so I’ve had to muck around a bit.
+
 <style>
   pre, code {
     font-size: 1.1em;
   }
 </style>
-
-My exploration of React.js has officially begun, and I’ve learned some fundamental concepts that have helped me get started. Unfortunately, there’s no one-stop-shop for this kind of thing (see [this article](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.vy4ccyn5m) for an explanation of the problem) so I’ve had to muck around a bit.
 
 I got started by working through a couple of workshops/tutorials. The best of these has been Ryan Florence’s course on Frontend Masters, ["React (with Introduction to Flux Architecture).”](https://frontendmasters.com/courses/react/) He convinced me that having Webpack, Babel, and ES6 was the way to go for any React project. I also enjoyed Mike Sugarbaker’s O'Reilly course, ["A Practical Introduction to React.js.”](http://shop.oreilly.com/product/0636920039716.do). Having already written a little bit of code, this tutorial helped solidify some concepts for me.
 
