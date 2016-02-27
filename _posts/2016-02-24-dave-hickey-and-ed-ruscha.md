@@ -30,4 +30,4 @@ I grew up in Ft. Worth, and Ed grew up in Oklahoma “Shitty.” If you don’t 
   <img src="" alt="">
 </a> -->
 
-<!-- (Originally published by the Austin Chronicle on XXXXXX under the title [title](http).) -->
+(Originally published by the Austin Chronicle on January 19, 2016 under the title [Elementary, My Dear Hickey](http://www.austinchronicle.com/daily/arts/2016-01-19/elementary-my-dear-hickey/).)
