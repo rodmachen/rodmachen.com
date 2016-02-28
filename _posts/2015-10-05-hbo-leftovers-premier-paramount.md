@@ -1,5 +1,5 @@
 ---
-title: The Leftovers Premiers at the Paramount
+title: Leftovers Premier at the Paramount
 sub-title: Second Season Shot in Austin
 layout: post
 category: article
