@@ -19,29 +19,52 @@
       background-size: cover;
       text-align: right;
     }
-    a {
-      float: right;
-    }
-
     .headline {
-        float: left;
-        font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
-        font-size: 3em;
-        font-weight: normal;
-        padding: 0 .15em 0.05em .15em;
-        margin: 0 auto;
-        color: #ffffff;
+      float: left;
+      font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+      font-size: 3em;
+      font-weight: normal;
+      padding: 0 .15em 0.05em .15em;
+      margin: 0 auto;
+      color: #ffffff;
     }
+    /* .name {
+      display: inline;
+      float: left;
+      font-size: 4em;
+    } */
     a h1:hover {
-        color: #aaa;
+      color: #aaa;
+    }
+    .first {
+      float: right;
     }
     .second {
       clear: both;
+      float: right;
+    }
+    .icon {
+      max-height: 25px;
+      padding-top: 5px;
+      padding-left: 1px;
+      padding-right: 5px;
+    }
+    .main {
+      /* display: flex; */
+    }
+    .row {
+      display: inline-flex;
+      float: right;
+    }
+    .column {
+      flex: 33.33%;
+      padding: 5px;
     }
     @media all and (orientation: portrait) {
       .name {
         text-align: left;
         float:right;
+        font-size: 4em;
       }
       .first {
         clear: both;
@@ -52,20 +75,52 @@
       .headline {
         font-size: 2.25em;
       }
+      .name {
+        font-size: 2.5em;
+      }
     }
     @media (max-width: 370px) {
       .headline {
         font-size: 1.8em;
       }
+      .name {
+        font-size: 1.9em;
+      }
     }
   </style>
 <body>
-    <div>
+    <div class="main">
       <h1 class="headline name">ROD MACHEN</h1>
-      <a href="https://cinapse.co/@rodmachen" class="first"><h1 class="headline">Film & Television</h1></a>
-      <a href="https://hangmanchronicles.com/" class="second"><h1 class="headline">Arts & Culture</h1></a>
-      <a href="https://photo.rodmachen.com/" class="second"><h1 class="headline">Photography</h1></a>
-      <a href="https://codenotcode.com/" class="second"><h1 class="headline">Technology</h1></a>
+      <a target="_blank" href="https://cinapse.co/@rodmachen" class="first">
+        <h1 class="headline">Film & Television</h1>
+      </a>
+      <a target="_blank" href="https://hangmanchronicles.com/" class="second">
+        <h1 class="headline">Arts & Culture</h1>
+      </a>
+      <a target="_blank" href="https://photo.rodmachen.com/" class="second">
+        <h1 class="headline">Photography</h1>
+      </a>
+      <a target="_blank" href="https://codenotcode.com/" class="second">
+        <h1 class="headline">Technology</h1>
+      </a>
+      <div class="second row">
+        <div class="column">
+          <a target="_blank" href="https://www.instagram.com/machenindustries/">
+            <img src="images/ig-logo-email.png" class="icon" />
+          </a>
+        </div>
+        <div class="column">
+          <a target="_blank" href="https://twitter.com/rodmachen">
+            <img src="images/Twitter_Social_Icon_Square_Color.png" class="icon" />
+          </a>
+        </div>
+        <div class="column">
+          <a target="_blank" href="https://www.linkedin.com/in/rodmachen/">
+            <img src="images/In-2C-128px-R.png" class="icon" />
+          </a>
+        </div>
+
+      </div>
     </div>
 
 <script>
