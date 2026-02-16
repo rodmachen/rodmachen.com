@@ -1,0 +1,79 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  subTitle?: string;
+  date: Date;
+  tags?: string[];
+  category?: string | string[];
+}
+
+const { title, subTitle, date, tags, category } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={`${title} | Rod Machen`}>
+  <article>
+    <header class="post-header">
+      <h1>{title}</h1>
+      {subTitle && <p class="subtitle">{subTitle}</p>}
+      <time datetime={date.toISOString().split('T')[0]}>{formattedDate}</time>
+    </header>
+    <div class="post-content">
+      <slot />
+    </div>
+    {tags && tags.length > 0 && (
+      <footer class="post-tags">
+        {tags.map(tag => (
+          <a href={`/categories/${tag}/`} class="tag">{tag}</a>
+        ))}
+      </footer>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .post-header {
+    margin-bottom: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+
+  time {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+  }
+
+  .post-content {
+    margin-bottom: 2rem;
+  }
+
+  .post-tags {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    background: #f0f0f0;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+  }
+</style>

@@ -1,0 +1,60 @@
+---
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="site-name">Rod Machen</a>
+    <nav>
+      <a href="/archive/">Archive</a>
+      <a href="/categories/">Categories</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0;
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .site-name {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  .site-name:hover {
+    text-decoration: none;
+    color: var(--color-link);
+  }
+
+  nav {
+    display: flex;
+    gap: 1.25rem;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 500px) {
+    .header-inner {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    nav {
+      gap: 1rem;
+    }
+  }
+</style>

@@ -1,1 +1,0 @@
-Rod Machen's writings on technology and code.

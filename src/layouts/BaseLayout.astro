@@ -1,0 +1,39 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Rod Machen's writings." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={description} />
+  <link rel="alternate" type="application/rss+xml" title="Rod Machen" href="/rss.xml" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>{title}</title>
+</head>
+<body>
+  <Header />
+  <main class="container">
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>
+
+<style>
+  main {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    min-height: 60vh;
+  }
+</style>

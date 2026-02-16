@@ -1,0 +1,125 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rod Machen</title>
+  <meta name="description" content="Rod Machen — Writer, Photographer, Technologist" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 10vw, 7rem);
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+
+    .roles {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      font-size: clamp(0.85rem, 2vw, 1.15rem);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #999;
+    }
+
+    .roles span {
+      position: relative;
+    }
+
+    .roles span:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: -1rem;
+      top: 15%;
+      height: 70%;
+      width: 1px;
+      background: #444;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 500px) {
+      .roles {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .roles span::after {
+        display: none;
+      }
+
+      nav {
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Rod Machen</h1>
+    <div class="roles">
+      <span>Writer</span>
+      <span>Photographer</span>
+      <span>Technologist</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="/blog/">Blog</a>
+    <a href="https://photo.rodmachen.com/" target="_blank">Photography</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+  </nav>
+</body>
+</html>

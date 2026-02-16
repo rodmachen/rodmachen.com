@@ -1,47 +1,14 @@
-# .gitignore for Yeoman-Jekyll projects
+# Astro
+node_modules/
+dist/
+.astro/
+.vercel/
 
-# Ignore hidden folders #
-# This takes care of .tmp, .sass-cache, and many others #
-.*/
-
-# Ignore OS generated files #
-.DS_Store*
-ehthumbs.db
-Icon?
+# OS
+.DS_Store
 Thumbs.db
 
-# Always-ignore files and folders #
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swn
-*.swo
+# Editor
 *.swp
-._*
+*.swo
 *~
-.ruby-version
-.ruby-gemset
-
-# Ignore packages #
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Ignore for Yeoman-Jekyll projects #
-/node_modules
-/vendor/*
-/_site/*
-/code.rodmachen.com/_site/*
-/photo.rodmachen.com/_site/*
-/.tmp
-/s3_website.yml
-/code.rodmachen.com/s3_website.yml
-/photo.rodmachen.com/s3_website.yml
-
