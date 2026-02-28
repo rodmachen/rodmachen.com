@@ -2,12 +2,15 @@
 title: SXSW 2015
 subTitle: A look back before it begins
 category: article
-tags:
  - austin
  
  - screens
  - sxsw
 date: 2015-03-12
+tags:
+  - sxsw
+  - austin
+  - essay
 ---
 The South by Southwest “Everything” festival officially kicks off tomorrow, but for many, it’s already here. SXSW badge and swag pick up started today, and for the edu-cated among us, it started Monday. Either way, the next ten days will be a flurry for anyone who steps into Austin’s downtown. 
 

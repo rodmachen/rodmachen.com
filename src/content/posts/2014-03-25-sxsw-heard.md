@@ -2,13 +2,12 @@
 title: SXSW 2014
 subTitle: What I Heard
 author: Rod Machen
-category:
-  - article
-tags:
-  - austin
-  
-  - sxsw
+category: article
 date: 2014-03-25
+tags:
+  - sxsw
+  - music
+  - austin
 ---
 
 

@@ -1,125 +1,285 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPostSlug, getPostCategory, getPostsByCategory, CATEGORY_CONFIG } from '../utils/posts';
+
+const posts = await getCollection('posts');
+const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const grouped = getPostsByCategory(sorted);
+
+const bylines = await getCollection('bylines');
+const sortedBylines = bylines.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const totalItems = sorted.length + sortedBylines.length;
+
+// Grid cards: each content category + archive
+type GridCard = {
+  key: string;
+  label: string;
+  description: string;
+  accent: string;
+  href: string;
+  count: number;
+  items: { title: string; subtitle?: string; href: string }[];
+  comingSoon: boolean;
+};
+
+const gridCards: GridCard[] = Object.entries(CATEGORY_CONFIG).map(([key, config]) => {
+  if (key === 'byline') {
+    const items = sortedBylines.slice(0, 5).map((b) => ({
+      title: b.data.title,
+      subtitle: b.data.subTitle,
+      href: b.data.url,
+    }));
+    return {
+      key,
+      label: config.label,
+      description: config.description,
+      accent: config.accent,
+      href: '/byline/',
+      count: sortedBylines.length,
+      items,
+      comingSoon: false,
+    };
+  }
+
+  const catPosts = grouped[key] || [];
+  const items = catPosts.slice(0, 5).map((post) => ({
+    title: post.data.title || getPostSlug(post.id),
+    subtitle: post.data.subTitle,
+    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id)}/`,
+  }));
+
+  return {
+    key,
+    label: config.label,
+    description: config.description,
+    accent: config.accent,
+    href: `/${key}/`,
+    count: catPosts.length,
+    items,
+    comingSoon: catPosts.length === 0,
+  };
+});
+
+// Add Archive as 6th card — merge posts + bylines for 5 most recent
+const allItems = [
+  ...sorted.map((post) => ({
+    title: post.data.title || getPostSlug(post.id),
+    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id)}/`,
+    date: post.data.date,
+    external: false,
+  })),
+  ...sortedBylines.map((b) => ({
+    title: b.data.title,
+    href: b.data.url,
+    date: b.data.date,
+    external: true,
+  })),
+].sort((a, b) => b.date.getTime() - a.date.getTime());
+
+gridCards.push({
+  key: 'archive',
+  label: 'Archive',
+  description: 'All posts, chronologically',
+  accent: '#555',
+  href: '/archive/',
+  count: totalItems,
+  items: allItems.slice(0, 5).map((item) => ({
+    title: item.title,
+    href: item.href,
+  })),
+  comingSoon: false,
+});
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rod Machen</title>
-  <meta name="description" content="Rod Machen — Writer, Photographer, Technologist" />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<BaseLayout title="Edition | Rod Machen" description="Writing on food, film, arts, and Austin culture.">
+  <section class="hero">
+    <h1>Edition</h1>
+    <p class="tagline">Writing by Rod Machen</p>
+  </section>
 
-    html, body {
-      height: 100%;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: #111;
-      color: #fff;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .hero {
-      margin-bottom: 3rem;
-    }
-
-    h1 {
-      font-size: clamp(3rem, 10vw, 7rem);
-      font-weight: 300;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      line-height: 1.1;
-      margin-bottom: 1.5rem;
-    }
-
-    .roles {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      font-size: clamp(0.85rem, 2vw, 1.15rem);
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: #999;
-    }
-
-    .roles span {
-      position: relative;
-    }
-
-    .roles span:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      right: -1rem;
-      top: 15%;
-      height: 70%;
-      width: 1px;
-      background: #444;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1.5rem;
-    }
-
-    nav a {
-      color: #888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-
-    nav a:hover {
-      color: #fff;
-    }
-
-    @media (max-width: 500px) {
-      .roles {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-
-      .roles span::after {
-        display: none;
-      }
-
-      nav {
-        gap: 1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="hero">
-    <h1>Rod Machen</h1>
-    <div class="roles">
-      <span>Writer</span>
-      <span>Photographer</span>
-      <span>Technologist</span>
-    </div>
+  <div class="grid">
+    {gridCards.map((card) => (
+      <div class="card" style={`--card-accent: ${card.accent}`}>
+        <a href={card.href} class="card-header">
+          <h2>{card.label}</h2>
+          <span class="card-count">{card.count}</span>
+        </a>
+        <p class="card-desc">{card.description}</p>
+        {card.comingSoon ? (
+          <p class="coming-soon">Coming soon</p>
+        ) : card.items.length > 0 ? (
+          <ul class="card-list">
+            {card.items.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  {...(card.key === 'byline' ? { target: '_blank', rel: 'noopener' } : {})}
+                >
+                  <span class="item-title">{item.title}</span>
+                  {item.subtitle && <span class="item-subtitle">{item.subtitle}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        ) : null}
+        <a href={card.href} class="card-link">
+          {card.key === 'archive' ? 'Browse all' : `View all ${card.label}`} &rarr;
+        </a>
+      </div>
+    ))}
   </div>
 
-  <nav>
-    <a href="/blog/">Blog</a>
-    <a href="https://photo.rodmachen.com/" target="_blank">Photography</a>
-    <a href="/about/">About</a>
-    <a href="/contact/">Contact</a>
+  <nav class="home-nav">
+    <a href="/archive/">Full Archive ({totalItems} posts)</a>
+    <a href="/topics/">Topics</a>
   </nav>
-</body>
-</html>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    font-style: italic;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    border: 1px solid var(--color-border);
+    border-top: 3px solid var(--card-accent);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+  }
+
+  .card-header:hover {
+    text-decoration: none;
+  }
+
+  .card h2 {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--card-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .card-count {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+  }
+
+  .card-desc {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    margin-bottom: 0.75rem;
+  }
+
+  .card-list {
+    list-style: none;
+    flex: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-list li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .card-list li:first-child {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .card-list a {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-subtitle {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    font-style: italic;
+  }
+
+  .coming-soon {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .card-link {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
+  }
+
+  .home-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .home-nav a {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+  }
+
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 500px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+</style>

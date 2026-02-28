@@ -2,11 +2,11 @@
 title: 'Man Bites Dog'
 subTitle: 'Hot dog in the city'
 author: Rod Machen
-category: article
-tags:
-  - austin
-  - food
+category: review
 date: 2014-01-09
+tags:
+  - food
+  - austin
 ---
 Hot dogs are one of those foods that can be extremely appetizing on television, beyond its intrinsic ordinariness. For instance, Anthony Bourdain can make some city&#8217;s version look like a meal worth getting on an airplane for. Heck, I&#8217;ve watched an entire hour on hot dogs around the United States. They all looked good.
 

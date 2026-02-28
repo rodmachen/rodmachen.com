@@ -3,10 +3,12 @@ title: The GM Steakhouse
 subTitle: Austin’s past in one iconic diner
 author: Rod Machen
 category: article
+date: 2013-12-30
 tags:
   - austin
   - food
-date: 2013-12-30
+  - film
+  - culture
 ---
 
 The GM Steakhouse occupies a special place in Austin&#8217;s nostalgic past for me. I knew of it before I moved here and ate there until it&#8217;s departure. It exemplified aspects of old Austin that don&#8217;t exist any more, while at the same time, it was romanticized beyond its reality. Much can be learned about the transition Austin has undergone–and continues to undergo–as we grow and grow and grow.

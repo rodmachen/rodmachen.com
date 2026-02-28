@@ -3,9 +3,10 @@ title: 'My So-Called First Entry: <br />The beginning of my Austin stories'
 author: Rod Machen
 published: false
 category: article
+date: 2013-12-19
 tags:
   - austin
-date: 2013-12-19
+  - essay
 ---
 Let&#8217;s begin with the title in mind: My So-Called Austin Stories. If I&#8217;m going to reference a <a href="http://epguides.com/AustinStories/" target="_blank">short-lived MTV series</a> from the 90&#8217;s that attempted to capitalize on post <a href="http://www.imdb.com/title/tt0102943/" target="_blank"><em>Slacker</em></a>-era Austin, then I should start out by writing about my fair city, and there&#8217;s nothing more Austin than nostalgia.
 

@@ -2,13 +2,15 @@
 title: Ballet Austin’s The Nutcracker
 subTitle: Dressing up is fun!
 author: Rod Machen
-category: article
-tags:
-  - austin
+category: review
   
 #  - kid stuff
 #  - Performances
 date: 2013-12-26
+tags:
+  - austin
+  - culture
+  - art
 ---
 Last stop on the Christmas-traditions joyride was <a href="http://www.balletaustin.org/" target="_blank">Ballet Austin&#8217;s</a> production of Tchaikovsky&#8217;s <a href="http://www.balletaustin.org/atb/nutcracker2013.php" target="_blank">The Nutcracker</a>. Our oldest can now sit through half of a church service, so we figured she was ready for the big time, and when it comes to kids, Christmas and classic music, The Nutcracker is the biggest of times.
 

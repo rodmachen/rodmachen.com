@@ -1,0 +1,57 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+95557408,2023-01-16T18:02:42.867Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:03:30.890Z,katrina.hanson@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:05:50.002Z,jeswenpow@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-16T18:06:27.282Z,jenny@wjeversole.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:08:17.860Z,nathanzellner@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:16:15.313Z,joey.cross@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:17:29.684Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:17:36.664Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:24:46.843Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-16T18:27:31.581Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:29:57.341Z,jenbrussell@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:31:47.690Z,pauletta.reeves@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T18:59:19.417Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T19:20:19.956Z,adowell30@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T19:26:10.859Z,tophermartin@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T19:35:02.006Z,todd@amarillo-law.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T20:00:44.143Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T20:20:51.626Z,stoopid_chicken@hotmail.com,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Linux; Android 12; TMAF035G Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36"
+95557408,2023-01-16T20:27:21.809Z,emily@dbpoffice.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T21:33:44.848Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T22:39:30.766Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-16T23:04:31.151Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T00:10:53.777Z,ronda.machen@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T00:21:47.058Z,nathanzellner@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T00:23:41.161Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T01:37:28.950Z,toddmelissa99@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T02:33:38.475Z,karobertson48@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T02:49:28.432Z,karobertson48@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T02:55:00.700Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T03:31:13.219Z,katrina.hanson@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T04:21:50.559Z,sorman33@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T04:53:03.526Z,emily@dbpoffice.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T05:01:01.724Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T05:58:27.760Z,dan.pryor@mccombs.utexas.edu,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T09:31:59.222Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T13:00:03.037Z,algordontx@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T17:07:41.317Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-17T17:36:04.882Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T17:36:47.078Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T17:42:07.043Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T17:42:54.883Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-17T18:14:40.537Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0
+95557408,2023-01-17T22:34:52.900Z,emily@dbpoffice.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-18T04:40:07.600Z,maguyver96@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+95557408,2023-01-18T16:07:36.671Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-18T20:00:18.005Z,karobertson48@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-19T08:14:34.304Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-21T02:33:47.298Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-21T21:21:44.668Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0
+95557408,2023-01-24T01:59:36.557Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-26T05:27:47.571Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-01-28T04:55:11.892Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-02-08T02:06:50.685Z,leahkschooler@live.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-02-08T04:41:38.640Z,leahkschooler@live.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-02-08T23:06:36.014Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+95557408,2023-02-14T06:59:08.561Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0

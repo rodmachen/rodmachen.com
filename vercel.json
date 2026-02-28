@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/p/:slug",
+      "destination": "/newsletter/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/categories/:path*",
+      "destination": "/topics/:path*",
+      "permanent": true
+    }
+  ]
+}

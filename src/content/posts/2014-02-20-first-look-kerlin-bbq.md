@@ -3,10 +3,10 @@ title: 'Kerlin BBQ'
 subTitle: 'A First Look'
 author: Rod Machen
 category: article
+date: 2014-02-20
 tags:
   - austin
   - food
-date: 2014-02-20
 ---
 <p dir="ltr">
   At this point, hearing about a new barbecue trailer doing good work in Austin is no longer a surprise. <a href="http://labarbecue.com/" target="_blank">La Barbecue</a> and <a href="http://www.johnmuellermeatco.com/" target="_blank">John Mueller</a> were my forays into this genre, but after being blown away by <a href="http://www.craftmeats.com/" target="_blank">Micklethwait and his Craft Meats</a>, I&#8217;m willing to try a new one any time. <a href="http://www.kerlinbbq.com/" target="_blank">Kerlin BBQ</a> was next on my list.

@@ -3,10 +3,11 @@ title: In Defense of Long Lines
 subTitle: . . . sort of
 author: Rod Machen
 category: article
+date: 2014-02-11
 tags:
   - austin
   - food
-date: 2014-02-11
+  - essay
 ---
 
 <p dir="ltr">

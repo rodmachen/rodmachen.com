@@ -2,11 +2,11 @@
 title: Dai Due
 subTitle: Breakfast Sandwich
 author: Rod Machen
-category: article
-tags:
-  - austin
-  - food
+category: review
 date: 2014-01-23
+tags:
+  - food
+  - austin
 ---
 <a href="http://daidueaustin.net/" target="_blank">Dai Due</a> is a place I&#8217;ve been coming to for a while now. Truth be told, I first heard of it on <a href="http://www.travelchannel.com/tv-shows/bizarre-foods" target="_blank">Bizarre Foods</a>. Yes, I had to have Andrew Zimmern tell me about a place in my own city. That&#8217;s just the way it works sometimes. They make their encampment at the <a href="http://www.sfcfarmersmarket.org/markets/sfc-farmers-market-downtown" target="_blank">Farmers Market Downtown</a> every Saturday (and at Mueller on Sunday.) While most people go to such a market for fresh fruit and vegetables, I just go to eat.
 

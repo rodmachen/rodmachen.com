@@ -1,0 +1,138 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPostSlug, getPostCategory, CATEGORY_CONFIG } from '../../utils/posts';
+
+export const getStaticPaths = (async () => {
+  return Object.keys(CATEGORY_CONFIG)
+    .filter((key) => key !== 'byline')
+    .map((key) => ({
+      params: { category: key },
+      props: { category: key },
+    }));
+}) satisfies GetStaticPaths;
+
+const { category } = Astro.props;
+const config = CATEGORY_CONFIG[category];
+
+const posts = await getCollection('posts');
+const filtered = posts
+  .filter((p) => getPostCategory(p.data.category) === category)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title={`${config.label} | Edition`}>
+  <header class="page-header">
+    <h1 style={`color: ${config.accent}`}>{config.label}</h1>
+    <p class="page-subtitle">{config.description}</p>
+    <p class="page-count">{filtered.length} post{filtered.length !== 1 ? 's' : ''}</p>
+  </header>
+
+  {filtered.length === 0 ? (
+    <p class="empty">Coming soon.</p>
+  ) : (
+    <ul class="post-list">
+      {filtered.map((post) => {
+        const slug = getPostSlug(post.id);
+        const cat = getPostCategory(post.data.category);
+        const date = post.data.date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        });
+        return (
+          <li>
+            <time>{date}</time>
+            <div class="post-info">
+              <a href={`/${cat}/${slug}/`}>{post.data.title || slug}</a>
+              {post.data.subTitle && <div class="post-subtitle">{post.data.subTitle}</div>}
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    margin-bottom: 0.25rem;
+  }
+
+  .page-count {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .empty {
+    text-align: center;
+    color: var(--color-text-light);
+    font-style: italic;
+    padding: 3rem 0;
+  }
+
+  .post-list {
+    list-style: none;
+    margin-bottom: 2.5rem;
+  }
+
+  .post-list li {
+    display: flex;
+    gap: 1.25rem;
+    align-items: baseline;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .post-list li:first-child {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .post-list time {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    white-space: nowrap;
+    min-width: 5.5rem;
+  }
+
+  .post-info {
+    flex: 1;
+  }
+
+  .post-list a {
+    font-size: 0.95rem;
+  }
+
+  .post-subtitle {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    font-style: italic;
+  }
+
+  @media (max-width: 500px) {
+    .post-list li {
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+  }
+</style>

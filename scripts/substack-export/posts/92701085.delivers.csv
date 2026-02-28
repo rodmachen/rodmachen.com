@@ -1,0 +1,12 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription
+92701085,2023-01-03T02:01:06.200Z,mail@rodmachen.com,newsletter,everyone,false
+92701085,2023-01-03T02:01:06.469Z,pennycriordan@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:07.093Z,tophermartin@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:10.469Z,nathanzellner@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:10.866Z,joey.cross@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:11.165Z,todd@amarillo-law.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:11.261Z,toddmelissa99@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:11.546Z,jeswenpow@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:11.622Z,katrina.hanson@me.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:12.543Z,courtlane@gmail.com,newsletter,everyone,true
+92701085,2023-01-03T02:01:13.553Z,stoopid_chicken@hotmail.com,newsletter,everyone,true

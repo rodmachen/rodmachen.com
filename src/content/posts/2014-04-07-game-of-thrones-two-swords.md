@@ -2,11 +2,11 @@
 title: Game of Thrones 
 subTitle: Two Swords
 author: Rod Machen
-category:
-  - article
-tags:
-  - screens
+category: article
 date: 2014-04-07
+tags:
+  - tv
+  - culture
 ---
 
   The lords and ladies, knights and whores of Westeros are back for an as-always highly anticipated season of Game of Thrones. While a few main characters and plot threads weren’t present-notably Bran, Stannis, and Theon-the others were back in the full swing of things.

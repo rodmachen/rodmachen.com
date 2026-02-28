@@ -1,0 +1,51 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+107315917,2023-03-09T04:32:48.113Z,katrina.hanson@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T04:35:16.661Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T04:41:54.555Z,mattgulde@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T04:54:17.005Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T04:54:26.304Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T04:55:19.634Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T04:57:02.456Z,courtlane@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:03:09.042Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:03:15.328Z,toddmelissa99@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:03:32.251Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:10:08.105Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:10:14.406Z,jenbrussell@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:14:16.987Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T05:15:59.746Z,courtlane@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:16:42.562Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T05:16:54.704Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T05:22:47.076Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:24:19.336Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:28:10.834Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:28:29.975Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T05:28:33.882Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T05:36:40.799Z,tophermartin@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:47:17.546Z,ronda.machen@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T05:48:59.547Z,jlatim@yahoo.com,newsletter,everyone,true,US,,,,,,YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+107315917,2023-03-09T06:34:50.571Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T10:54:51.950Z,joey.cross@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T12:38:06.721Z,toddmelissa99@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T12:38:06.721Z,todd@amarillo-law.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T12:38:09.194Z,todd@amarillo-law.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T12:38:09.203Z,toddmelissa99@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T12:44:15.391Z,joebumbulis@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+107315917,2023-03-09T13:09:18.019Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+107315917,2023-03-09T13:40:42.193Z,emily@dbpoffice.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T13:53:54.035Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+107315917,2023-03-09T14:25:40.276Z,stoopid_chicken@hotmail.com,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Linux; Android 12; TMAF035G Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36"
+107315917,2023-03-09T15:07:26.865Z,moniqueboecking@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+107315917,2023-03-09T15:32:08.892Z,jenny@wjeversole.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T15:33:27.441Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+107315917,2023-03-09T18:49:26.670Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-09T23:14:55.919Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-10T11:31:35.758Z,jenny@wjeversole.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-11T05:41:15.536Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-11T13:43:11.555Z,adowell30@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-11T14:51:04.504Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-13T05:15:01.866Z,eamoore@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+107315917,2023-03-14T15:05:39.925Z,algordontx@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+107315917,2023-03-16T12:26:56.641Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-20T03:34:36.380Z,nathanzellner@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-24T14:31:22.241Z,pauletta.reeves@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+107315917,2023-03-25T15:56:42.077Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0

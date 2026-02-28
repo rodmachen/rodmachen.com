@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = await getCollection('posts');
+const bylines = await getCollection('bylines');
+
+const tagCounts = new Map<string, number>();
+for (const post of posts) {
+  const tags = post.data.tags || [];
+  for (const tag of tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  }
+}
+for (const byline of bylines) {
+  const tags = byline.data.tags || [];
+  for (const tag of tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  }
+}
+
+const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Topics | Edition">
+  <header class="page-header">
+    <h1>Topics</h1>
+  </header>
+
+  <ul class="tag-list">
+    {sortedTags.map(([tag, count]) => (
+      <li>
+        <a href={`/topics/${tag}/`}>
+          {tag} <span class="count">{count}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .tag-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .tag-list li a {
+    display: inline-block;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    transition: border-color 0.2s;
+  }
+
+  .tag-list li a:hover {
+    border-color: var(--color-link);
+  }
+
+  .count {
+    color: var(--color-text-light);
+    font-size: 0.8rem;
+    margin-left: 0.25rem;
+  }
+</style>

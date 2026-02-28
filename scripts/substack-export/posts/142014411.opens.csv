@@ -1,0 +1,57 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+142014411,2024-02-25T04:41:44.661Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T04:48:04.407Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T04:49:33.593Z,eamoore@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T04:49:42.776Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T04:53:37.123Z,courtlane@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T04:54:46.842Z,tophermartin@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T05:02:24.131Z,lisamcook7@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T05:06:36.957Z,joey.cross@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:07:20.982Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:11:33.296Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:14:48.510Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T05:31:41.328Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:33:54.221Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:35:35.738Z,toddmelissa99@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:35:50.593Z,pauletta.reeves@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T05:36:45.084Z,pauletta.reeves@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:54:52.015Z,toddmelissa99@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T05:54:52.016Z,todd@amarillo-law.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T07:00:47.542Z,ronda.machen@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T07:34:45.806Z,karobertson48@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T09:59:00.674Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T10:38:06.198Z,jenny@wjeversole.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T12:04:11.221Z,algordontx@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T12:09:23.229Z,algordontx@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T13:35:32.303Z,dotstrick@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T13:38:35.807Z,tophermartin@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T14:10:13.396Z,pennycriordan@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T14:15:50.661Z,lisamcook7@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T14:56:51.448Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T14:56:51.795Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T14:56:53.856Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-25T16:43:55.664Z,emily@dbpoffice.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T17:13:47.442Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T17:49:05.443Z,karobertson48@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T18:05:38.963Z,mattgulde@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T18:57:56.516Z,adowell30@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T20:12:17.655Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+142014411,2024-02-25T23:12:13.678Z,moniqueboecking@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+142014411,2024-02-26T00:08:24.701Z,jenny@wjeversole.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-26T06:21:50.315Z,jenbrussell@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-26T10:36:38.258Z,leeannrathbun@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-26T18:09:06.230Z,moniqueboecking@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-27T03:51:37.297Z,sorman33@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-02-28T21:56:59.961Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-02T19:37:30.046Z,eamoore@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-03T09:20:50.530Z,ronda.machen@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-04T06:14:20.402Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+142014411,2024-03-07T18:13:06.078Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-08T01:02:35.417Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-08T01:02:50.909Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-08T08:02:44.369Z,leeannrathbun@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-09T03:00:03.712Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-12T04:14:54.763Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-13T11:17:57.748Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-19T07:56:51.800Z,ronda.machen@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+142014411,2024-03-22T07:50:31.065Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0

@@ -1,0 +1,53 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+103962364,2023-05-29T13:04:50.688Z,karobertson48@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:05:05.902Z,jenny@wjeversole.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:11:18.538Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:15:03.399Z,leeannrathbun@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:26:53.725Z,ronda.machen@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:27:27.319Z,toddmelissa99@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:31:36.070Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:36:49.671Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:37:01.857Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:37:11.615Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:39:05.476Z,adowell30@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:41:14.689Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:45:16.068Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:54:27.092Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T13:57:54.786Z,todd@amarillo-law.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+103962364,2023-05-29T14:01:41.386Z,todd@amarillo-law.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T14:05:53.590Z,mail@rodmachen.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T14:07:52.308Z,shueytexas@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T14:31:46.052Z,courtlane@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T15:35:30.061Z,emily@dbpoffice.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T15:42:05.094Z,tophermartin@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-29T16:31:49.922Z,courtlane@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T17:24:26.687Z,ronda.machen@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T18:07:03.607Z,joey.cross@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T20:13:00.195Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T20:55:20.624Z,karobertson48@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-29T21:41:21.767Z,stoopid_chicken@hotmail.com,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Linux; Android 12; TMAF035G Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131 Mobile Safari/537.36"
+103962364,2023-05-29T23:50:29.815Z,jenbrussell@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-05-30T01:51:43.234Z,mattgulde@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-30T02:22:23.565Z,moniqueboecking@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+103962364,2023-05-30T15:11:35.383Z,deborah_gaddis@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-30T15:31:32.890Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+103962364,2023-05-30T15:31:33.302Z,aimeeboyett@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+103962364,2023-05-30T17:03:25.170Z,moniqueboecking@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-31T01:42:44.670Z,pauletta.reeves@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-05-31T08:45:28.667Z,janeu03@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-01T09:37:43.116Z,leeannrathbun@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-01T12:34:38.767Z,nathanzellner@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-02T00:39:57.159Z,janeu03@yahoo.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-04T02:29:22.473Z,eamoore@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-05T02:42:16.162Z,mail@rodmachen.com,newsletter,everyone,false,,,,,,,Mozilla/5.0
+103962364,2023-06-06T04:50:36.246Z,dotstrick@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-06T10:41:54.992Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-07T22:36:01.424Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-10T21:03:52.144Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-13T00:56:52.533Z,shueytexas@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-13T00:56:52.674Z,shueytexas@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-21T08:18:35.727Z,eamoore@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-21T20:34:02.751Z,courtlane@gmail.com,newsletter,everyone,true,,,,,,,Mozilla/5.0
+103962364,2023-06-25T03:53:16.121Z,katrina.hanson@me.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-25T07:33:41.280Z,shueytexas@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+103962364,2023-06-25T07:56:35.401Z,eamoore@me.com,newsletter,everyone,true,,,,,,,Mozilla/5.0

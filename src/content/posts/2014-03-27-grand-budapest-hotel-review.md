@@ -2,11 +2,11 @@
 title: The Grand Budapest Hotel
 subTitle: A Review
 author: Rod Machen
-category:
-  - article
-tags:
-  - screens
+category: article
 date: 2014-03-27
+tags:
+  - film
+  - essay
 ---
 <p dir="ltr">
   <!-- <a href="http://www.peterstrain.co.uk/The-Grand-Budapest-Hotel"><img class="alignright  wp-image-588" alt="PSTRAIN_GBH_WEB" src="http://words.rodmachen.com/wp-content/uploads/2014/03/PSTRAIN_GBH_WEB-159x225.jpg" width="250" height="353" /></a> -->My basic inclination is, like many, to like every new film from Wes Anderson. He had me had Bottle Rocket, and even the ones I haven&#8217;t enjoyed as much (Life Aquatic, The Darjeeling Limited) haven&#8217;t pushed me away.

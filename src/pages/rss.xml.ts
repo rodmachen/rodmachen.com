@@ -1,20 +1,19 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getCollection } from 'astro:content';
+import { getPostSlug, getPostCategory } from '../utils/posts';
 
 export async function GET(context: APIContext) {
   const posts = await getCollection('posts');
   const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
   return rss({
-    title: 'Rod Machen',
-    description: "Rod Machen's writings.",
+    title: 'Edition | Rod Machen',
+    description: 'Writing on food, film, arts, and Austin culture.',
     site: context.site!,
     items: sorted.map((post) => {
-      const slug = post.id.replace(/^\d{4}-\d{2}-\d{2}-/, '');
-      const category = Array.isArray(post.data.category)
-        ? post.data.category[0] || 'article'
-        : post.data.category || 'article';
+      const slug = getPostSlug(post.id);
+      const category = getPostCategory(post.data.category);
       return {
         title: post.data.title,
         pubDate: post.data.date,

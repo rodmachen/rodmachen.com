@@ -8,7 +8,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "Rod Machen's writings." } = Astro.props;
+const { title, description = 'Edition — writing on food, film, arts, and Austin culture by Rod Machen.' } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ const { title, description = "Rod Machen's writings." } = Astro.props;
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content={description} />
-  <link rel="alternate" type="application/rss+xml" title="Rod Machen" href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Edition | Rod Machen" href="/rss.xml" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <title>{title}</title>
 </head>

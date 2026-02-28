@@ -1,26 +1,31 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { CATEGORY_CONFIG } from '../utils/posts';
 
 interface Props {
   title: string;
   subTitle?: string;
   date: Date;
   tags?: string[];
-  category?: string | string[];
+  category?: string;
+  template?: string;
 }
 
-const { title, subTitle, date, tags, category } = Astro.props;
+const { title, subTitle, date, tags, category, template = 'article' } = Astro.props;
 
 const formattedDate = date.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
+
+const config = CATEGORY_CONFIG[template] || CATEGORY_CONFIG.article;
 ---
 
-<BaseLayout title={`${title} | Rod Machen`}>
-  <article>
+<BaseLayout title={`${title} | Edition`}>
+  <article class={`post post--${template}`}>
     <header class="post-header">
+      {template === 'newsletter' && <span class="template-badge">Newsletter</span>}
       <h1>{title}</h1>
       {subTitle && <p class="subtitle">{subTitle}</p>}
       <time datetime={date.toISOString().split('T')[0]}>{formattedDate}</time>
@@ -31,16 +36,31 @@ const formattedDate = date.toLocaleDateString('en-US', {
     {tags && tags.length > 0 && (
       <footer class="post-tags">
         {tags.map(tag => (
-          <a href={`/categories/${tag}/`} class="tag">{tag}</a>
+          <a href={`/topics/${tag}/`} class="tag">{tag}</a>
         ))}
       </footer>
     )}
   </article>
 </BaseLayout>
 
-<style>
+<style define:vars={{ accent: config.accent }}>
   .post-header {
     margin-bottom: 2rem;
+  }
+
+  .template-badge {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  .post--newsletter h1 {
+    color: var(--accent);
   }
 
   .subtitle {

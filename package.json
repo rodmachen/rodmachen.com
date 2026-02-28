@@ -9,8 +9,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.17.2",
     "@astrojs/rss": "^4.0.0",
-    "@astrojs/vercel": "^8.0.0"
+    "@astrojs/vercel": "^8.0.0",
+    "astro": "^5.17.2"
+  },
+  "devDependencies": {
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.2"
   }
 }
