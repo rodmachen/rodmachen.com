@@ -11,6 +11,11 @@
       "permanent": true
     },
     {
+      "source": "/categories/:path*/",
+      "destination": "/topics/:path*/",
+      "permanent": true
+    },
+    {
       "source": "/categories/:path*",
       "destination": "/topics/:path*",
       "permanent": true
