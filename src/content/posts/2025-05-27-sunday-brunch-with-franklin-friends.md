@@ -8,13 +8,9 @@ tags:
   - austin
 ---
 
-[
-
 ![](/images/newsletter/sunday-brunch-with-franklin-friends/ec0d8aac-c7d8-425d-860a-36f9795f77fe_1000x416.png)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!NGjA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec0d8aac-c7d8-425d-860a-36f9795f77fe_1000x416.png)
 
 Every year, the Hot Luck Festival–brainchild of Aaron Franklin, the Mohawk’s James Moody, and Mike Thelin of Portland–brings a boatload of chefs and their creations to Austin for four days of culinary debauchery. It’s both over-the-top and simply perfect.
 

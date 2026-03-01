@@ -17,13 +17,9 @@ It’s another week. More stuff happened. Here you go.
 
 ### [The Astonishing Transformation of Austin](https://www.newyorker.com/magazine/2023/02/13/the-astonishing-transformation-of-austin)
 
-[
-
 ![The Astonishing Transformation of Austin | The New Yorker](/images/newsletter/sxsw-tunes/942fa6a1-a212-47ab-9bd9-279f623947b9_2500x1875.jpeg "The Astonishing Transformation of Austin | The New Yorker")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!TtIi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F942fa6a1-a212-47ab-9bd9-279f623947b9_2500x1875.jpeg)
 
 Once again, we’re back talking about Austin and “how much it’s changed!” This time we have the _New Yorker_ with Austin’s own Lawrence Wright penning an ode. It’s a fine piece, and I have nothing to complain about. Not much anyway. He interviews new-timers and old-timers to try to capture the current moment. There is a bit of a disconcerting trend of Californians of a libertarian (red-pilled?) bent moving to Austin mostly because of it's Texas politics, though they did choose Austin and not Dallas, so that tells you a lot right there.
 
@@ -37,13 +33,9 @@ I’m still waiting for someone to show me the anti-Austin that’s just peachy 
 
 ### _Ant-Man and the Wasp: Quantumania_
 
-[
-
 ![Ant-Man and the Wasp: Quantumania' Review: Splat - The New York Times](/images/newsletter/sxsw-tunes/d8457ce1-2abe-4111-b91c-b635b602b1e0_3000x1687.jpeg "Ant-Man and the Wasp: Quantumania' Review: Splat - The New York Times")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!KI5p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8457ce1-2abe-4111-b91c-b635b602b1e0_3000x1687.jpeg)
 
 Look, you’re gonna watch anyway, but the new Ant-Man is pretty good regardless. What I’d like to call out here is that everyone needs to get on board with current It-Man Jonathan Majors. We were introduced to his Kang character in the _Loki_ series, but those of us in the know have been stanning him since _The Last Black Man in San Francisco_, a film I honestly (and wrongly) thought might win the Oscar that year. He’s so quirky and amazing in that quirky and amazing movie.
 
@@ -53,13 +45,9 @@ Oh, and he’s from Texas, so extra points.[1](#footnote-1)
 
 # Listening
 
-[
-
 ![](/images/newsletter/sxsw-tunes/af02ecb3-9956-4e8a-9773-7a45ffcd58d3_1000x243.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!5qL6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf02ecb3-9956-4e8a-9773-7a45ffcd58d3_1000x243.jpeg)
 
 In years past, one of my most anticipated events before SXSW was the release of the Austin 100. Back up: Every band playing the musical festival submits one song for the press. That’s over 1000 MP3s! Well, the good folks at NPR’s _All Songs Considered_ (led by Stephen Thompson) pared this down to the Austin 100.[2](#footnote-2)
 
@@ -95,13 +83,9 @@ I’ve got a nine-week program lined out. It’ll be twice-a-week runs while I k
 
 ### More Symphony!
 
-[
-
 ![May be an image of 1 person and text that says 'Next Up: "Rach Star Il" Featuring: Rachmaninoff's Piano Concerto No.2inMnor Minor February 17 18, 2023 Long Center's Dell Hall 8PM'](/images/newsletter/sxsw-tunes/788ac28f-8e6d-4e5b-9dd6-b3c83086a20c_1641x625.png "May be an image of 1 person and text that says 'Next Up: "Rach Star Il" Featuring: Rachmaninoff's Piano Concerto No.2inMnor Minor February 17 18, 2023 Long Center's Dell Hall 8PM'")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!tsww!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F788ac28f-8e6d-4e5b-9dd6-b3c83086a20c_1641x625.png)
 
 When I saw that the ASO was going to do be performing Rachmaninoff’s 2nd, I definitely had to go. Ended up bring my oldest daughter, and that lead to a new discovery. $5 student tickets day of! You can buy online. Just make sure to have a surly teen with you. The performance was amazing, of course. Now when will they do the Rach III?
 
@@ -113,13 +97,9 @@ For a tiny slice of pianist Michelle Cann’s encore, [check out their Insta](ht
 
 ### _Renegade_ Episode of the Week: “Wheel Man”
 
-[
-
 ![The Checklist: Renegade (S2 Ep9) “Wheel Man” – BULLETPROOF ACTION](/images/newsletter/sxsw-tunes/31093368-e47d-4a61-b5ca-0611c9368d49_650x350.jpeg "The Checklist: Renegade (S2 Ep9) “Wheel Man” – BULLETPROOF ACTION")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!5xIs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31093368-e47d-4a61-b5ca-0611c9368d49_650x350.jpeg)
 
 You’d think having Lorenzo Lamas would be enough for any episode of syndicated wonder-show _Renegade_, but this one is special. 1993’s “Wheel Man” features not only Flash Gordon himself in Sam P. Jones, but also Walt Goggins of _Justified_ and _The Righteous Gemstones_ fame. Color me blessed![3](#footnote-3)
 

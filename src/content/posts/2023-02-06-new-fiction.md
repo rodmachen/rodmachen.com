@@ -17,13 +17,9 @@ This has been a hectic two weeks, with my city suffering through a weather emerg
 
 ### _Trust_ by Hernan Diaz
 
-[
-
 ![Trust: Diaz, Hernan: 9780593420317: Amazon.com: Books](/images/newsletter/new-fiction/09ae56c2-9a22-4547-b686-4cc3ab3a83b9_526x800.jpeg "Trust: Diaz, Hernan: 9780593420317: Amazon.com: Books")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!ONLd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09ae56c2-9a22-4547-b686-4cc3ab3a83b9_526x800.jpeg)
 
 Instead of New Year’s Resolutions, what I do is look at the year-end lists of best books and get amped to read a bunch of them. Usually, that mean’s only one or two, but maybe this year will be different!
 
@@ -37,13 +33,9 @@ The structure of this novel is, well, novel. It revolves around a gilded-age fin
 
 ### The Last of Us - HBO Max
 
-[
-
 ![The Last of Us:' TV Show First Look Revealed by HBO, Naughty Dog - Variety](/images/newsletter/new-fiction/2680266d-5974-44d4-b50e-6d08cec3687c_681x383.jpeg "The Last of Us:' TV Show First Look Revealed by HBO, Naughty Dog - Variety")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!jDpR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2680266d-5974-44d4-b50e-6d08cec3687c_681x383.jpeg)
 
 The latest must-watch series is here, and it exceeds at least my expectations for it. Touted as an important video game-to-television project, _The Last of Us_ stands on its own. With any such undertaking, you’d expect lots of plot lines that lead the characters into a situation where they have to fight their way out. While that certainly happens, the character development exceeds that visceral excitement from the beginning. Episode 3 has been getting lots of hype, and rightly so. This bottle episode would be worth watching on its own, even for those not invested in the entire show.
 
@@ -61,13 +53,9 @@ While most religious movies fall short in actually navigating the contours of fa
 
 ### [The War on Drugs - ACL Taping](https://acltv.com/2023/01/25/episode-recap-the-war-on-drugs/)
 
-[
-
 ![](/images/newsletter/new-fiction/a9c1df27-a7c1-4e26-9e33-ad9b0dd5a5d1_1200x800.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!qT_u!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9c1df27-a7c1-4e26-9e33-ad9b0dd5a5d1_1200x800.jpeg)
 
 The War on Drugs on Austin City Limits, 2022. Photo by Scott Newton.
 
@@ -102,13 +90,9 @@ Ice has covered up my parents hands,
 Don't have any dreams don't have any plans.  
 **Neighborhood #3 (Power Out) – The Arcade Fire**
 
-[
-
 ![](/images/newsletter/new-fiction/8eb4668e-e5d7-40dc-a6b2-c929453f7c6b_4032x2688.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!l7b1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8eb4668e-e5d7-40dc-a6b2-c929453f7c6b_4032x2688.jpeg)
 
 Icy Trees
 

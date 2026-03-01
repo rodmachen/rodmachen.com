@@ -17,13 +17,9 @@ Bi-weekly looked like the play for this newsletter, but after compiling a good l
 
 ### Russell Banks (1940-2023)
 
-[
-
 ![The Sweet Hereafter | Kanopy](/images/newsletter/yellowstone/633466ab-16e9-47c6-9edb-dcb220318f59_960x540.jpeg "The Sweet Hereafter | Kanopy")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!gFFg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F633466ab-16e9-47c6-9edb-dcb220318f59_960x540.jpeg)
 
 This is sort of a read/watch suggestion. _The Sweet Hereafter_ is a movie that has haunted me since the nineties. It tells the story of a snowy Northern town that faces a tragedy of unimaginable proportions involving their children. It’s gorgeous, powerful, and very of its time. While the film bounced around in a non-linear timeline, the book it’s based on is experimental in its own way, told through a series of conflicting viewpoints of the various characters.
 
@@ -45,13 +41,9 @@ Maybe not writing, but something creative at least. For several years now, I’v
 
 Finally got around to watching the _Yellowstone_ prequel, and it’s as good as reported. The plot is essentially _Lonesome Dove_, but as an plot device to get the Duttons north. Whereas its originator romanticizes everything it touches, _1883_ lays bare the harsh realities of pioneer life. As my buddy the Grizz says, you don’t want to live in a history book. Or this show. (The narrator and main character Elsa Dutton, played by Isabel May is an especially bright spot.)
 
-[
-
 ![Who Plays Elsa Dutton in 1883? Meet Isabel May](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/59650374-d7df-4b16-8485-8010474be1f7_1200x675.webp "Who Plays Elsa Dutton in 1883? Meet Isabel May")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!_XkT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F59650374-d7df-4b16-8485-8010474be1f7_1200x675.webp)
 
 The latest season of _Yellowstone_ is pretty much more of the same, which is either amazing or horrible depending on. The newest “outsider here to cause trouble" is intriguing. Sarah Atwood (Dawn Olivieri[1](#footnote-1)) plays it much less vicious, but maybe more effectively than her predecessors. While season five was once again nuts, season six looks to be banana crackers. Can’t wait!
 
@@ -83,13 +75,9 @@ That’s not to say everything is negotiable. You’ve probably heard of creatin
 
 ### _Love Boat_ Episode of the Week: “Hyde and Seek”
 
-[
-
 ![](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a11f473e-c1bc-46b4-85e3-c5a5d3bff61c_940x350.png)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!EPUY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa11f473e-c1bc-46b4-85e3-c5a5d3bff61c_940x350.png)
 
 Season six, episode five is a doozy.[2](#footnote-2) Kim Richards plays a nerdy girl who falls in love with an oblivious Gopher. Dummy. Skip Stephenson[3](#footnote-3) charms Morgan Brittany who somehow has trouble finding companionship. Truly fiction. The downer storyline has Eve Plumb meeting her elderly father who abandoned the family, including mother Marion Ross. Fast forward.
 

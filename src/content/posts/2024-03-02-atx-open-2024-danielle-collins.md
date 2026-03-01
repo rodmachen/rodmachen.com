@@ -9,13 +9,9 @@ tags:
   - interview
 ---
 
-[
-
 ![](/images/newsletter/atx-open-2024-danielle-collins/dd2d0642-a7c3-4f6f-b80d-f2f2cad318d2_2731x2048.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!VdZ8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd2d0642-a7c3-4f6f-b80d-f2f2cad318d2_2731x2048.jpeg)
 
 Danielle Collins is well known on the WTA tour for several things. She’s a college player that successfully turned pro, something that’s becoming more common after decades of most great talents eschewing the college game. She earned two national titles while at the University of Virginia before beginning her successful pro career.
 
@@ -27,13 +23,9 @@ At the Australian Open this past January, Collins announced this year would be h
 
 For the second year in a row, Collins headlined the tournament, alongside former grand-slam champ Sloane Stephens. As the tournament prepared to kick off, she discussed some of what makes her tick.
 
-[
-
 ![](/images/newsletter/atx-open-2024-danielle-collins/982c6a90-3649-4dcc-999e-f23dce394408_3072x1846.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!Adxe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F982c6a90-3649-4dcc-999e-f23dce394408_3072x1846.jpeg)
 
 # The City of Austin
 
@@ -45,13 +37,9 @@ Collins is well known for getting out and exploring the different cities she vis
 
 “Austin is somewhere that I would definitely consider living in the future,” she said “I've said that before, and I have a lot of friends here, and love the vibe of it, so you might see more to me when I'm done.”
 
-[
-
 ![](/images/newsletter/atx-open-2024-danielle-collins/65496fbb-2228-45ae-a7c7-0808aaf38504_3072x2048.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!tLHy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65496fbb-2228-45ae-a7c7-0808aaf38504_3072x2048.jpeg)
 
 Danielle Collins in an exhibition match with ATX Open founder Bryan Sheffield
 
@@ -65,13 +53,9 @@ Her focus on succeeding in her chosen career and doing everything she can to sup
 
 “For me as a player, for people who are working with me, they have goals as well, and so at the end of the day we all just want to succeed and want to see everybody do well. That's something that I certainly as of recently, I am not quite as scared to ask for help. I think in the early stages of my career, it's kind of like sometimes if you ask a question, or you don't want to be too this, or you don't want to be too that. And that's as I'm getting older kind of going away, which is really nice. I'm not as concerned.”
 
-[
-
 ![](/images/newsletter/atx-open-2024-danielle-collins/5b3598ad-ec40-49e9-9c02-d77ea8382feb_3072x2048.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!58tW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b3598ad-ec40-49e9-9c02-d77ea8382feb_3072x2048.jpeg)
 
 # Finishing Strong
 
@@ -83,13 +67,9 @@ She places special emphasis on making sure she’s managing the physical part of
 
 “I just really have to listen and pay attention to my body as someone that's had a lot of health problems and injuries over the years, I have to really manage that and be mindful of it. So it's been a long learning curve. You don't figure it out really in your first or second year on tour. I think it takes a little bit of time to figure out what works best and I feel like now I'm finally at the point where I'm learning what's working out, working best, and now I'm at the end of my career.”
 
-[
-
 ![](/images/newsletter/atx-open-2024-danielle-collins/e722e6d4-cf55-4422-a73f-09c28edad107_3068x2048.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!ddzG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe722e6d4-cf55-4422-a73f-09c28edad107_3068x2048.jpeg)
 
 # Her 2024 ATX Open Results
 

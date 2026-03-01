@@ -17,13 +17,9 @@ Look, I’m not going to apologize for needing a little more space to finish thi
 
 # Writing
 
-[
-
 ![](/images/newsletter/tennis-extra-more-tennis/adb16d3c-65e2-4dcb-9d31-a66004fe6e43_2048x1367.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!0cGB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadb16d3c-65e2-4dcb-9d31-a66004fe6e43_2048x1367.jpeg)
 
 ### [A Week of Wild Tennis in Austin](https://www.austinchronicle.com/daily/sports/2023-03-08/a-week-of-wild-tennis-in-austin/)
 
@@ -33,37 +29,25 @@ My wrap up piece was published today by the _Austin Chronicle_. I got to include
 
 # Reading
 
-[
-
 ![](/images/newsletter/tennis-extra-more-tennis/278a8206-ee53-4f9d-9871-4f4b871481f0_3024x3024.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!-yQz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F278a8206-ee53-4f9d-9871-4f4b871481f0_3024x3024.jpeg)
 
 ### _A Long Way, Baby_ by Grace Lichtenstein
 
 I swear I didn’t plan it, but on International Women's Day, this came in the mail. Following last week where I attended a WTA event, this is apropos. The story of women in tennis is truly amazing. By getting equal pay half a century ago, it has arguably made tennis THE sport for female competitors. Richard Williams thought so, anyway. Show them the money!
 
-[
-
 ![](/images/newsletter/tennis-extra-more-tennis/9cbe7fea-a5e9-4324-ac66-a14cdfe5a838_300x411.jpeg)
 
 
-
-](https://substackcdn.com/image/fetch/$s_!twL3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cbe7fea-a5e9-4324-ac66-a14cdfe5a838_300x411.jpeg)
 
 ### _Inner Tennis: Playing the Game_ by Timothy Gallwey
 
 I was reminded of this book by two different people this week. Surely, a divination. It’s much less well known follow up to Gallwey’s _The Inner Game of Tennis_. It’s much more practical and would do any player well in trying to figure out the mental side of this mental game.
 
-[
-
 ![Shop | Racquet](/images/newsletter/tennis-extra-more-tennis/c13b6131-de94-46a5-a6b1-d8582eea0917_500x500.jpeg "Shop | Racquet")
 
 
-
-](https://substackcdn.com/image/fetch/$s_!ikDY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc13b6131-de94-46a5-a6b1-d8582eea0917_500x500.jpeg)
 
 ### [Racquet Magazine](https://racquetmag.com/)
 
