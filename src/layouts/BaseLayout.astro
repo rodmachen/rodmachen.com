@@ -6,9 +6,11 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  ogImage?: string;
 }
 
-const { title, description = 'Edition — writing on food, film, arts, and Austin culture by Rod Machen.' } = Astro.props;
+const { title, description = 'Edition — writing on food, film, arts, and Austin culture by Rod Machen.', ogImage } = Astro.props;
+const canonicalUrl = Astro.url.href;
 ---
 
 <!DOCTYPE html>
@@ -20,6 +22,19 @@ const { title, description = 'Edition — writing on food, film, arts, and Austi
   <link rel="alternate" type="application/rss+xml" title="Edition | Rod Machen" href="/rss.xml" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <title>{title}</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:type" content="article" />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  {ogImage && <meta name="twitter:image" content={ogImage} />}
 </head>
 <body>
   <Header />

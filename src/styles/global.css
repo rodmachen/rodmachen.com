@@ -80,6 +80,14 @@ hr {
   padding: 0 1.5rem;
 }
 
+/* Cloudinary image sizes */
+figure.img-small   { max-width: 300px; margin: 1.5rem auto; }
+figure.img-medium  { max-width: 600px; margin: 1.5rem auto; }
+figure.img-large   { max-width: 800px; margin: 1.5rem 0; }
+figure.img-full    { max-width: 100%; margin: 1.5rem 0; }
+figure img         { width: 100%; height: auto; display: block; border-radius: 4px; }
+figcaption         { font-family: var(--font-sans); font-size: 0.8rem; color: var(--color-text-light); text-align: center; margin-top: 0.5rem; }
+
 @media (max-width: 600px) {
   html {
     font-size: 16px;

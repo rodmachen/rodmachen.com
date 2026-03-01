@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import { getCldImageUrl } from 'astro-cloudinary/helpers';
 
 export type ListItem = {
   type: 'post' | 'byline';
@@ -12,9 +13,11 @@ export type ListItem = {
   image?: string;
 };
 
+const CLOUDINARY_PATTERN = /res\.cloudinary\.com/;
+
 export function extractFirstImage(markdown: string | undefined): string | undefined {
   if (!markdown) return undefined;
-  const match = markdown.match(/!\[.*?\]\((\/images\/\S+?)(?:\s+"[^"]*")?\)/);
+  const match = markdown.match(/!\[.*?\]\(((?:\/images\/|https?:\/\/res\.cloudinary\.com\/)\S+?)(?:\s+"[^"]*")?\)/);
   return match?.[1];
 }
 
@@ -29,6 +32,29 @@ export function formatDate(date: Date): string {
 export function postToListItem(p: CollectionEntry<'posts'>): ListItem {
   const slug = getPostSlug(p.id);
   const cat = getPostCategory(p.data.category);
+
+  let image: string | undefined;
+  if (p.data.thumbnail) {
+    // Thumbnail is a Cloudinary public ID — build a square-cropped URL
+    image = getCldImageUrl({
+      src: p.data.thumbnail,
+      width: 200,
+      height: 200,
+      crop: { type: 'fill', gravity: 'auto', width: 200, height: 200, source: true },
+    });
+  } else {
+    const extracted = extractFirstImage(p.body);
+    if (extracted && CLOUDINARY_PATTERN.test(extracted)) {
+      // Build a square-cropped thumbnail from the Cloudinary URL
+      image = extracted.replace(
+        /\/upload\//,
+        '/upload/w_200,h_200,c_fill,g_auto,f_auto,q_auto/',
+      );
+    } else {
+      image = extracted;
+    }
+  }
+
   return {
     type: 'post',
     date: p.data.date,
@@ -37,7 +63,7 @@ export function postToListItem(p: CollectionEntry<'posts'>): ListItem {
     href: `/${cat}/${slug}/`,
     category: cat,
     tags: p.data.tags || [],
-    image: extractFirstImage(p.body),
+    image,
   };
 }
 

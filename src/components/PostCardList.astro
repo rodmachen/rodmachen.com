@@ -1,12 +1,17 @@
 ---
 import type { ListItem } from '../utils/posts';
 import { formatDate, CATEGORY_CONFIG } from '../utils/posts';
+import { CldImage } from 'astro-cloudinary';
 
 interface Props {
   items: ListItem[];
 }
 
 const { items } = Astro.props;
+
+function isCloudinaryUrl(url: string | undefined): boolean {
+  return !!url && /res\.cloudinary\.com/.test(url);
+}
 ---
 
 <ul class="card-list">
@@ -18,7 +23,9 @@ const { items } = Astro.props;
     return (
       <li>
         <a href={item.href} class="card-link" {...(item.type === 'byline' ? { target: '_blank', rel: 'noopener' } : {})}>
-          {item.image ? (
+          {item.image && isCloudinaryUrl(item.image) ? (
+            <CldImage src={item.image} alt="" width={200} height={200} crop="fill" gravity="auto" class="card-image" loading="lazy" />
+          ) : item.image ? (
             <img src={item.image} alt="" class="card-image" loading="lazy" />
           ) : (
             <div class="card-image card-placeholder" style={`background-color: ${accent}`}>

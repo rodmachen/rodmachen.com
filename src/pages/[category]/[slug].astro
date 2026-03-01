@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
 import { getPostSlug, getPostCategory } from '../../utils/posts';
+import { getCldOgImageUrl } from 'astro-cloudinary/helpers';
 
 export const getStaticPaths = (async () => {
   const posts = await getCollection('posts');
@@ -19,6 +20,18 @@ export const getStaticPaths = (async () => {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const template = post.data.template || getPostCategory(post.data.category);
+
+const ogImage = getCldOgImageUrl({
+  src: post.data.thumbnail || 'og-template',
+  overlays: [{
+    text: {
+      fontFamily: 'Source Sans Pro',
+      fontSize: 120,
+      fontWeight: 'bold',
+      text: post.data.title,
+    },
+  }],
+});
 ---
 
 <PostLayout
@@ -28,6 +41,7 @@ const template = post.data.template || getPostCategory(post.data.category);
   tags={post.data.tags}
   category={post.data.category}
   template={template}
+  ogImage={ogImage}
 >
   <Content />
 </PostLayout>

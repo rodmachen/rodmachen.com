@@ -1,3 +1,7 @@
+# Environment
+.env
+.env.*
+
 # Astro
 node_modules/
 dist/
@@ -12,3 +16,4 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.vercel
