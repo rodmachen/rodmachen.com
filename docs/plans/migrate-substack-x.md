@@ -1,6 +1,6 @@
 # Plan: Migrate Substack (edition.rodmachen.com) to rodmachen.com
 
-> **STATUS:** Incorporated into `convert-to-blog.md` (Phase 5). See that plan for the current approach.
+> **STATUS:** COMPLETE — Incorporated into `convert-to-blog.md` (Phase 5) and fully implemented. 13 newsletter posts migrated and live at `/newsletter/{slug}/`.
 
 ## Context
 The Hangman Chronicles newsletter (13 posts, 2023–2025) lives at `edition.rodmachen.com` on Substack. The goal is to migrate all posts to the existing Astro site at `rodmachen.com`, set up redirects so old Substack URLs continue to work, and then shut down the Substack. User has local copies of all images but needs placeholders in the migrated content so they can wire up image paths. Category for all newsletter posts: `article` (consistent with existing posts). New post URLs will be `rodmachen.com/article/{slug}/`.

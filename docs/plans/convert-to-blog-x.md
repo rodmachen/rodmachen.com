@@ -1,5 +1,7 @@
 # Plan: Restructure as Blog at edition.rodmachen.com
 
+> **STATUS:** COMPLETE — All 9 phases implemented. 32 original posts, 13 newsletter posts (Substack migration), and 353 bylines (218 Cinapse + 135 Chronicle) live on site. AI tags applied to all content. Site configured at edition.rodmachen.com with Vercel redirects.
+
 ## Context
 The site is becoming a blog-only site at `edition.rodmachen.com`. The current splash homepage will move to a separate project for `rodmachen.com`. This plan also incorporates the Substack migration (13 newsletter posts), adds support for multiple post templates (article, newsletter, review) — like multiple blogs under one URL, distinguished by category — and adds a **bylines** collection for articles published at external outlets (Austin Chronicle, Cinapse, etc.).
 
