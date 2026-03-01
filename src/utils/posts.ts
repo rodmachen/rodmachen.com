@@ -1,5 +1,65 @@
 import type { CollectionEntry } from 'astro:content';
 
+export type ListItem = {
+  type: 'post' | 'byline';
+  date: Date;
+  title: string;
+  subtitle?: string;
+  href: string;
+  category?: string;
+  publication?: string;
+  tags?: string[];
+  image?: string;
+};
+
+export function extractFirstImage(markdown: string | undefined): string | undefined {
+  if (!markdown) return undefined;
+  const match = markdown.match(/!\[.*?\]\((\/images\/\S+?)(?:\s+"[^"]*")?\)/);
+  return match?.[1];
+}
+
+export function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+
+export function postToListItem(p: CollectionEntry<'posts'>): ListItem {
+  const slug = getPostSlug(p.id);
+  const cat = getPostCategory(p.data.category);
+  return {
+    type: 'post',
+    date: p.data.date,
+    title: p.data.title || slug,
+    subtitle: p.data.subTitle,
+    href: `/${cat}/${slug}/`,
+    category: cat,
+    tags: p.data.tags || [],
+    image: extractFirstImage(p.body),
+  };
+}
+
+const PUBLICATION_LOGOS: Record<string, string> = {
+  'Austin Chronicle': '/images/austin-chronicle.png',
+  'Cinapse': '/images/cinapse.png',
+};
+
+export function bylineToListItem(b: CollectionEntry<'bylines'>): ListItem {
+  return {
+    type: 'byline',
+    date: b.data.date,
+    title: b.data.title,
+    subtitle: b.data.subTitle,
+    href: b.data.url,
+    category: 'byline',
+    publication: b.data.publication,
+    tags: b.data.tags || [],
+    image: PUBLICATION_LOGOS[b.data.publication],
+  };
+}
+
 export const CATEGORY_CONFIG: Record<string, { label: string; description: string; accent: string }> = {
   newsletter: {
     label: 'Newsletter',

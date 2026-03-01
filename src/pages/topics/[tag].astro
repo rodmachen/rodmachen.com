@@ -2,7 +2,10 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPostSlug, getPostCategory } from '../../utils/posts';
+import PageHeader from '../../components/PageHeader.astro';
+import PostCardList from '../../components/PostCardList.astro';
+import { postToListItem, bylineToListItem } from '../../utils/posts';
+import type { ListItem } from '../../utils/posts';
 
 export const getStaticPaths = (async () => {
   const posts = await getCollection('posts');
@@ -26,75 +29,24 @@ export const getStaticPaths = (async () => {
   }));
 }) satisfies GetStaticPaths;
 
-type TagItem = {
-  type: 'post' | 'byline';
-  date: Date;
-  title: string;
-  subtitle?: string;
-  href: string;
-  publication?: string;
-};
-
 const { tag } = Astro.props;
 const posts = await getCollection('posts');
 const bylines = await getCollection('bylines');
 
-const items: TagItem[] = [
+const items: ListItem[] = [
   ...posts
     .filter((p) => p.data.tags?.includes(tag))
-    .map((p) => ({
-      type: 'post' as const,
-      date: p.data.date,
-      title: p.data.title || getPostSlug(p.id),
-      subtitle: p.data.subTitle,
-      href: `/${getPostCategory(p.data.category)}/${getPostSlug(p.id)}/`,
-    })),
+    .map(postToListItem),
   ...bylines
     .filter((b) => b.data.tags?.includes(tag))
-    .map((b) => ({
-      type: 'byline' as const,
-      date: b.data.date,
-      title: b.data.title,
-      subtitle: b.data.subTitle,
-      href: b.data.url,
-      publication: b.data.publication,
-    })),
+    .map(bylineToListItem),
 ].sort((a, b) => b.date.getTime() - a.date.getTime());
 ---
 
 <BaseLayout title={`${tag} | Edition`}>
-  <header class="page-header">
-    <h1>{tag}</h1>
-    <p class="page-subtitle">{items.length} post{items.length !== 1 ? 's' : ''}</p>
-  </header>
+  <PageHeader title={tag} count={items.length} />
 
-  <ul class="post-list">
-    {items.map((item) => {
-      const date = item.date.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-      });
-      return (
-        <li>
-          <time>{date}</time>
-          <div class="post-info">
-            <div class="post-title-row">
-              {item.type === 'byline' ? (
-                <>
-                  <a href={item.href} target="_blank" rel="noopener">{item.title}</a>
-                  <span class="publication">&middot; {item.publication}</span>
-                </>
-              ) : (
-                <a href={item.href}>{item.title}</a>
-              )}
-            </div>
-            {item.subtitle && <div class="post-subtitle">{item.subtitle}</div>}
-          </div>
-        </li>
-      );
-    })}
-  </ul>
+  <PostCardList items={items} />
 
   <nav class="page-nav">
     <a href="/topics/">&larr; All Topics</a>
@@ -102,79 +54,6 @@ const items: TagItem[] = [
 </BaseLayout>
 
 <style>
-  .page-header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .page-header h1 {
-    font-size: clamp(2rem, 6vw, 3rem);
-    font-weight: 300;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 0.25rem;
-  }
-
-  .page-subtitle {
-    font-family: var(--font-sans);
-    font-size: 0.85rem;
-    color: var(--color-text-light);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
-
-  .post-list {
-    list-style: none;
-    margin-bottom: 2.5rem;
-  }
-
-  .post-list li {
-    display: flex;
-    gap: 1.25rem;
-    align-items: baseline;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--color-border);
-  }
-
-  .post-list li:first-child {
-    border-top: 1px solid var(--color-border);
-  }
-
-  .post-list time {
-    font-family: var(--font-sans);
-    font-size: 0.75rem;
-    color: var(--color-text-light);
-    white-space: nowrap;
-    min-width: 5.5rem;
-  }
-
-  .post-list a {
-    font-size: 0.95rem;
-  }
-
-  .post-info {
-    flex: 1;
-  }
-
-  .post-title-row {
-    display: flex;
-    gap: 0.5rem;
-    align-items: baseline;
-    flex-wrap: wrap;
-  }
-
-  .publication {
-    font-family: var(--font-sans);
-    font-size: 0.8rem;
-    color: var(--color-text-light);
-  }
-
-  .post-subtitle {
-    font-size: 0.8rem;
-    color: var(--color-text-light);
-    font-style: italic;
-  }
-
   .page-nav {
     text-align: center;
   }
@@ -182,12 +61,5 @@ const items: TagItem[] = [
   .page-nav a {
     font-family: var(--font-sans);
     font-size: 0.85rem;
-  }
-
-  @media (max-width: 500px) {
-    .post-list li {
-      flex-direction: column;
-      gap: 0.15rem;
-    }
   }
 </style>

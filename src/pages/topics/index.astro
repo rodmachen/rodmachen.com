@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHeader from '../../components/PageHeader.astro';
 
 const posts = await getCollection('posts');
 const bylines = await getCollection('bylines');
@@ -23,9 +24,7 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 ---
 
 <BaseLayout title="Topics | Edition">
-  <header class="page-header">
-    <h1>Topics</h1>
-  </header>
+  <PageHeader title="Topics" />
 
   <ul class="tag-list">
     {sortedTags.map(([tag, count]) => (
@@ -39,18 +38,6 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 </BaseLayout>
 
 <style>
-  .page-header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .page-header h1 {
-    font-size: clamp(2rem, 6vw, 3rem);
-    font-weight: 300;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
   .tag-list {
     list-style: none;
     display: flex;

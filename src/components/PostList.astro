@@ -1,0 +1,124 @@
+---
+import type { ListItem } from '../utils/posts';
+import { formatDate } from '../utils/posts';
+
+interface Props {
+  items: ListItem[];
+  showTags?: boolean;
+}
+
+const { items, showTags = true } = Astro.props;
+---
+
+<ul class="post-list">
+  {items.map((item) => {
+    const date = formatDate(item.date);
+    return (
+      <li>
+        <time>{date}</time>
+        <div class="post-info">
+          <div class="post-title-row">
+            {item.type === 'byline' ? (
+              <>
+                <a href={item.href} target="_blank" rel="noopener">{item.title}</a>
+                <span class="publication">&middot; {item.publication}</span>
+              </>
+            ) : (
+              <a href={item.href}>{item.title}</a>
+            )}
+          </div>
+          {item.subtitle && <div class="post-subtitle">{item.subtitle}</div>}
+          {showTags && item.tags && item.tags.length > 0 && (
+            <div class="post-meta">
+              {item.tags.map((tag) => (
+                <a href={`/topics/${tag}/`} class="tag">{tag}</a>
+              ))}
+            </div>
+          )}
+        </div>
+      </li>
+    );
+  })}
+</ul>
+
+<style>
+  .post-list {
+    list-style: none;
+    margin-bottom: 2.5rem;
+  }
+
+  .post-list li {
+    display: flex;
+    gap: 1.25rem;
+    align-items: baseline;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .post-list li:first-child {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .post-list time {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    white-space: nowrap;
+    min-width: 5.5rem;
+  }
+
+  .post-info {
+    flex: 1;
+  }
+
+  .post-title-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .post-title-row a {
+    font-size: 0.95rem;
+  }
+
+  .publication {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+  }
+
+  .post-subtitle {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+    font-style: italic;
+  }
+
+  .post-meta {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: 0.25rem;
+  }
+
+  .tag {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    color: var(--color-text-light);
+    background: var(--color-bg-muted);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  .tag:hover {
+    background: var(--color-bg-muted-hover);
+  }
+
+  @media (max-width: 500px) {
+    .post-list li {
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+  }
+</style>

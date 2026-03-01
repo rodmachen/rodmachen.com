@@ -1,0 +1,50 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  count?: number;
+  countLabel?: string;
+  titleColor?: string;
+}
+
+const { title, subtitle, count, countLabel = 'post', titleColor } = Astro.props;
+---
+
+<header class="page-header">
+  <h1 style={titleColor ? `color: ${titleColor}` : undefined}>{title}</h1>
+  {subtitle && <p class="page-subtitle">{subtitle}</p>}
+  {count !== undefined && (
+    <p class="page-count">{count} {countLabel}{count !== 1 ? 's' : ''}</p>
+  )}
+</header>
+
+<style>
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  .page-subtitle {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .page-count {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+</style>

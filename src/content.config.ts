@@ -1,6 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+const tagTransform = z.union([z.array(z.string()), z.string()]).optional().transform((val) => {
+  if (typeof val === 'string') return val.trim() ? [val] : [];
+  return val;
+});
+
 const posts = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/posts' }),
   schema: z.object({
@@ -12,10 +17,7 @@ const posts = defineCollection({
       return val || 'article';
     }),
     template: z.enum(['article', 'essay', 'newsletter', 'review']).optional(),
-    tags: z.union([z.array(z.string()), z.string()]).optional().transform((val) => {
-      if (typeof val === 'string') return val.trim() ? [val] : [];
-      return val;
-    }),
+    tags: tagTransform,
     date: z.coerce.date(),
     published: z.boolean().optional(),
   }),
@@ -29,10 +31,7 @@ const bylines = defineCollection({
     publication: z.string(),
     url: z.string().url(),
     date: z.coerce.date(),
-    tags: z.union([z.array(z.string()), z.string()]).optional().transform((val) => {
-      if (typeof val === 'string') return val.trim() ? [val] : [];
-      return val;
-    }),
+    tags: tagTransform,
   }),
 });
 
