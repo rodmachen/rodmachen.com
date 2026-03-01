@@ -8,7 +8,7 @@ import { getCldOgImageUrl } from 'astro-cloudinary/helpers';
 export const getStaticPaths = (async () => {
   const posts = await getCollection('posts');
   return posts.map((post) => {
-    const slug = getPostSlug(post.id);
+    const slug = getPostSlug(post.id, post.data);
     const category = getPostCategory(post.data.category);
     return {
       params: { category, slug },

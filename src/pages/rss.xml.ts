@@ -12,7 +12,7 @@ export async function GET(context: APIContext) {
     description: 'Writing on food, film, arts, and Austin culture.',
     site: context.site!,
     items: sorted.map((post) => {
-      const slug = getPostSlug(post.id);
+      const slug = getPostSlug(post.id, post.data);
       const category = getPostCategory(post.data.category);
       return {
         title: post.data.title,

@@ -45,9 +45,9 @@ const gridCards: GridCard[] = Object.entries(CATEGORY_CONFIG).map(([key, config]
 
   const catPosts = grouped[key] || [];
   const items = catPosts.slice(0, 5).map((post) => ({
-    title: post.data.title || getPostSlug(post.id),
+    title: post.data.title || getPostSlug(post.id, post.data),
     subtitle: post.data.subTitle,
-    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id)}/`,
+    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id, post.data)}/`,
   }));
 
   return {
@@ -65,8 +65,8 @@ const gridCards: GridCard[] = Object.entries(CATEGORY_CONFIG).map(([key, config]
 // Add Archive as 6th card — merge posts + bylines for 5 most recent
 const allItems = [
   ...sorted.map((post) => ({
-    title: post.data.title || getPostSlug(post.id),
-    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id)}/`,
+    title: post.data.title || getPostSlug(post.id, post.data),
+    href: `/${getPostCategory(post.data.category)}/${getPostSlug(post.id, post.data)}/`,
     date: post.data.date,
     external: false,
   })),

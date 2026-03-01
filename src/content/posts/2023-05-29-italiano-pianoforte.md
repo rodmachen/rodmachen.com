@@ -2,6 +2,7 @@
 title: "Italiano Pianoforte"
 subTitle: "6.2 Miles"
 category: newsletter
+slug: italiano-pianoforte-62-miles-and
 date: 2023-05-29
 tags:
   - books

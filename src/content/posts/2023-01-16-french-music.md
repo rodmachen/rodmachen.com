@@ -2,6 +2,7 @@
 title: "French Music"
 subTitle: "Knight Rider"
 category: newsletter
+slug: french-music-knight-rider-and-arthouse
 date: 2023-01-16
 tags:
   - austin

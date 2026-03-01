@@ -2,6 +2,7 @@
 title: "SXSW Tunes"
 subTitle: "the Rach"
 category: newsletter
+slug: sxsw-tunes-the-rach-and-more-austin
 date: 2023-02-21
 tags:
   - austin

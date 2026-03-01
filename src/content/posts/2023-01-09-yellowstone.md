@@ -2,6 +2,7 @@
 title: "Yellowstone"
 subTitle: "Debussy"
 category: newsletter
+slug: yellowstone-debussy-and-the-love
 date: 2023-01-09
 tags:
   - books

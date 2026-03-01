@@ -2,6 +2,7 @@
 title: "Sunday Brunch with Franklin & Friends"
 subTitle: "Once again"
 category: newsletter
+slug: sunday-brunch-with-franklin-and-friends
 date: 2025-05-27
 tags:
   - food

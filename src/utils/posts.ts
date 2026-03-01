@@ -30,7 +30,7 @@ export function formatDate(date: Date): string {
 }
 
 export function postToListItem(p: CollectionEntry<'posts'>): ListItem {
-  const slug = getPostSlug(p.id);
+  const slug = getPostSlug(p.id, p.data);
   const cat = getPostCategory(p.data.category);
 
   let image: string | undefined;
@@ -114,7 +114,8 @@ export const CATEGORY_CONFIG: Record<string, { label: string; description: strin
   },
 };
 
-export function getPostSlug(id: string): string {
+export function getPostSlug(id: string, data?: { slug?: string }): string {
+  if (data?.slug) return data.slug;
   return id.replace(/^\d{4}-\d{2}-\d{2}-/, '');
 }
 

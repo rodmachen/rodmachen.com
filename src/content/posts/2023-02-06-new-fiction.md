@@ -2,6 +2,7 @@
 title: "New Fiction"
 subTitle: "Hot TV"
 category: newsletter
+slug: new-fiction-hot-tv-and-freezing-in
 date: 2023-02-06
 tags:
   - books
